@@ -1,0 +1,1500 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="zh" xmlns="http://www.w3.org/1999/xhtml" xmlns:hta="urn:HTMLApplication">
+	<head>
+		<meta name="Generator" content="CAESAR" />
+		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
+		<title>Microsoft Windows 版的 Canon Generic Plus PCL6 打印机驱动程序 1.30 版本</title>
+		<hta:application id="id_canon_main_window" applicationname="canon_main_window" border="thick" borderstyle="normal" caption="yes" maximizebutton="yes" minimizebutton="yes" showintaskbar="yes" singleinstance="no" sysmenu="yes" version="1.0" windowstate="normal" contextmenu="yes" navigable="yes" />
+		<style type="text/css">div.list{display:list-item!important;list-style-type:Disc;margin-left:40px!important;padding-left:5px!important;}table div.list{margin-left:20px!important;padding-left:5px!important;}div.dash{display:list-item!important;list-style-type:Circle;margin-left:65px!important;padding-left:5px!important;}table div.dash{margin-left:40px!important;padding-left:5px!important;}div.step_sub{display:list-item!important;list-style-type:Square;margin-left:30px!important;padding-left:5px!important;}div.list_link{display:list-item!important;list-style-type:Square;margin-left:50px!important;padding-left:5px!important;}div.h1{background:#F3F8FA!important;}div.h2,div.h2_2line,div.h2_3line{background:#F3F8FA!important;}div.h3{background:#F3F8FA!important;}thead.table_important td.table_important_col_0,thead.table_note td.table_note_col_0{padding:2px 5px 2px 5px!important;}</style>
+		<style type="text/css" >
+			<!--
+*{
+	font-family:"SimSun","Arial",Sans-serif;
+	/*margin:0;*/
+	/*padding:0;*/
+	/*border:0;*/
+	/*background-color:Transparent;*/
+	font-size:100%;
+	/*font-style:Normal;*/
+	text-decoration:None;
+}
+html{
+	border:0;
+}
+body{
+	margin:0;
+	padding:0;
+	background:#FFFFFF;
+}
+span{
+	color:Inherit;
+}
+div#id_content a{
+	text-decoration:None;
+}
+div#id_content a:link{
+	color:#3366A5;
+	text-decoration:None;
+}
+div#id_content a:visited{
+	color:#3366A5;
+	text-decoration:None;
+}
+div#id_content a:hover{
+	color:#EC6700;
+	background-color:#FFFFCC;
+	text-decoration:Underline;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.chapter_title{
+	background:#4682B4;
+	padding:2px 5px 2px 5px;
+	border-bottom:Solid 1px #4682B4;
+	font-weight:Bold;
+	font-size:80%;
+	margin-bottom:16px;
+	text-align:Right;
+	color:#FFFFFF;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h1{
+	padding:32px 0 2px 8px;
+	border-bottom:Solid 1px #4682B4;
+	background:#F3F8FA;
+	font-weight:Bold;
+	font-size:120%;
+	margin-bottom:16px;
+	vertical-align:Bottom;
+	text-align:Left;
+	color:#000080;
+	position:Relative;
+}
+div.h1 a{
+	position:Absolute;
+	*position:Static!important;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h2,
+div.h2_2line,
+div.h2_3line{
+	border:Solid 1px #4682B4;
+	padding:5px;
+	margin:30px 10px 5px 10px;
+	font-size:90%;
+	font-weight:Bold;
+	background:#F3F8FA;
+	color:#000080;
+}
+div.h2 a,
+div.h2_2line a,
+div.h2_3line a{
+	font-weight:Bold;
+	text-decoration:None;
+	color:#0000FF;
+}
+div.h2 img,
+div.h2_2line img,
+div.h2_3line img{
+	vertical-align:Middle;
+	margin-right:2px;
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h3{
+	padding:5px;
+	margin:25px 10px 5px 10px;
+	font-size:90%;
+	font-weight:Bold;
+	background:#F3F8FA;
+	border-bottom:Solid 1px #87CEEB;
+	color:#000080;
+}
+div.h3 a{
+	font-weight:Bold;
+	text-decoration:None;
+	color:#0000FF;
+}
+div.h3 img{
+	vertical-align:Middle;
+	margin-right:2px;
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h4{
+	margin:20px 10px 5px 10px;
+	font-weight:Bold;
+	font-size:90%;
+	border-Bottom:Solid 1px #87CEEB;
+	background:#FFFFFF;
+	padding:0px 5px;
+	color:#000080;
+}
+div.h4 img{
+	vertical-align:Middle;
+	margin-right:2px;
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h5{
+	margin:20px 10px 5px 15px;
+	font-weight:Bold;
+	font-size:80%;
+	color:#000080;
+}
+div.h5 img{
+	vertical-align:Middle;
+	margin-right:5px;
+	margin-left:4px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h6{
+	margin:15px 10px 5px 30px;
+	font-weight:Bold;
+	font-size:80%;
+	color:#000080;
+}
+div.h6 img{
+	vertical-align:Middle;
+	margin-right:2px;
+	margin-left:0px;
+}
+table div.h6{
+	margin-left:0px;
+	margin-top:10px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text{
+	font-size:80%;
+	margin:5px 10px 5px 30px;
+	color:#000000;
+}
+table div.text{
+	margin:3px 0 0 0;
+}
+div.text img{
+	vertical-align:Middle;
+}
+table div.text img{
+	vertical-align:Middle;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_level1{
+	font-size:80%;
+	margin:5px 10px 5px 40px;
+	color:#000000;
+}
+table div.text_level1{
+	margin:3px 0 0 10px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_level2{
+	font-size:80%;
+	margin:5px 10px 5px 50px;
+	color:#000000;
+}
+table div.text_level2{
+	margin:3px 0 0 20px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_level3{
+	font-size:80%;
+	margin:5px 10px 5px 60px;
+	color:#000000;
+}
+table div.text_level3{
+	margin:3px 0 0 30px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_center{
+	text-align:Center;
+	font-size:80%;
+	color:#000000;
+}
+table div.text_center{
+	margin:3px 0 0 0;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_right{
+	text-align:Right;
+	font-size:80%;
+	color:#000000;
+	margin-right:10px;
+}
+table div.text_right{
+	margin-right:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.annotation{
+	font-size:75%;
+	margin:0px 10px 5px 55px;
+	text-indent:-1.5em;
+	color:#000000;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.list{
+	background:Transparent;
+	_background:Transparent;
+	margin-left:30px;
+	margin-right:10px;
+	margin-top:2px;
+	margin-bottom:2px;
+	padding-left:20px;
+	padding-top:0px;
+	font-weight:Normal;
+	font-size:80%;
+	color:#000000;
+}
+table div.list{
+	margin-left:0px;
+}
+div.list img{
+	vertical-align:Top;
+}
+table div.list img{
+	vertical-align:Top;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+div.dash{
+	margin-left:50px;
+	margin-right:10px;
+	margin-top:2px;
+	margin-bottom:2px;
+	font-weight:Normal;
+	font-size:80%;
+	background:Transparent;
+	_background:Transparent;
+	padding:0px 0px 0px 20px;
+	color:#000000;
+}
+*:first-child+html div.dash{
+	background:Transparent;
+}
+table div.dash{
+	margin-left:12px;
+}
+div.dash img{
+	vertical-align:Top;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.example{
+	font-size:80%;
+	font-family:Monospace;
+	margin:5px 10px 5px 30px;
+	clear:Both;
+	background:#707080;
+	padding:5px;
+	color:#FFFFFF;
+}
+div#id_content div.example a:link{
+	color:#0000FF;
+	text-decoration:None;
+}
+div#id_content div.example a:visited{
+	color:#0000FF;
+	text-decoration:None;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.path{
+	padding:3px 10px 3px 20px;
+	font-size:80%;
+	margin:0px 30px;
+	background:Transparent;
+	_background:Transparent;
+	color:#666666;
+}
+div.path img{
+	vertical-align:Middle;
+}
+table div.path{
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.step_number{
+	background:#F8F8F8;
+	font:Bold 200% "Arial";
+	color:#4682B4;
+	padding:0px 5px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:20px;
+	margin-bottom:0px;
+}
+div.step_number span{
+	font:Bold 100% "Arial";
+	color:#4682B4;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.step_path{
+	padding:3px 10px 3px 30px;
+	font-size:80%;
+	margin:0px 10px;
+	background:#F8F8F8;
+	_background:#F8F8F8;
+	color:#666666;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.step_text{
+	font-weight:Bold;
+	padding:0px 10px 15px 5px;
+	font-size:80%;
+	margin:0px 10px 10px 10px;
+	background:#F8F8F8;
+	color:#000000;
+}
+div.step_text img{
+	vertical-align:Middle;
+}
+@media print{div.step_text{
+	padding:0px 10px 20px 5px;
+}}
+/*-----------------------------------------------------------------------------------------------*/
+div.step_sub{
+	font-size:80%;
+	font-weight:Bold;
+	margin:10px 10px 5px 15px;
+	padding-left:15px;
+	background:Transparent;
+	_background:Transparent;
+	color:#000000;
+}
+div.step_sub img{
+	vertical-align:Top;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.figure{
+	text-align:Left;
+	margin-left:30px;
+	margin-bottom:10px;
+}
+table div.figure{
+	margin-left:0;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.link{
+	margin:10px;
+	font-size:80%;
+	color:#3366A5;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.link a{
+	text-decoration:None;
+	padding-left:10px;
+	background:Transparent;
+	_background:Transparent;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.list_link{
+	background:Transparent;
+	_background:Transparent;
+	margin-left:30px;
+	margin-right:10px;
+	margin-bottom:0px;
+	padding-left:20px;
+	padding-top:1px;
+	font-weight:Normal;
+	font-size:80%;
+	color:#3366A5;
+}
+table div.list_link{
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.link_to_top{
+	text-align:Right;
+	padding:5px 10px 30px 10px;
+	font-size:80%;
+	color:#3366A5;
+	border-top:Dotted 1px #87CEEB;
+	margin-top:30px;
+}
+@media print{div.link_to_top{
+	display:None;
+}}
+div.link_to_top a{
+	text-decoration:None;
+	padding-left:12px;
+	background:Transparent;
+	_background:Transparent;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.trouble_shooting{
+	margin:10px 10px 10px 30px;
+}
+table.trouble_shooting{
+	border-collapse:Collapse;
+	table-layout:Fixed;
+}
+td.trouble_shooting{
+	border:Solid 1px #FFFFFF;
+}
+td.trouble_shooting_col_0{
+	padding:5px;
+	vertical-align:Middle;
+	font-size:100%;
+	width:80px;
+	background:#C0C0C0;
+	padding-bottom:10px;
+}
+td.trouble_shooting_col_1{
+	background:#EFEFEF;
+	padding-top:5px;
+	padding-bottom:10px;
+	padding-left:5px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.outline{
+	margin:10px 10px 10px 30px;
+}
+table.outline{
+	border-collapse:Collapse;
+	font-size:100%;
+}
+td.outline{
+	padding:10px 5px 10px 5px;
+}
+td.outline_col_0{
+	vertical-align:Middle;
+	text-align:Center;
+	border:Solid 1px #87CEEB;
+	background:#F5F5F5;
+	width:30px;
+	font-size:130%;
+}
+td.outline_col_0 div.h6{
+	color:#4682B4;
+	margin:0px;
+}
+td.outline_col_1{
+	vertical-align:Middle;
+	border:Solid 1px #87CEEB;
+	border-left:None;
+	background:#F5F5F5;
+	width:150px;
+}
+td.outline_col_1 div.h6{
+	margin:0px;
+	color:#000000;
+}
+td.outline_col_2{
+	vertical-align:Middle;
+	background:#FFFFFF;
+	border:Solid 1px #87CEEB;
+	padding:3px 3px 3px 10px;
+}
+td.outline_col_2 div.list{
+	background:Transparent;
+	_background:Transparent;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_ui{
+	margin:5px 10px 10px 30px;
+}
+table.table_ui{
+	table-layout:Auto;
+	border-collapse:Collapse;
+	border:None;
+	border-bottom:Solid 1px #E0E0E0;
+}
+td.table_ui_col_0{
+	padding:0px;
+	vertical-align:Top;
+	font-size:100%;
+	width:150px;
+	color:#000000;
+	padding:0px 0px 5px 0px;
+	border-right:None;
+}
+td.table_ui_col_1{
+	background:#FFFFFF;
+	padding:3px;
+	padding-left:10px;
+	border:Solid 1px #E0E0E0;
+	border-left:Solid 1px #E0E0E0;
+	border-right:None;
+	border-bottom:None;
+	vertical-align:Top;
+}
+td.table_ui_col_0 div.ui_level0{
+	background:#FFFFFF;
+	font-size:80%;
+	padding:6px 3px 1px 3px;
+	border-top:Solid 1px #E0E0E0;
+	border-right:None;
+	border-left:Solid 10px #FFFFFF;
+	margin-left:0px;
+}
+td.table_ui_col_0 div.ui_level1{
+	background:#FFFFFF;
+	font-size:80%;
+	padding:6px 3px 10px 3px;
+	border-top:Solid 1px #E0E0E0;
+	border-right:None;
+	border-left:Solid 10px #87BEDB;
+	margin-left:0px;
+}
+td.table_ui_col_0 div.ui_level2{
+	background:#FFFFFF;
+	font-size:80%;
+	padding:6px 3px 10px 3px;
+	margin-left:10px;
+	border-top:Solid 1px #E0E0E0;
+	border-right:None;
+	border-left:Solid 10px #A0D0EA;
+}
+td.table_ui_col_0 div.ui_level3{
+	background:#FFFFFF;
+	font-size:80%;
+	padding:6px 3px 10px 3px;
+	margin-left:20px;
+	border-top:Solid 1px #E0E0E0;
+	border-right:None;
+	border-left:Solid 10px #C6E5F6;
+}
+td.table_ui_col_0 div.ui_level1 img,
+td.table_ui_col_0 div.ui_level2 img,
+td.table_ui_col_0 div.ui_level3 img{
+	vertical-align:Middle;
+}
+/*-----------------------------------------------------------------------------------------------*/
+table div.table_important,
+table div.table_caution,
+table div.table_warning,
+table div.table_note{
+	margin-left:20px;
+}
+div.table_important,
+div.table_caution,
+div.table_warning,
+div.table_note{
+	margin:10px 10px 10px 30px;
+}
+*:first-child+html table.table_important,
+*:first-child+html table.table_caution,
+*:first-child+html table.table_warning,
+*:first-child+html table.table_note{
+	width:Auto;
+	table-layout:Fixed;
+}
+table.table_important,
+table.table_caution,
+table.table_warning,
+table.table_note{
+	background:#FFFFFF;
+	border-collapse:Collapse;
+	font-size:100%;
+	width:100%;
+	_width:Auto;
+	_table-layout:Fixed;
+}
+*:first-child+html table td.table_important_col_0,
+*:first-child+html table td.table_caution_col_0,
+*:first-child+html table td.table_warning_col_0,
+*:first-child+html table td.table_note_col_0{
+	width:Auto;
+}
+table td.table_important_col_0,
+table td.table_caution_col_0,
+table td.table_warning_col_0,
+table td.table_note_col_0{
+	width:100%;
+	_width:Auto;
+	vertical-align:Top;
+}
+*:first-child+html tbody.table_important td.table_important_col_0,
+*:first-child+html tbody.table_caution td.table_caution_col_0,
+*:first-child+html tbody.table_warning td.table_warning_col_0,
+*:first-child+html tbody.table_note td.table_note_col_0{
+	width:Auto;
+}
+tbody.table_important td.table_important_col_0,
+tbody.table_caution td.table_caution_col_0,
+tbody.table_warning td.table_warning_col_0,
+tbody.table_note td.table_note_col_0{
+	padding-left:10px;
+	width:100%;
+	_width:Auto;
+}
+@media print{
+thead.table_important td.table_important,
+thead.table_caution td.table_caution,
+thead.table_warning td.table_warning,
+thead.table_note td.table_note{
+	padding-bottom:5px;
+}}
+tbody.table_important td.table_important,
+tbody.table_caution td.table_caution,
+tbody.table_warning td.table_warning,
+tbody.table_note td.table_note{
+	padding-left:10px;
+	padding-top:2px;
+	border-bottom:None;
+	padding-bottom:5px;
+	border-top:None;
+}
+thead.table_important td.table_important_col_0,
+thead.table_note td.table_note_col_0{
+	padding:2px 5px 2px 30px;
+	text-align:Left;
+	border-bottom:None;
+}
+thead.table_caution td.table_caution_col_0,
+thead.table_warning td.table_warning_col_0{
+	padding:2px 23px 5px 5px;
+	text-align:Center;
+	border-bottom:Solid 1px #808080;
+}
+thead.table_caution td.table_caution_col_0 div img,
+thead.table_warning td.table_warning_col_0 div img{
+	margin-right:3px;
+}
+thead.table_important td.table_important div,
+thead.table_caution td.table_caution div,
+thead.table_warning td.table_warning div,
+thead.table_note td.table_note div{
+	font-weight:Bold;
+}
+table.table_important{
+	border:Solid 1px #808080;
+}
+table.table_caution,
+table.table_warning{
+	border:Solid 1px #808080;
+}
+table.table_note{
+	border:Solid 1px #808080;
+}
+thead.table_important td.table_important{
+	background:Transparent;
+	_background:Transparent;
+}
+thead.table_caution td.table_caution div,
+thead.table_warning td.table_warning div{
+	font-size:120%;
+}
+
+thead.table_note td.table_note{
+	background:Transparent;
+	_background:Transparent;
+}
+thead.table_important td.table_important div{
+	color:#4682B4;
+}
+thead.table_caution td.table_caution div,
+thead.table_warning td.table_warning div{
+	color:#000000;
+}
+thead.table_note td.table_note div{
+	color:#808080;
+}
+thead.table_important td.table_important_col_0,
+tbody.table_important td.table_important_col_0{
+	border-right:Solid 1px #808080;
+}
+thead.table_caution td.table_caution_col_0,
+tbody.table_caution td.table_caution_col_0,
+thead.table_warning td.table_warning_col_0,
+tbody.table_warning td.table_warning_col_0{
+	border-right:Solid 1px #808080;
+}
+thead.table_note td.table_note_col_0,
+tbody.table_note td.table_note_col_0{
+	border-right:Solid 1px #808080;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_no_border{
+	margin:10px 10px 10px 30px;	
+}
+table div.table_no_border{
+	margin-left:10px;
+}
+table.table_no_border{
+	border:None;
+	width:Auto;
+}
+thead.table_no_border td.table_no_border{
+	padding:0px 5px 0px 0px;
+	border:None;
+	font-size:100%;
+	text-align:Left;
+	font-weight:Bold;
+	vertical-align:Middle;
+}
+tbody.table_no_border td.table_no_border{
+	padding:0px 5px 0px 0px;
+	vertical-align:Top;
+	border:None;
+	font-size:100%;
+	padding-bottom:5px;
+}
+tbody.table_no_border td.table_no_border div{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_matrix{
+	margin:10px 10px 10px 30px;
+}
+table div.table_matrix{
+	margin-left:20px;
+}
+table.table_matrix{
+	border-collapse:Collapse;
+	border:Solid 1px #808080;
+}
+thead.table_matrix td.table_matrix{
+	padding:5px;
+	background-color:#DDDDDD;
+	border:Solid 1px #808080;
+	font-size:100%;
+	text-align:Center;
+	font-weight:Normal;
+	vertical-align:Middle;
+}
+tbody.table_matrix td.table_matrix_col_0{
+	padding:5px 0px;
+	padding-left:5px;
+	width:120px;
+	vertical-align:Middle;
+	background-color:#EFEFEF;
+	border:Solid 1px #808080;
+	font-size:100%;
+	font-weight:Normal;
+}
+tbody.table_matrix td.table_matrix{
+	padding:3px 10px;
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+	font-size:100%;
+}
+thead.table_matrix td.table_matrix_col_1{
+	background-color:#DDDDDD;
+	border:Solid 1px #808080;
+	padding:5px;
+}
+tbody.table_matrix td.table_matrix_col_1{
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+}
+thead.table_matrix td.table_matrix_col_0{
+	border:Solid 1px #808080;
+	background-color:#DDDDDD;
+	padding:5px;
+}
+thead.table_matrix td.table_matrix div{
+	color:#000000;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_general{
+	margin:10px 10px 10px 30px;
+}
+table div.table_general{
+	margin-left:20px;
+}
+table.table_general{
+	border-collapse:Collapse;
+	border:Solid 1px #808080;
+}
+thead.table_general td.table_general{
+	padding:5px;
+	border:Solid 1px #808080;
+	font-size:100%;
+	text-align:Center;
+	font-weight:Normal;
+	vertical-align:Middle;
+}
+tbody.table_general td.table_general_col_0{
+	padding:5px 0px;
+	padding-left:5px;
+	width:120px;
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+	font-size:100%;
+	font-weight:Normal;
+}
+tbody.table_general td.table_general{
+	padding:3px 10px;
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+	font-size:100%;
+}
+thead.table_general td.table_general_col_1{
+	border:Solid 1px #808080;
+	padding:5px;
+}
+tbody.table_general td.table_general_col_1{
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+}
+thead.table_general td.table_general_col_0{
+	border:Solid 1px #808080;
+	padding:5px;
+}
+thead.table_general td.table_general div{
+	color:#000000;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_number{
+	margin:10px 10px 10px 35px;	
+}
+table div.table_number{
+	margin-left:25px;
+}
+table.table_number{
+	border-collapse:Collapse;
+	border:None;
+	width:Auto;
+}
+tbody.table_number td.table_number{
+	padding:0px 5px 0px 0px;
+	border:None;
+	font-size:100%;
+	text-align:Left;
+	vertical-align:Top;
+}
+tbody.table_number td.table_number_col_0{
+	width:1.5em;
+	border:None;
+}
+tbody.table_number td.table_number_col_0 div{
+	margin-left:0px;
+	margin-right:0px;
+	font-weight:Normal;
+	text-align:Right;
+}
+tbody.table_number td.table_number_col_1{
+	width:Auto;
+}
+/*-----------------------------------------------------------------------------------------------*/
+span.bold{
+	font-weight:Bold;
+}
+span.italic{
+	font-style:Italic;
+}
+span.no_break{
+	white-space:Nowrap;
+}
+span.superscript{
+	vertical-align:Super;
+	font-size:80%;
+}
+span.subscript{
+	vertical-align:Sub;
+	font-size:80%;
+}
+span.underline{
+	text-decoration:Underline;
+}
+span.color_white{
+	color:#FFFFFF;
+}
+span.color_blue{
+	color:#0000FF;
+}
+span.color_red{
+	color:#FF0000;
+}
+span.color_orange{
+	color:#FFA500;
+}
+span.color_green{
+	color:#008000;
+}
+span.bold\+color_red{
+	color:#FF0000;
+	font-weight:Bold;
+}
+span.bold\+italic{
+	font-style:Italic;
+	font-weight:Bold;
+}
+span.bold\+superscript{
+	vertical-align:Super;
+	font-size:80%;
+	font-weight:Bold;
+}
+span.bold\+underline{
+	text-decoration:Underline;
+	font-weight:Bold;
+}
+span.italic\+superscript{
+	vertical-align:Super;
+	font-size:80%;
+	font-style:Italic;
+}
+span.yenmark{
+	/*font-family:"MS PGothic","Osaka","Arial","Helvetica",Sans-serif;*/
+}
+span.yenmark\+italic{
+	/*font-family:"MS PGothic","Osaka","Arial","Helvetica",Sans-serif;*/
+	font-style:Italic;
+}
+span.bold\+color_orange{
+	color:#FFA500;
+	font-weight:Bold;
+}
+span.bold\+superscript\+color_red{
+	color:#FF0000;
+	vertical-align:Super;
+	font-size:80%;
+	font-weight:Bold;
+}
+span.bold\+superscript\+color_orange{
+	color:#FFA500;
+	vertical-align:Super;
+	font-size:80%;
+	font-weight:Bold;
+}
+span.bold\+no_break{
+	white-space:Nowrap;
+	font-weight:Bold;
+}
+span.bold\+no_break\+superscript{
+	white-space:Nowrap;
+	font-weight:Bold;
+	vertical-align:Super;
+	font-size:80%;
+}
+span.no_break\+superscript{
+	white-space:Nowrap;
+	vertical-align:Super;
+	font-size:80%;
+}
+span.superscript\+color_red{
+	color:#FF0000;
+	vertical-align:Super;
+	font-size:80%;
+}
+span.superscript\+color_orange{
+	color:#FFA500;
+	vertical-align:Super;
+	font-size:80%;
+}
+span.ui_text{
+}
+span.ui_bold{
+	font-weight:Bold;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+div#id_breadcrumbs{
+	font-size:70%;
+	position:Absolute;
+	left:5px;
+	top:10px;
+	z-index:1;
+	cursor:Default;
+	display:None;
+}
+div#id_breadcrumbs a{
+	margin:0px 5px;
+}
+div#id_breadcrumbs a:link{
+	color:#0000FF;
+}
+div#id_breadcrumbs a:visited{
+	color:#0000FF;
+}
+span.style_name{
+	font:Normal 8pt "Tahoma";
+	color:#FF0000;
+	margin:0px 5px;
+}
+div.open_close_all{
+	font-size:80%;
+	margin:5px 10px 5px 30px;
+	color:#3366A5;
+	text-align:Right;
+}
+div.open_close_next_sibling{
+	font-size:80%;
+	margin:5px 10px 5px 30px;
+	color:#3366A5;
+	text-align:Right;
+}
+div#id_content div.open_close_all a:hover,
+div#id_content div.open_close_next_sibling a:hover{
+	text-decoration:None;
+}
+a.open_all:hover,
+a.close_all:hover,
+a.open_next_sibling:hover,
+a.close_next_sibling:hover{
+	border-bottom:Solid 1px #3366A5;
+}
+a.open_all,
+a.close_all,
+a.open_next_sibling,
+a.close_next_sibling{
+	border-bottom:Dotted 1px #3366A5;
+	padding-right:15px;
+}
+a.open_all{
+	margin-right:5px;
+}
+a.open_next_sibling{
+}
+a.close_all,
+a.close_next_sibling{
+}
+div.invisible_begin{
+	color:#FFFFFF;
+	font-size:80%;
+	text-align:Right;
+}
+div.invisible_end{
+	color:#FFFFFF;
+	font-size:80%;
+	text-align:Right;
+}
+div.invisible{
+	display:None;
+	border-right:Dotted 1px #808080;
+	margin-right:10px;
+}
+@media print{
+div.open_close_all{
+	display:None;
+}
+div.open_close_next_sibling{
+	display:None;
+}
+div.invisible{
+	display:Block;
+	border-right:None;
+	margin-right:0px;
+}}
+div.hr{
+	border-top:Solid 2px #808080;
+	margin:25px 10px 0px 10px;
+	font-size:0pt;
+	color:#FFFFFF;
+}
+hr{
+	color:#808080;
+	background-color:#808080;
+	margin:25px 10px 0px 10px;
+	height:2px;
+	border:0;
+}
+/*-----------------------------------------------------------------------------------------------*/
+@supports (-ms-accelerator:true) { @media print {
+	div./*[style]*/list {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/list:before {
+		content: url(style_list.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 4px;
+	}
+	div./*[style]*/dash {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/dash:before {
+		content: url(style_dash.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 4px;
+	}
+	div./*[style]*/path {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/path:before {
+		content: url(style_path.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 1px;
+	}
+	div./*[style]*/step_path {
+		background: #F8F8F8!important;
+		position: relative;
+	}
+	div./*[style]*/step_path:before {
+		content: url(style_path.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 8px;
+	}
+	div./*[style]*/step_sub {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/step_sub:before {
+		content: url(style_step_sub.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 8px;
+	}
+	div./*[style]*/step_sub {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/step_sub:before {
+		content: url(style_step_sub.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 8px;
+	}
+	div./*[style]*/link a {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/link a:before {
+		content: url(style_link.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	div./*[style]*/list_link {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/list_link:before {
+		content: url(style_link.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	thead./*[style]*/table_important td./*[style]*/table_important {
+		background: none!important;
+		position: relative;
+	}
+	thead./*[style]*/table_important td./*[style]*/table_important:before {
+		content: url(style_important.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	thead./*[style]*/table_note td./*[style]*/table_note {
+		background: none!important;
+		position: relative;
+	}
+	thead./*[style]*/table_note td./*[style]*/table_note:before {
+		content: url(style_note.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+}}
+-->
+		</style>
+	</head>
+	<body>
+		<!--CONTENT_START-->
+		<div id="id_content">
+			<div class="h1"><a id="d3209d1e1265edc49d5d94202bdeb6ec"></a>Microsoft Windows 版的 Canon Generic Plus PCL6 打印机驱动程序 1.30 版本<br /></div>
+			<div class="text">在使用本软件前，请仔细阅读安装过程中显示的佳能软件许可协议。也可查看随附的CD-ROM或下载的驱动程序文件夹中[misc]文件夹中存储的佳能软件许可协议（EULAzh-CN.rtf）。</div>
+			<div class="text">本文件中包括帮助用户如何在Microsoft Windows系统下安装并使用打印机驱动程序的辅助信息。</div>
+			<div class="text">与大多数软件和硬件产品一样，某些信息是在手册制作之后公开的。本文件中提供了关于此打印机驱动程序的更新信息。如果需要其他帮助，请与当地的 Canon 公司联系。</div>
+			<div class="text">Microsoft、Windows 和 Windows Vista 是 Microsoft Corporation 在美国和/或其他国家（地区）的注册商标或商标。</div>
+			<div class="text">这里出现的其他产品和公司名称是其各自所有者的商标。</div>
+			<div class="h2"><a id="0c970eb48f6aeb22f5fe56ddcefd64fa"></a>目录</div>
+			<div class="list_link"><a href="#636d58b85e05af14fba26f23ec13e2c6">概述</a></div>
+			<div class="list_link"><a href="#cfbfe503012e612edb9d60eefc68d5af">系统要求</a></div>
+			<div class="list_link"><a href="#ff162bfa526082b732442a0925874960">安装打印机驱动程序</a></div>
+			<div class="list_link"><a href="#b6b8cb34c536624321aae23eb2118d27">访问“属性”对话框</a></div>
+			<div class="list_link"><a href="#a9472a69374d08acb201ac44575378ed">访问“帮助”信息</a></div>
+			<div class="list_link"><a href="#74722ef065ccaf1fa5e99bf717f10223">警告、限制和约束</a></div>
+			<div class="list_link"><a href="#dc115480a653f4ae712776c26c0eefbd">与设备设置有关的限制</a></div>
+			<div class="list_link"><a href="#5250a9e2e1de3c109a21e8bbdec4797a">使用Canon Driver Configuration Tool时的限制</a></div>
+			<div class="list_link"><a href="#4a6bdb2eb8fe4b63a3a88976d8016900">特定打印机型号的限制</a></div>
+			<div class="h4"><a id="636d58b85e05af14fba26f23ec13e2c6"></a>概述</div>
+			<div class="text">该打印机驱动程序允许通过任意Windows 应用程序在您的打印机上打印文档 。</div>
+			<div class="text"><span class="bold">注释</span></div>
+			<div class="list">本驱动程序支持Canon Driver Configuration Tool。您可以使用Canon Driver Configuration Tool来更改打印机驱动程序的出厂默认设置，从而创建自定义的驱动程序集。有关该实用程序的详细信息，请参考Canon Driver Configuration Tool User's Guide。</div>
+			<div class="h4"><a id="cfbfe503012e612edb9d60eefc68d5af"></a>系统要求</div>
+			<div class="text">本打印机驱动程序可以在下列环境中使用：</div>
+			<div class="h5">操作系统</div>
+			<div class="text">Windows Vista</div>
+			<div class="text">Windows 7</div>
+			<div class="text">Windows 8</div>
+			<div class="text">Windows 8.1</div>
+			<div class="text">Windows 10</div>
+			<div class="text">Windows Server 2008</div>
+			<div class="text">Windows Server 2008 R2</div>
+			<div class="text">Windows Server 2012</div>
+			<div class="text">Windows Server 2012 R2</div>
+			<div class="text">Windows Server 2016</div>
+			<div class="h5">基于服务器的计算环境</div>
+			<div class="h6">服务器操作系统</div>
+			<div class="text">Windows Server 2008</div>
+			<div class="text">Windows Server 2008 R2</div>
+			<div class="text">Windows Server 2012</div>
+			<div class="text">Windows Server 2012 R2</div>
+			<div class="text">Windows Server 2016</div>
+			<div class="h6">服务器组件</div>
+			<div class="text">Citrix Presentation Server 4.5</div>
+			<div class="text">Citrix XenApp 5.0</div>
+			<div class="text">Citrix XenApp 6.0</div>
+			<div class="text">Citrix XenApp 6.5</div>
+			<div class="text">Citrix XenApp 7.5</div>
+			<div class="text">Citrix XenApp 7.6</div>
+			<div class="text">Citrix XenApp 7.7</div>
+			<div class="text">Citrix XenApp 7.8</div>
+			<div class="text">Citrix XenApp 7.9</div>
+			<div class="text">Citrix XenApp 7.11</div>
+			<div class="text">Citrix XenApp 7.12</div>
+			<div class="text">Citrix XenDesktop 4.0</div>
+			<div class="text">Citrix XenDesktop 5.0</div>
+			<div class="text">Citrix XenDesktop 5.5</div>
+			<div class="text">Citrix XenDesktop 5.6</div>
+			<div class="text">Citrix XenDesktop 7.0</div>
+			<div class="text">Citrix XenDesktop 7.1</div>
+			<div class="text">Citrix XenDesktop 7.5</div>
+			<div class="text">Citrix XenDesktop 7.6</div>
+			<div class="text">Citrix XenDesktop 7.7</div>
+			<div class="text">Citrix XenDesktop 7.8</div>
+			<div class="text">Citrix XenDesktop 7.9</div>
+			<div class="text">Citrix XenDesktop 7.11</div>
+			<div class="text">Citrix XenDesktop 7.12</div>
+			<div class="text">VMware vSphere 4</div>
+			<div class="text">VMware vSphere 5</div>
+			<div class="text">VMware vSphere 5.1</div>
+			<div class="text">VMware vSphere 5.5</div>
+			<div class="text">VMware vSphere 6.0</div>
+			<div class="text">Microsoft Application Virtualization (App-V)</div>
+			<div class="text">Remote Desktop Service on Windows Server 2012 R2</div>
+			<div class="text">TS-RemoteApp on Windows Server 2008</div>
+			<div class="h6">集群服务器</div>
+			<div class="text">Microsoft Windows Server 2008 Enterprise/Datacenter Edition</div>
+			<div class="text">Microsoft Windows Server 2008 R2 Enterprise/Datacenter Edition</div>
+			<div class="text">Microsoft Windows Server 2012</div>
+			<div class="text">Microsoft Windows Server 2012 R2</div>
+			<div class="h5"><a id="46736b31e3ec30e521e36b46c58fa250"></a>计算机</div>
+			<div class="text">使用兼容上述操作系统的计算机</div>
+			<div class="h4"><a id="ff162bfa526082b732442a0925874960"></a>安装打印机驱动程序</div>
+			<div class="text">若在Microsoft Windows系统的应用程序软件中使用打印机驱动程序，请采用下列安装步骤。</div>
+			<div class="h6"><a id="2a30113ec12409ecaf1debadd080adee"></a><span class="bold">注释</span></div>
+			<div class="list">安装之前，请以管理员身份登录Windows。</div>
+			<div class="list">如果使用安装程序时显示消息提示您重新启动计算机，请确保重新启动计算机。如果不重新启动计算机，现有驱动程序可能无法正常运行。</div>
+			<div class="list">如果您在Citrix XenApp环境中使用打印机自动创建机制，则可能无法使用安装程序正确安装该驱动程序。如果发生这种情况，请重新启动XenApp服务器计算机，并检查打印机文件夹。如果任何现有的打印机图标不再显示，请使用“打印机”文件夹中的“添加打印机向导”，在XenApp Server PC服务器计算机上重新安装相关的打印机驱动程序。<br />然后，在启动安装程序安装该驱动程序之前，请使用“ICA Client Printer Configuration（ICA客户端打印机配置）”实用程序，从所有ICA会话中断开所有客户端打印机的连接。安装驱动程序后，请重新启动“ICA Client Printer Configuration（ICA客户端打印机配置）”实用程序并重新连接打印机。 </div>
+			<div class="list">我们建议使用安装程序更新或添加打印机驱动程序。也可从“添加打印机向导”更新或添加驱动程序。详细信息请参阅&quot;<a href="#458c0fbe1c62532bfa546e541b069a2e">使用“添加打印机向导”进行安装：</a>&quot;。</div>
+			<div class="list">如果将SMB(NetBIOS 网络) 打印机作为服务器计算机上的共享打印机，则在安装打印机驱动程序时请使用“添加打印机向导”，并选择“网络打印机”。</div>
+			<div class="list">如果使用默认设置安装本驱动程序，所有安装的Generic Plus打印机驱动程序将更新到最新版本。如需在不更新已安装的驱动程序前提下添加最新版本的驱动程序，请参照&quot;<a href="#4465990d9b97bd6ecb35d37d0e37bf88">通过在网络上查找设备进行安装</a>&quot;、&quot;<a href="#6651e2a85f87a56b7c2604df4c48b1fa">通过指定端口进行安装</a>&quot;或&quot;<a href="#458c0fbe1c62532bfa546e541b069a2e">使用“添加打印机向导”进行安装：</a>&quot;。</div>
+			<div class="list">如果在打印服务器（即点即打）环境中使用共享打印机，必须在服务器计算机中安装Canon Driver Information Assist Service以便使用获取设备信息功能。</div>
+			<div class="list">当使用Canon Driver Information Assist Service获取驱动程序信息时，如果显示一则警告信息要求移除Windows防火墙阻隔，请移除阻隔。</div>
+			<div class="h5"><a id="4465990d9b97bd6ecb35d37d0e37bf88"></a>通过在网络上查找设备进行安装</div>
+			<div class="text">安装驱动程序时，您可以在TCP/IP网络上搜索设备。</div>
+			<div class="text">安装期间，自动设置与打印机型号对应的配置文件和设备功能。也可根据需要更改或导入配置文件。</div>
+			<div class="text_level1">* 如果所使用的网络环境未知，请与网络管理员联系。</div>
+			<div class="text">1. 启动安装程序。</div>
+			<div class="text_level1">在随附的CD-ROM或下载的驱动程序文件夹中双击[Setup.exe]。</div>
+			<div class="text">2. 选择[语言]，然后单击[下一步]。</div>
+			<div class="text">3. 屏幕上将显示安装向导和用户许可证协议。请确认用户许可证协议的内容，然后单击[是]。 </div>
+			<div class="text">4.选择[标准]，然后单击[下一步]。</div>
+			<div class="text">5. 选择所需项目，然后单击[下一步]。</div>
+			<div class="text">6. 选择要从[打印机列表]安装的打印机。</div>
+			<div class="text">7. 如要更改设备名称，将其设置为默认设备或更改配置文件，请选择[设置打印机信息], 然后单击[下一步]。 </div>
+			<div class="text">否则，单击[下一步]并转到步骤10。</div>
+			<div class="text">8.要选择配置文件，请单击[更改]并在[更改配置文件]对话框中选择相应的配置文件。</div>
+			<div class="annotation">* 可以从[更改配置文件]对话框中的[导入]注册配置文件。可以通过单击[删除]删除已注册的配置文件。</div>
+			<div class="text">9.进入[打印机名]，然后单击[下一步]。</div>
+			<div class="annotation">* 如果要将本打印机用作默认打印机，请选择[设置为默认值]。</div>
+			<div class="text">10.要在不更新驱动程序的前提下使用打印机，单击[选择要更新的打印机]并在[打印机列表]中取消选择与你不想升级驱动程序的打印机相对应的复选框。</div>
+			<div class="text">11. 检查安装设置，然后单击[开始]。安装进程开始。</div>
+			<div class="text">12.单击[退出]，完成安装程序。 </div>
+			<div class="text_level1">现在可以从任一Windows应用程序软件中进行打印。 </div>
+			<div class="h5"><a id="6651e2a85f87a56b7c2604df4c48b1fa"></a>通过指定端口进行安装</div>
+			<div class="text">1. 启动安装程序。</div>
+			<div class="text_level1">在随附的CD-ROM或下载的驱动程序文件夹中双击[Setup.exe]。</div>
+			<div class="text">2. 选择[语言]，然后单击[下一步]。</div>
+			<div class="text">3. 屏幕上将显示安装向导和用户许可证协议。请确认用户许可证协议的内容，然后单击[是]。 </div>
+			<div class="text">4.选择[自定义]，然后单击[下一步]。</div>
+			<div class="text">5.如果显示对话框，要求选择如何执行安装，请选择[添加新打印机]，或[更新现有打印机驱动程序]，然后单击[下一步]。</div>
+			<div class="text_level1">如果选择了[更新现有打印机驱动程序]，跳转步骤9。</div>
+			<div class="text">6. 从下拉菜单中选择[端口]或单击[添加端口]。</div>
+			<div class="text">7.要选择配置文件，请单击[更改]并在[更改配置文件]对话框中选择相应的配置文件。</div>
+			<div class="annotation">* 可以从[更改配置文件]对话框中的[导入]注册配置文件。可以通过单击[删除]删除已注册的配置文件。</div>
+			<div class="text">8.进入[打印机名]，然后单击[下一步]。</div>
+			<div class="annotation">* 如果要将本打印机用作默认打印机，请选择[设置为默认值]。</div>
+			<div class="text">9.要在不更新驱动程序的前提下使用打印机，单击[选择要更新的打印机]并在[打印机列表]中取消选择与你不想升级驱动程序的打印机相对应的复选框。</div>
+			<div class="text">10. 检查安装设置，然后单击[开始]。安装进程开始。</div>
+			<div class="text">11.单击[退出]，完成安装程序。 </div>
+			<div class="text_level1">现在可以从任一Windows应用程序软件中进行打印。 </div>
+			<div class="h5"><a id="458c0fbe1c62532bfa546e541b069a2e"></a>使用“添加打印机向导”进行安装：</div>
+			<div class="text">1. 启动 Windows 添加打印机向导。</div>
+			<div class="text_level2">如果从[设置]启动（仅限Windows10/Server 2016）</div>
+			<div class="text_level3">(1) 单击[设备] → 从[打印机和扫描仪]单击[添加打印机或扫描仪]。</div>
+			<div class="text_level3">(2) 单击[我所需的打印机未列出]。</div>
+			<div class="text_level2">如果从[控制面板]启动</div>
+			<div class="text_level3">(1) 显示[设备和打印机] → 单击[添加打印机]。</div>
+			<div class="text_level3">(2)如果显示的是设备选择屏幕，单击[我需要的打印机不在列表中]。</div>
+			<div class="text">2. 确认启动向导，然后单击[下一步]。 </div>
+			<div class="text">3. 按照屏幕上的指导说明继续安装。 </div>
+			<div class="text">4. 单击[从磁盘安装]。</div>
+			<div class="text">5.单击[浏览]，选择inf文件，然后单击[确定]。</div>
+			<div class="text_level1">inf文件存储在随附的CD-ROM或下载的驱动程序文件夹中的[Driver]文件夹中。</div>
+			<div class="annotation">* 如果在上述文件夹中指定inf文件并安装驱动程序，计算机上安装的所有驱动程序将全部更新到最新版本。如要单独安装某个最新驱动程序，而不更新计算机上已安装的该驱动程序，请在已获取的驱动程序文件夹中的[etc]文件夹中指定inf文件。</div>
+			<div class="text">6.从[打印机]中选择打印机型号，然后单击[下一步]。 </div>
+			<div class="text">7.按照屏幕上的说明继续进行安装，然后单击[完成]开始复制文件。 </div>
+			<div class="text_level1">现在可以从任一Windows应用程序软件中进行打印。 </div>
+			<div class="h5"><a id="ae399ab3f7e27290818a8e90a8fa038c"></a>使用 USB 连接进行安装：</div>
+			<div class="text">1. 关闭设备。 </div>
+			<div class="text">2. 启动安装程序 → 按照对话框中的指导说明操作。</div>
+			<div class="text">有关详细信息，请参阅&quot;<a href="#4465990d9b97bd6ecb35d37d0e37bf88">通过在网络上查找设备进行安装</a>&quot;的步骤1到3或&quot;<a href="#6651e2a85f87a56b7c2604df4c48b1fa">通过指定端口进行安装</a>&quot;。 </div>
+			<div class="text">3.选择[USB 连接]，然后单击[下一步]。如果显示选择打印机驱动程序的对话框，选择要安装的驱动程序，并单击[下一步]。</div>
+			<div class="text">4. 如要开始安装，单击消息框中的[是]。 </div>
+			<div class="text">5. 当对话框提示时，连接 USB 插头，然后打开打印机的电源。</div>
+			<div class="text_level1">* 如果该屏幕上的安装失败，请尝试执行以下步骤。</div>
+			<div class="dash">通过USB连接时设备未被识别 </div>
+			<div class="text">6.要选择配置文件，请单击[更改]并在[更改配置文件]对话框中选择相应的配置文件。</div>
+			<div class="annotation">* 可以从[更改配置文件]对话框中的[导入]注册配置文件。可以通过单击[删除]删除已注册的配置文件。</div>
+			<div class="text">7.当安装结束时，在安装完成屏幕中单击[退出]。</div>
+			<div class="text_level1">完成打印机驱动程序的安装。</div>
+			<div class="h6"><a id="946b215ddf7d26eb1844ef13168bce61"></a>通过 USB 连接时设备未被识别</div>
+			<div class="text">如果通过 USB 连接时设备未被识别，请尝试执行以下步骤。</div>
+			<div class="text">1. 使用 USB 电缆连接打印机和计算机，然后打开打印机的电源。 </div>
+			<div class="text">2. 显示[设备管理器]。</div>
+			<div class="text_level1">在Windows 10/Server 2016中</div>
+			<div class="text_level2">右键单击Windows图标→单击[设备管理器]。</div>
+			<div class="text_level1">在Windows 7/Server 2008 R2/8/8.1/Server 2012/Server 2012 R2中</div>
+			<div class="text_level2">显示[控制面板] &gt; [硬件和声音] &gt; [设备管理器]。</div>
+			<div class="text_level1">在Windows Vista/Server 2008中</div>
+			<div class="text_level2">显示[控制面板] &gt; [系统和维护] &gt; [设备管理器]。</div>
+			<div class="text">3. 在[其他设备]中，右键单击所使用打印机的名称 → 执行[删除]。</div>
+			<div class="text_level1">打印机名称变为</div>
+			<div class="text_level2">“Canon + &lt;型号名称&gt;” </div>
+			<div class="text_level1">完成上述步骤后，重新安装驱动程序。 </div>
+			<div class="h6">卸载打印机驱动程序</div>
+			<div class="text">1. 启动驱动程序卸载程序。</div>
+			<div class="list">使用Windows功能时</div>
+			<div class="text_level1">在Windows 10/Server 2016中</div>
+			<div class="text_level2">(1) 显示[设置]＞[系统]＞[应用和功能]。</div>
+			<div class="text_level2">(2) 选择要卸载的驱动程序 → 单击[卸载]。</div>
+			<div class="text_level1">在除上述操作系统以外的其他操作系统中</div>
+			<div class="text_level2">(1) 显示[控制面板]＞[程序]＞[卸载程序]。</div>
+			<div class="text_level2">(2) 选择要卸载的驱动程序 → 单击[卸载/更改]。</div>
+			<div class="list">使用驱动程序卸载文件时</div>
+			<div class="text_level3">双击以下文件之一。</div>
+			<div class="text_level2">使用已安装的驱动程序文件夹中的文件时</div>
+			<div class="text_level3">使用与以下文件夹中的驱动程序对应的[UNINSTAL.exe]。</div>
+			<div class="dash">&lt;安装文件夹&gt;\Canon\PrnUninstall</div>
+			<div class="text_level2">使用随附的CD-ROM或下载的驱动程序文件夹中的文件时</div>
+			<div class="text_level3">使用已获取的驱动程序文件夹中的以下文件。</div>
+			<div class="dash">misc\UNINSTAL.exe</div>
+			<div class="text">2.选择想要卸载的设备名称并单击[删除]。</div>
+			<div class="annotation">* 如果单击[清除]，不仅仅与所选驱动程序相关、而是与列表中显示的所有驱动程序有关的所有文件与注册信息将被删除。正常情况下，只需单击[删除]就可卸载打印机驱动程序。</div>
+			<div class="text">3.显示卸载确认信息。单击[是]开始卸载。</div>
+			<div class="text">4. 单击[退出]。</div>
+			<div class="text"></div>
+			<div class="h4"><a id="b6b8cb34c536624321aae23eb2118d27"></a>访问“属性”对话框</div>
+			<div class="text">属性对话框包含允许您设置和控制打印机的多个页。如要访问属性对话框，请使用下列某个过程：</div>
+			<div class="h6"><a id="8d941cd856e7fe97b977d837c0ab6ec3"></a>从“桌面”进行访问：</div>
+			<div class="text">1.从Windows的[控制面板]显示[设备和打印机]。</div>
+			<div class="text">2.在“打印机”文件夹中，右键单击您的打印机图标，然后单击[属性]或[打印机属性]，打开[打印机属性]对话框，或者单击[打印首选项]，打开[文档属性] 对话框（或[打印首选项]对话框）。</div>
+			<div class="h6"><a id="6367ad8a20cbc51529545a70e48a29c4"></a>从应用程序中进行访问：</div>
+			<div class="text">1. 单击[打印]命令，显示[打印]对话框。 </div>
+			<div class="text">2. 从下拉列表框中选择打印机名称，然后单击[首选项]、[打印机属性]或[属性]。 </div>
+			<div class="h4"><a id="a9472a69374d08acb201ac44575378ed"></a>访问“帮助”信息</div>
+			<div class="text">通过属性对话框，可以单击[帮助]以显示有关打印机驱动程序的信息。</div>
+			<div class="h4"><a id="74722ef065ccaf1fa5e99bf717f10223"></a>警告、限制和约束</div>
+			<div class="list">如果您通过应用程序将奇数页数的文档打印为双面文档，则应用程序可能会自动插入空白页以将页数增加为偶数。当发生这种情形时，应用程序插入的空白页将以打印页的计数方式来计算。 </div>
+			<div class="list">如果您使用 USB 連線的印表機列印，並從您的電腦取消目前正在進行多工緩衡處理列印的列印工作，印表機可能不會回復到準備就緒狀態。<br />在這種狀態下，您可以透過 USB 列印，但不能透過網路列印。為了能透過網路列印，請在列印之前從印表機控制台中取消列印工作。 </div>
+			<div class="list">如果您的Windows Server操作系统使用的是Server Core，则您将无法使用打印机驱动程序的安装程序。请使用操作系统的安装功能安装打印机驱动程序。</div>
+			<div class="dash">某些打印选项在本地环境或 Windows 远程桌面环境下不可用。 </div>
+			<div class="list">如果未安装打印机驱动程序（或传真机驱动程序）和 USB 兼容的扫描仪驱动程序，则会将使用 USB 连接的设备识别为新硬件，而且即使出现以下情形，也不会影响驱动程序运行。</div>
+			<div class="dash">Windows Vista：每次使用 USB 连接设备时都会出现一个对话框。</div>
+			<div class="dash">Windows 7/8/8.1/10：[设备和打印机]文件夹中的相关打印机处于警告状态。</div>
+			<div class="text_level2">在这些情形中，驱动程序仍然可以运行。为避免出现这些情形，请安装 USB 兼容的扫描仪驱动程序(Color Network ScanGear 2 USB)。有关如何安装扫描仪驱动程序的指导说明，请参阅驱动程序随附的 readme 文件。 </div>
+			<div class="list">如果在基于服务器的计算环境下使用该打印机驱动程序，则无法在客户端计算机上使用不支持的操作系统来使用该打印机驱动程序。</div>
+			<div class="list">在一台计算机上创建重叠格式文件时，您不能将新的格式文件保存在网络上的其他计算机中。</div>
+			<div class="list">该TrueType字体可能无法正确打印。若出现这种情况，应禁用[高级设置]对话框中的[使用打印机字体]设置，以确保与文档一并下载所有字体，而非仅使用打印机中原有的字体。在[质量]页中单击[高级设置] 按钮，可显示[高级设置]对话框。<br /></div>
+			<div class="list">当[TrueType 模式]在[高级设置]对话框中被设置为[以 TrueType 下载]或[以位图图像下载]时，某些应用程序将无法正确打印旋转文本。通过在[质量]页中单击[高级设置]按钮，可以显示[高级设置]对话框。</div>
+			<div class="list">如果您在日本使用本产品，则会应用以下限制。</div>
+			<div class="text_level2">在[设备设置]页中选择以下选项时，这些选项可能无法得以正确应用。</div>
+			<div class="dash">[信封输送器]</div>
+			<div class="text_level3">在[基本设置]/[页面设置]页面中，若选择该选项并设置[Envelope Monarch]/[Envelope No. 10 (COM10)]/[Envelope DL]/[Envelope C5]/[Envelope B5]作为页面尺寸，尽管可以在[纸张来源]页中选择[纸盒2]作为纸张来源，信封也无法正确地从打印机中输出，因为打印机不支持这种设置组合。</div>
+			<div class="dash">[2/3 孔]/[2/4 孔 [法国式]]/[4 孔 [瑞典式]]</div>
+			<div class="text_level3">选择此选项之后，即使可以在[完成方式]页中设置[打孔]，如果选择[3 孔]或[4 孔 [瑞典式]]，由于打印机不支持这些设置，因此打印机仍将无法正确输出打孔类型。</div>
+			<div class="text_level2">如果您在[纸张来源]页的[插入页设置]对话框中选择[标签纸]作为要插入的纸张类型，并选择[纸盒2]作为纸张来源，由于打印机不支持此设置，因此将无法正确输出标签纸。</div>
+			<div class="text_level2">如果您使用的是imageRUNNER ADVANCE C7065/C7055，即使可以将[保留]选择为[输出方法]，打印机仍不会支持此功能。</div>
+			<div class="list">在 USB/WSD 连接环境中使用驱动器时，无法使用“获取设备状态”功能、“部门 ID 管理”功能和“用户验证”功能。</div>
+			<div class="list">如果更改[设备和打印机] 文件夹（Windows Vista/Server 2008中的[打印机]文件夹）中的打印机名称，打印机驱动程序中注册的某些配置文件（从文档属性添加的配置文件）设置将被删除。更改打印机名称前，将配置文件设置保存为文件，并在更改打印机名称后导入保存的文件。</div>
+			<div class="list">根据打印机的不同，在[设备设置]选项卡　&gt;[完成方式设置]中设置自定义纸张尺寸的功能（双面打印、装订等）也会有所不同。有关详细信息，请参阅打印机随附的手册。</div>
+			<div class="list">根据所使用的打印机，无法提供的纸张尺寸可从[设备设置]选项卡 &gt;[获取设备状态信息]中获取。</div>
+			<div class="list">根据所使用的环境，[配置文件]中的名称和自定义纸张尺寸名称可能无法理解。如果发生这种情况，请安装适合的语言包。</div>
+			<div class="list">根据所使用的打印机，不可用的功能可从[设备设置]选项卡 &gt;[获取设备状态信息]中获取。</div>
+			<div class="list">在某些语言环境中，打印机不能正确显示作业名称、用户名称、存储的数据名称等。在这种情况下，可以正确显示所需显示的字符串，方法是更改打印机的显示语言以匹配这些字符串所用语言。</div>
+			<div class="list">如果更改所用计算机的用户权限并运行安装程序，可能无法正确进行安装。在这种情况下，以管理员身份登录，然后重新进行安装。</div>
+			<div class="list">为注册自定义纸张尺寸，以管理员权限登录，从[设备和打印机]文件夹显示打印设置屏幕（Windows Vista/Server 2008中的[打印机]文件夹），然后在[页面设置]选项卡的[自定义纸张尺寸设置]对话框中配置设置。</div>
+			<div class="list">如果所用的打印机通过USB连接NetSpot Suite并且安装了佳能驱动程序信息辅助服务，请不要使用待机模式。可以在 [开始]（如果是Windows 8/8.1/Server 2012/2012 R2操作系统, 在桌面屏幕右侧显示常用工具列）&gt; [设置] &gt; [控制面板] &gt; [电源选项]中设置待机模式。</div>
+			<div class="list">当使用某些应用程序叠加打印时，可能无法打印表单数据，因为发送的文档覆盖了之前的文档。</div>
+			<div class="list">如果设置[完成方式]选项卡&gt;[高级设置]&gt;[扩展打印区域并打印]，某些打印数据可能被沿着纸张边缘剪切。如果发生这种情况，取消选择该设置。</div>
+			<div class="list">如果英语操作系统环境中的打印机名称包含双字节字符，将不能从[设备设置]选项卡 &gt; [获取设备状态信息]获取设备状态。如果发生这种情况，将打印机名称改为不包含双字节字符。</div>
+			<div class="list">如果共享的打印机环境中打印服务器和客户端计算机使用不同的操作系统语言，&quot;&lt;更改&gt;&quot;将先于配置文件名称显示，即使当客户端计算机中安装的打印机驱动程序的[配置文件]设置没有更改时。</div>
+			<div class="list">如果所用设备的纸张来源中没有设置默认纸张类型，并且从[配置文件]中选择打印所用的驱动程序中的[基本配置 (Canon)]或[基本配置 (兼容)]，设备控制面板上将显示出错信息来提示没有纸张。如果发生这种情况，获取设备状态信息或选择与设备匹配的配置文件。</div>
+			<div class="list">当使用折叠功能时，可能存在这样的情况，即纸张未折叠或未按指定的方向折叠。</div>
+			<div class="list">如果安装程序在安装过程中检测到之前安装的打印机驱动程序版本，会显示对话框询问是否使用旧版文件。确保选择[是]。</div>
+			<div class="list">若在[基本设置]/[质量]页的[色彩模式]中选择[自动 [彩色/黑白]]，则根据数据、应用程序或驱动程序设置，黑白页面可能作为彩色页面进行打印。如要将文档打印成黑白文件，可在[色彩模式]中选择[黑白]。</div>
+			<div class="list">使用Canon LBP打印机进行打印时，如果[配置文件]是[基本配置 (兼容)]，打印作业名称和用户名称可能会在打印机的控制面板上显示为&quot;--&quot;。</div>
+			<div class="list">使用Canon LBP打印机进行打印时，如果[配置文件]是[基本配置 (兼容)]，即使设置[保密打印]，打印文档时可能不会进行[PIN]认证。</div>
+			<div class="text"></div>
+			<div class="list">当图像优先功能已启用时，即使在[传送图像的压缩处理]中启用速度优先功能，打印可能会需要更长时间，具体取决于您使用的环境和打印数据。</div>
+			<div class="h4"><a id="dc115480a653f4ae712776c26c0eefbd"></a>与设备设置有关的限制</div>
+			<div class="list">根据所使用的打印机，在以下情况下打印可能比平时耗时长。</div>
+			<div class="dash">如果在使用A4（横向）纸张来源打印时指定纵向。</div>
+			<div class="dash">如果在使用A4R（纵向）纸张来源打印时指定横向。</div>
+			<div class="dash">如果将A3纸张指定为横向打印。</div>
+			<div class="list">如果将黑白打印机指定彩色打印，则文档将以黑白输出，但打印质量可能变差且耗时较长。</div>
+			<div class="list">如果在所使用打印机的控制面板上设置该打印机驱动程序不支持的功能，则打印时启用打印机设置。例如，如果打印机启用在透明胶片之间插入一张纸的功能，则打印时在每两张透明胶片之间插入一张纸；如果打印机启用复制集编号，则文档打印时将使用复制集编号。</div>
+			<div class="list">如果在[设备设置]选项卡中单击[获取设备状态信息]，可获取设备的配置信息且[设备设置]选项卡中的很多设置均会自动配置。但是，[设备设置]选项卡中的[纸张来源设置]和[详细设置]对话框中的某些设置必须手动设置。建议使用[获取设备状态信息]配置设置，然后手动设置需要设置的项目。</div>
+			<div class="list">根据所用打印机的选项组合，打印机驱动程序可能不会识别[设备设置] 选项卡 &gt; [获取设备信息]中安装的选项。为了使用不能识别的功能，在[设备设置]选项卡手动进行设置。</div>
+			<div class="list">要使用该打印机，必须首先在打印机属性对话框的[设备设置]页中设置所用打印机的类型和打印机中安装的选项。如果选择了所用打印机中不可用的打印机驱动程序中的功能，可能会导致打印结果出错。</div>
+			<div class="dash">如果设置的纸张来源未在打印机中安装，则将按照打印机的优先纸张来源提供纸张。</div>
+			<div class="dash">如果指定的纸张来源和纸张尺寸不匹配，则会发生错误。</div>
+			<div class="dash">如果在不支持双面打印的打印机中指定双面打印，则文档将打印在纸张的单面。</div>
+			<div class="dash">如果在不支持装订的打印机中指定装订，则文档将以非装订方式进行打印。</div>
+			<div class="dash">如果在不支持鞍式装订的打印机中指定鞍式装订，则文档将以非鞍式装订进行打印。</div>
+			<div class="dash">如果在不支持存储箱存储的打印机上进行打印时选择[输出方法]&gt;[存储]，则文档将正常打印。如果在触摸面板显示屏上显示错误且打印机脱机，则当打印机联网时文档会再次打印。</div>
+			<div class="dash">如果为不支持部门ID管理的打印机指定部门ID管理，则会发生错误。</div>
+			<div class="h4"><a id="5250a9e2e1de3c109a21e8bbdec4797a"></a>使用Canon Driver Configuration Tool时的限制</div>
+			<div class="list">根据[设备设置]选项卡中的设置，可在[打印首选项]各选项卡中设置项目。如果使用佳能驱动程序配置工具自定义驱动程序，则在设置[设备设置]选项卡后在[打印首选项]对话框中设置各选项卡。</div>
+			<div class="h4"><a id="4a6bdb2eb8fe4b63a3a88976d8016900"></a>特定打印机型号的限制</div>
+			<div class="list">如果设置了下列任意一种设置，将不能打印标题页。</div>
+			<div class="dash">安全打印、存储、保留、叠加打印、胶装、鞍式装订、或C形折叠打印</div>
+			<div class="dash">[设备设置]选项卡 &gt; [详细设置] &gt; [完成方式]中的[分套 [通过设备]] &gt; [关]与[驱动程序分套] &gt; [模式 1]</div>
+			<div class="list">如果使用imageRUNNER ADVANCE 8085/8095/8105，且安装了分页装订处理器-F1或手册分页装订处理器-F1，则无法输出明信片或自定义纸张尺寸（148,0至181,9 mm的高度）。</div>
+			<div class="list">在某些情况下，可以使用驱动程序指定自定义纸张尺寸范围并且打印机可以打印的纸张尺寸也不同。关于可以打印的自定义纸张尺寸信息，请参阅打印机随附的手册。</div>
+			<div class="list">使用iR-ADV C2020/2030、C2020i/2030i、C2020L/2030L或C2025时，如果在[质量]页的[高级设置]对话框中将[分辨率]设置为[1200 dpi] ，则会应用以下限制：</div>
+			<div class="dash">仅可以将[完成方式]页中的[装订位置]设置为 A4 页的长边。</div>
+			<div class="dash">无法使用[完成方式]页中的[旋转]和[将不同尺寸/方向的纸张混合打印]设置。</div>
+			<div class="dash">根据所使用的打印机的功能版本，可能无法使用[完成方式]页的[高级设置]对话框中的[复制集编号]设置。 </div>
+			<div class="list">使用iR-ADV C2020L/2030L或没有安装可选硬盘驱动器的iR-ADV C2020/2030时，无法使用下列功能：</div>
+			<div class="dash">[保密打印]</div>
+			<div class="dash">[优先打印] </div>
+			<div class="list">根据所用打印机型号，在打印机中存储保密打印作业时，可能无法打印其他打印作业。如果发生这种情况，请输出保密打印作业。如果仍无法打印其他打印作业，请从计算机中重新打印。</div>
+			<div class="text"></div>
+			<div class="list">在某些iR系列打印机的存储箱中保存打印数据时，打印样式（单面打印/双面打印）设置、纸张来源设置以及某些页面布局和缩放设置等将不会正确显示在打印机控制面板上。但是，打印将按已设置的执行。</div>
+			<div class="list">在某些iR系列打印机中，如果无法在指定的装订位置进行装订，则文档输出时不会进行装订。</div>
+			<div class="list">如果使用的是imageRUNNER ADVANCE C351，确保在[设备设置]选项卡的[纸张来源]对话框中将[可选纸盒]设置为[纸盒x3]。</div>
+			<div class="list">如果使用的是imageRUNNER ADVANCE C2020/C2020F/C2030/C2030F，只有选择[设备设置]选项卡 &gt; [详细设置] &gt; [完成方式] 选项卡 &gt; [分套 [通过设备]] &gt; [开]时才能使用[旋转]。</div>
+			<div class="list">如果使用的是imageRUNNER ADVANCE C2020/C2020F/C2030/C2030F，设备的安全打印功能将由 2.0或更高的功能版本支持。</div>
+			<div class="list">如果使用的是imageRUNNER ADVANCE C350F，则不能使用[[旋转] 功能]。</div>
+			<div class="list">如果拥有支持该功能的分页装订处理机，请手动设置[[鞍式装订设置] 的 [折叠 + 裁边] 功能]。</div>
+			<div class="list">如果拥有支持该功能的分页装订处理机，请手动设置[指定装订时的偏移]。</div>
+			<div class="list">如果使用堆纸器，请手动设置[[要堆叠的份数] 功能]。</div>
+			<div class="list">如果使用的是imagePRESS C6010/C6011或imagePRESS C7010VP/C7011VP，请手动设置[为 13x19 纸张指定裁边设置时启用的设置项目]。</div>
+			<div class="list">在某些iR系列打印机中，如果在打印机控制面板中指定保存在存储箱中的横向打印数据的装订位置，则实际装订位置可能在打印结果的垂直方向。</div>
+			<hr />
+			<div class="text_right">Copyright Canon Inc. 2016</div>
+			<div class="text"></div>
+		</div>
+		<!--CONTENT_END-->
+	</body>
+</html>

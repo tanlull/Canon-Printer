@@ -1,0 +1,1500 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="no" xmlns="http://www.w3.org/1999/xhtml" xmlns:hta="urn:HTMLApplication">
+	<head>
+		<meta name="Generator" content="CAESAR" />
+		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
+		<title>Canon Generic Plus PCL6 skriverdriver versjon 1.30 for Microsoft Windows</title>
+		<hta:application id="id_canon_main_window" applicationname="canon_main_window" border="thick" borderstyle="normal" caption="yes" maximizebutton="yes" minimizebutton="yes" showintaskbar="yes" singleinstance="no" sysmenu="yes" version="1.0" windowstate="normal" contextmenu="yes" navigable="yes" />
+		<style type="text/css">div.list{display:list-item!important;list-style-type:Disc;margin-left:40px!important;padding-left:5px!important;}table div.list{margin-left:20px!important;padding-left:5px!important;}div.dash{display:list-item!important;list-style-type:Circle;margin-left:65px!important;padding-left:5px!important;}table div.dash{margin-left:40px!important;padding-left:5px!important;}div.step_sub{display:list-item!important;list-style-type:Square;margin-left:30px!important;padding-left:5px!important;}div.list_link{display:list-item!important;list-style-type:Square;margin-left:50px!important;padding-left:5px!important;}div.h1{background:#F3F8FA!important;}div.h2,div.h2_2line,div.h2_3line{background:#F3F8FA!important;}div.h3{background:#F3F8FA!important;}thead.table_important td.table_important_col_0,thead.table_note td.table_note_col_0{padding:2px 5px 2px 5px!important;}</style>
+		<style type="text/css" >
+			<!--
+*{
+	font-family:"Arial","Helvetica",Sans-serif;
+	/*margin:0;*/
+	/*padding:0;*/
+	/*border:0;*/
+	/*background-color:Transparent;*/
+	font-size:100%;
+	/*font-style:Normal;*/
+	text-decoration:None;
+}
+html{
+	border:0;
+}
+body{
+	margin:0;
+	padding:0;
+	background:#FFFFFF;
+}
+span{
+	color:Inherit;
+}
+div#id_content a{
+	text-decoration:None;
+}
+div#id_content a:link{
+	color:#3366A5;
+	text-decoration:None;
+}
+div#id_content a:visited{
+	color:#3366A5;
+	text-decoration:None;
+}
+div#id_content a:hover{
+	color:#EC6700;
+	background-color:#FFFFCC;
+	text-decoration:Underline;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.chapter_title{
+	background:#4682B4;
+	padding:2px 5px 2px 5px;
+	border-bottom:Solid 1px #4682B4;
+	font-weight:Bold;
+	font-size:80%;
+	margin-bottom:16px;
+	text-align:Right;
+	color:#FFFFFF;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h1{
+	padding:32px 0 2px 8px;
+	border-bottom:Solid 1px #4682B4;
+	background:#F3F8FA;
+	font-weight:Bold;
+	font-size:120%;
+	margin-bottom:16px;
+	vertical-align:Bottom;
+	text-align:Left;
+	color:#000080;
+	position:Relative;
+}
+div.h1 a{
+	position:Absolute;
+	*position:Static!important;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h2,
+div.h2_2line,
+div.h2_3line{
+	border:Solid 1px #4682B4;
+	padding:5px;
+	margin:30px 10px 5px 10px;
+	font-size:90%;
+	font-weight:Bold;
+	background:#F3F8FA;
+	color:#000080;
+}
+div.h2 a,
+div.h2_2line a,
+div.h2_3line a{
+	font-weight:Bold;
+	text-decoration:None;
+	color:#0000FF;
+}
+div.h2 img,
+div.h2_2line img,
+div.h2_3line img{
+	vertical-align:Middle;
+	margin-right:2px;
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h3{
+	padding:5px;
+	margin:25px 10px 5px 10px;
+	font-size:90%;
+	font-weight:Bold;
+	background:#F3F8FA;
+	border-bottom:Solid 1px #87CEEB;
+	color:#000080;
+}
+div.h3 a{
+	font-weight:Bold;
+	text-decoration:None;
+	color:#0000FF;
+}
+div.h3 img{
+	vertical-align:Middle;
+	margin-right:2px;
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h4{
+	margin:20px 10px 5px 10px;
+	font-weight:Bold;
+	font-size:90%;
+	border-Bottom:Solid 1px #87CEEB;
+	background:#FFFFFF;
+	padding:0px 5px;
+	color:#000080;
+}
+div.h4 img{
+	vertical-align:Middle;
+	margin-right:2px;
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h5{
+	margin:20px 10px 5px 15px;
+	font-weight:Bold;
+	font-size:80%;
+	color:#000080;
+}
+div.h5 img{
+	vertical-align:Middle;
+	margin-right:5px;
+	margin-left:4px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h6{
+	margin:15px 10px 5px 30px;
+	font-weight:Bold;
+	font-size:80%;
+	color:#000080;
+}
+div.h6 img{
+	vertical-align:Middle;
+	margin-right:2px;
+	margin-left:0px;
+}
+table div.h6{
+	margin-left:0px;
+	margin-top:10px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text{
+	font-size:80%;
+	margin:5px 10px 5px 30px;
+	color:#000000;
+}
+table div.text{
+	margin:3px 0 0 0;
+}
+div.text img{
+	vertical-align:Middle;
+}
+table div.text img{
+	vertical-align:Middle;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_level1{
+	font-size:80%;
+	margin:5px 10px 5px 40px;
+	color:#000000;
+}
+table div.text_level1{
+	margin:3px 0 0 10px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_level2{
+	font-size:80%;
+	margin:5px 10px 5px 50px;
+	color:#000000;
+}
+table div.text_level2{
+	margin:3px 0 0 20px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_level3{
+	font-size:80%;
+	margin:5px 10px 5px 60px;
+	color:#000000;
+}
+table div.text_level3{
+	margin:3px 0 0 30px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_center{
+	text-align:Center;
+	font-size:80%;
+	color:#000000;
+}
+table div.text_center{
+	margin:3px 0 0 0;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_right{
+	text-align:Right;
+	font-size:80%;
+	color:#000000;
+	margin-right:10px;
+}
+table div.text_right{
+	margin-right:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.annotation{
+	font-size:75%;
+	margin:0px 10px 5px 55px;
+	text-indent:-1.5em;
+	color:#000000;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.list{
+	background:Transparent;
+	_background:Transparent;
+	margin-left:30px;
+	margin-right:10px;
+	margin-top:2px;
+	margin-bottom:2px;
+	padding-left:20px;
+	padding-top:0px;
+	font-weight:Normal;
+	font-size:80%;
+	color:#000000;
+}
+table div.list{
+	margin-left:0px;
+}
+div.list img{
+	vertical-align:Top;
+}
+table div.list img{
+	vertical-align:Top;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+div.dash{
+	margin-left:50px;
+	margin-right:10px;
+	margin-top:2px;
+	margin-bottom:2px;
+	font-weight:Normal;
+	font-size:80%;
+	background:Transparent;
+	_background:Transparent;
+	padding:0px 0px 0px 20px;
+	color:#000000;
+}
+*:first-child+html div.dash{
+	background:Transparent;
+}
+table div.dash{
+	margin-left:12px;
+}
+div.dash img{
+	vertical-align:Top;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.example{
+	font-size:80%;
+	font-family:Monospace;
+	margin:5px 10px 5px 30px;
+	clear:Both;
+	background:#707080;
+	padding:5px;
+	color:#FFFFFF;
+}
+div#id_content div.example a:link{
+	color:#0000FF;
+	text-decoration:None;
+}
+div#id_content div.example a:visited{
+	color:#0000FF;
+	text-decoration:None;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.path{
+	padding:3px 10px 3px 20px;
+	font-size:80%;
+	margin:0px 30px;
+	background:Transparent;
+	_background:Transparent;
+	color:#666666;
+}
+div.path img{
+	vertical-align:Middle;
+}
+table div.path{
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.step_number{
+	background:#F8F8F8;
+	font:Bold 200% "Arial";
+	color:#4682B4;
+	padding:0px 5px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:20px;
+	margin-bottom:0px;
+}
+div.step_number span{
+	font:Bold 100% "Arial";
+	color:#4682B4;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.step_path{
+	padding:3px 10px 3px 30px;
+	font-size:80%;
+	margin:0px 10px;
+	background:#F8F8F8;
+	_background:#F8F8F8;
+	color:#666666;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.step_text{
+	font-weight:Bold;
+	padding:0px 10px 15px 5px;
+	font-size:80%;
+	margin:0px 10px 10px 10px;
+	background:#F8F8F8;
+	color:#000000;
+}
+div.step_text img{
+	vertical-align:Middle;
+}
+@media print{div.step_text{
+	padding:0px 10px 20px 5px;
+}}
+/*-----------------------------------------------------------------------------------------------*/
+div.step_sub{
+	font-size:80%;
+	font-weight:Bold;
+	margin:10px 10px 5px 15px;
+	padding-left:15px;
+	background:Transparent;
+	_background:Transparent;
+	color:#000000;
+}
+div.step_sub img{
+	vertical-align:Top;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.figure{
+	text-align:Left;
+	margin-left:30px;
+	margin-bottom:10px;
+}
+table div.figure{
+	margin-left:0;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.link{
+	margin:10px;
+	font-size:80%;
+	color:#3366A5;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.link a{
+	text-decoration:None;
+	padding-left:10px;
+	background:Transparent;
+	_background:Transparent;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.list_link{
+	background:Transparent;
+	_background:Transparent;
+	margin-left:30px;
+	margin-right:10px;
+	margin-bottom:0px;
+	padding-left:20px;
+	padding-top:1px;
+	font-weight:Normal;
+	font-size:80%;
+	color:#3366A5;
+}
+table div.list_link{
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.link_to_top{
+	text-align:Right;
+	padding:5px 10px 30px 10px;
+	font-size:80%;
+	color:#3366A5;
+	border-top:Dotted 1px #87CEEB;
+	margin-top:30px;
+}
+@media print{div.link_to_top{
+	display:None;
+}}
+div.link_to_top a{
+	text-decoration:None;
+	padding-left:12px;
+	background:Transparent;
+	_background:Transparent;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.trouble_shooting{
+	margin:10px 10px 10px 30px;
+}
+table.trouble_shooting{
+	border-collapse:Collapse;
+	table-layout:Fixed;
+}
+td.trouble_shooting{
+	border:Solid 1px #FFFFFF;
+}
+td.trouble_shooting_col_0{
+	padding:5px;
+	vertical-align:Middle;
+	font-size:100%;
+	width:80px;
+	background:#C0C0C0;
+	padding-bottom:10px;
+}
+td.trouble_shooting_col_1{
+	background:#EFEFEF;
+	padding-top:5px;
+	padding-bottom:10px;
+	padding-left:5px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.outline{
+	margin:10px 10px 10px 30px;
+}
+table.outline{
+	border-collapse:Collapse;
+	font-size:100%;
+}
+td.outline{
+	padding:10px 5px 10px 5px;
+}
+td.outline_col_0{
+	vertical-align:Middle;
+	text-align:Center;
+	border:Solid 1px #87CEEB;
+	background:#F5F5F5;
+	width:30px;
+	font-size:130%;
+}
+td.outline_col_0 div.h6{
+	color:#4682B4;
+	margin:0px;
+}
+td.outline_col_1{
+	vertical-align:Middle;
+	border:Solid 1px #87CEEB;
+	border-left:None;
+	background:#F5F5F5;
+	width:150px;
+}
+td.outline_col_1 div.h6{
+	margin:0px;
+	color:#000000;
+}
+td.outline_col_2{
+	vertical-align:Middle;
+	background:#FFFFFF;
+	border:Solid 1px #87CEEB;
+	padding:3px 3px 3px 10px;
+}
+td.outline_col_2 div.list{
+	background:Transparent;
+	_background:Transparent;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_ui{
+	margin:5px 10px 10px 30px;
+}
+table.table_ui{
+	table-layout:Auto;
+	border-collapse:Collapse;
+	border:None;
+	border-bottom:Solid 1px #E0E0E0;
+}
+td.table_ui_col_0{
+	padding:0px;
+	vertical-align:Top;
+	font-size:100%;
+	width:150px;
+	color:#000000;
+	padding:0px 0px 5px 0px;
+	border-right:None;
+}
+td.table_ui_col_1{
+	background:#FFFFFF;
+	padding:3px;
+	padding-left:10px;
+	border:Solid 1px #E0E0E0;
+	border-left:Solid 1px #E0E0E0;
+	border-right:None;
+	border-bottom:None;
+	vertical-align:Top;
+}
+td.table_ui_col_0 div.ui_level0{
+	background:#FFFFFF;
+	font-size:80%;
+	padding:6px 3px 1px 3px;
+	border-top:Solid 1px #E0E0E0;
+	border-right:None;
+	border-left:Solid 10px #FFFFFF;
+	margin-left:0px;
+}
+td.table_ui_col_0 div.ui_level1{
+	background:#FFFFFF;
+	font-size:80%;
+	padding:6px 3px 10px 3px;
+	border-top:Solid 1px #E0E0E0;
+	border-right:None;
+	border-left:Solid 10px #87BEDB;
+	margin-left:0px;
+}
+td.table_ui_col_0 div.ui_level2{
+	background:#FFFFFF;
+	font-size:80%;
+	padding:6px 3px 10px 3px;
+	margin-left:10px;
+	border-top:Solid 1px #E0E0E0;
+	border-right:None;
+	border-left:Solid 10px #A0D0EA;
+}
+td.table_ui_col_0 div.ui_level3{
+	background:#FFFFFF;
+	font-size:80%;
+	padding:6px 3px 10px 3px;
+	margin-left:20px;
+	border-top:Solid 1px #E0E0E0;
+	border-right:None;
+	border-left:Solid 10px #C6E5F6;
+}
+td.table_ui_col_0 div.ui_level1 img,
+td.table_ui_col_0 div.ui_level2 img,
+td.table_ui_col_0 div.ui_level3 img{
+	vertical-align:Middle;
+}
+/*-----------------------------------------------------------------------------------------------*/
+table div.table_important,
+table div.table_caution,
+table div.table_warning,
+table div.table_note{
+	margin-left:20px;
+}
+div.table_important,
+div.table_caution,
+div.table_warning,
+div.table_note{
+	margin:10px 10px 10px 30px;
+}
+*:first-child+html table.table_important,
+*:first-child+html table.table_caution,
+*:first-child+html table.table_warning,
+*:first-child+html table.table_note{
+	width:Auto;
+	table-layout:Fixed;
+}
+table.table_important,
+table.table_caution,
+table.table_warning,
+table.table_note{
+	background:#FFFFFF;
+	border-collapse:Collapse;
+	font-size:100%;
+	width:100%;
+	_width:Auto;
+	_table-layout:Fixed;
+}
+*:first-child+html table td.table_important_col_0,
+*:first-child+html table td.table_caution_col_0,
+*:first-child+html table td.table_warning_col_0,
+*:first-child+html table td.table_note_col_0{
+	width:Auto;
+}
+table td.table_important_col_0,
+table td.table_caution_col_0,
+table td.table_warning_col_0,
+table td.table_note_col_0{
+	width:100%;
+	_width:Auto;
+	vertical-align:Top;
+}
+*:first-child+html tbody.table_important td.table_important_col_0,
+*:first-child+html tbody.table_caution td.table_caution_col_0,
+*:first-child+html tbody.table_warning td.table_warning_col_0,
+*:first-child+html tbody.table_note td.table_note_col_0{
+	width:Auto;
+}
+tbody.table_important td.table_important_col_0,
+tbody.table_caution td.table_caution_col_0,
+tbody.table_warning td.table_warning_col_0,
+tbody.table_note td.table_note_col_0{
+	padding-left:10px;
+	width:100%;
+	_width:Auto;
+}
+@media print{
+thead.table_important td.table_important,
+thead.table_caution td.table_caution,
+thead.table_warning td.table_warning,
+thead.table_note td.table_note{
+	padding-bottom:5px;
+}}
+tbody.table_important td.table_important,
+tbody.table_caution td.table_caution,
+tbody.table_warning td.table_warning,
+tbody.table_note td.table_note{
+	padding-left:10px;
+	padding-top:2px;
+	border-bottom:None;
+	padding-bottom:5px;
+	border-top:None;
+}
+thead.table_important td.table_important_col_0,
+thead.table_note td.table_note_col_0{
+	padding:2px 5px 2px 30px;
+	text-align:Left;
+	border-bottom:None;
+}
+thead.table_caution td.table_caution_col_0,
+thead.table_warning td.table_warning_col_0{
+	padding:2px 23px 5px 5px;
+	text-align:Center;
+	border-bottom:Solid 1px #808080;
+}
+thead.table_caution td.table_caution_col_0 div img,
+thead.table_warning td.table_warning_col_0 div img{
+	margin-right:3px;
+}
+thead.table_important td.table_important div,
+thead.table_caution td.table_caution div,
+thead.table_warning td.table_warning div,
+thead.table_note td.table_note div{
+	font-weight:Bold;
+}
+table.table_important{
+	border:Solid 1px #808080;
+}
+table.table_caution,
+table.table_warning{
+	border:Solid 1px #808080;
+}
+table.table_note{
+	border:Solid 1px #808080;
+}
+thead.table_important td.table_important{
+	background:Transparent;
+	_background:Transparent;
+}
+thead.table_caution td.table_caution div,
+thead.table_warning td.table_warning div{
+	font-size:120%;
+}
+
+thead.table_note td.table_note{
+	background:Transparent;
+	_background:Transparent;
+}
+thead.table_important td.table_important div{
+	color:#4682B4;
+}
+thead.table_caution td.table_caution div,
+thead.table_warning td.table_warning div{
+	color:#000000;
+}
+thead.table_note td.table_note div{
+	color:#808080;
+}
+thead.table_important td.table_important_col_0,
+tbody.table_important td.table_important_col_0{
+	border-right:Solid 1px #808080;
+}
+thead.table_caution td.table_caution_col_0,
+tbody.table_caution td.table_caution_col_0,
+thead.table_warning td.table_warning_col_0,
+tbody.table_warning td.table_warning_col_0{
+	border-right:Solid 1px #808080;
+}
+thead.table_note td.table_note_col_0,
+tbody.table_note td.table_note_col_0{
+	border-right:Solid 1px #808080;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_no_border{
+	margin:10px 10px 10px 30px;	
+}
+table div.table_no_border{
+	margin-left:10px;
+}
+table.table_no_border{
+	border:None;
+	width:Auto;
+}
+thead.table_no_border td.table_no_border{
+	padding:0px 5px 0px 0px;
+	border:None;
+	font-size:100%;
+	text-align:Left;
+	font-weight:Bold;
+	vertical-align:Middle;
+}
+tbody.table_no_border td.table_no_border{
+	padding:0px 5px 0px 0px;
+	vertical-align:Top;
+	border:None;
+	font-size:100%;
+	padding-bottom:5px;
+}
+tbody.table_no_border td.table_no_border div{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_matrix{
+	margin:10px 10px 10px 30px;
+}
+table div.table_matrix{
+	margin-left:20px;
+}
+table.table_matrix{
+	border-collapse:Collapse;
+	border:Solid 1px #808080;
+}
+thead.table_matrix td.table_matrix{
+	padding:5px;
+	background-color:#DDDDDD;
+	border:Solid 1px #808080;
+	font-size:100%;
+	text-align:Center;
+	font-weight:Normal;
+	vertical-align:Middle;
+}
+tbody.table_matrix td.table_matrix_col_0{
+	padding:5px 0px;
+	padding-left:5px;
+	width:120px;
+	vertical-align:Middle;
+	background-color:#EFEFEF;
+	border:Solid 1px #808080;
+	font-size:100%;
+	font-weight:Normal;
+}
+tbody.table_matrix td.table_matrix{
+	padding:3px 10px;
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+	font-size:100%;
+}
+thead.table_matrix td.table_matrix_col_1{
+	background-color:#DDDDDD;
+	border:Solid 1px #808080;
+	padding:5px;
+}
+tbody.table_matrix td.table_matrix_col_1{
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+}
+thead.table_matrix td.table_matrix_col_0{
+	border:Solid 1px #808080;
+	background-color:#DDDDDD;
+	padding:5px;
+}
+thead.table_matrix td.table_matrix div{
+	color:#000000;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_general{
+	margin:10px 10px 10px 30px;
+}
+table div.table_general{
+	margin-left:20px;
+}
+table.table_general{
+	border-collapse:Collapse;
+	border:Solid 1px #808080;
+}
+thead.table_general td.table_general{
+	padding:5px;
+	border:Solid 1px #808080;
+	font-size:100%;
+	text-align:Center;
+	font-weight:Normal;
+	vertical-align:Middle;
+}
+tbody.table_general td.table_general_col_0{
+	padding:5px 0px;
+	padding-left:5px;
+	width:120px;
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+	font-size:100%;
+	font-weight:Normal;
+}
+tbody.table_general td.table_general{
+	padding:3px 10px;
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+	font-size:100%;
+}
+thead.table_general td.table_general_col_1{
+	border:Solid 1px #808080;
+	padding:5px;
+}
+tbody.table_general td.table_general_col_1{
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+}
+thead.table_general td.table_general_col_0{
+	border:Solid 1px #808080;
+	padding:5px;
+}
+thead.table_general td.table_general div{
+	color:#000000;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_number{
+	margin:10px 10px 10px 35px;	
+}
+table div.table_number{
+	margin-left:25px;
+}
+table.table_number{
+	border-collapse:Collapse;
+	border:None;
+	width:Auto;
+}
+tbody.table_number td.table_number{
+	padding:0px 5px 0px 0px;
+	border:None;
+	font-size:100%;
+	text-align:Left;
+	vertical-align:Top;
+}
+tbody.table_number td.table_number_col_0{
+	width:1.5em;
+	border:None;
+}
+tbody.table_number td.table_number_col_0 div{
+	margin-left:0px;
+	margin-right:0px;
+	font-weight:Normal;
+	text-align:Right;
+}
+tbody.table_number td.table_number_col_1{
+	width:Auto;
+}
+/*-----------------------------------------------------------------------------------------------*/
+span.bold{
+	font-weight:Bold;
+}
+span.italic{
+	font-style:Italic;
+}
+span.no_break{
+	white-space:Nowrap;
+}
+span.superscript{
+	vertical-align:Super;
+	font-size:80%;
+}
+span.subscript{
+	vertical-align:Sub;
+	font-size:80%;
+}
+span.underline{
+	text-decoration:Underline;
+}
+span.color_white{
+	color:#FFFFFF;
+}
+span.color_blue{
+	color:#0000FF;
+}
+span.color_red{
+	color:#FF0000;
+}
+span.color_orange{
+	color:#FFA500;
+}
+span.color_green{
+	color:#008000;
+}
+span.bold\+color_red{
+	color:#FF0000;
+	font-weight:Bold;
+}
+span.bold\+italic{
+	font-style:Italic;
+	font-weight:Bold;
+}
+span.bold\+superscript{
+	vertical-align:Super;
+	font-size:80%;
+	font-weight:Bold;
+}
+span.bold\+underline{
+	text-decoration:Underline;
+	font-weight:Bold;
+}
+span.italic\+superscript{
+	vertical-align:Super;
+	font-size:80%;
+	font-style:Italic;
+}
+span.yenmark{
+	/*font-family:"MS PGothic","Osaka","Arial","Helvetica",Sans-serif;*/
+}
+span.yenmark\+italic{
+	/*font-family:"MS PGothic","Osaka","Arial","Helvetica",Sans-serif;*/
+	font-style:Italic;
+}
+span.bold\+color_orange{
+	color:#FFA500;
+	font-weight:Bold;
+}
+span.bold\+superscript\+color_red{
+	color:#FF0000;
+	vertical-align:Super;
+	font-size:80%;
+	font-weight:Bold;
+}
+span.bold\+superscript\+color_orange{
+	color:#FFA500;
+	vertical-align:Super;
+	font-size:80%;
+	font-weight:Bold;
+}
+span.bold\+no_break{
+	white-space:Nowrap;
+	font-weight:Bold;
+}
+span.bold\+no_break\+superscript{
+	white-space:Nowrap;
+	font-weight:Bold;
+	vertical-align:Super;
+	font-size:80%;
+}
+span.no_break\+superscript{
+	white-space:Nowrap;
+	vertical-align:Super;
+	font-size:80%;
+}
+span.superscript\+color_red{
+	color:#FF0000;
+	vertical-align:Super;
+	font-size:80%;
+}
+span.superscript\+color_orange{
+	color:#FFA500;
+	vertical-align:Super;
+	font-size:80%;
+}
+span.ui_text{
+}
+span.ui_bold{
+	font-weight:Bold;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+div#id_breadcrumbs{
+	font-size:70%;
+	position:Absolute;
+	left:5px;
+	top:10px;
+	z-index:1;
+	cursor:Default;
+	display:None;
+}
+div#id_breadcrumbs a{
+	margin:0px 5px;
+}
+div#id_breadcrumbs a:link{
+	color:#0000FF;
+}
+div#id_breadcrumbs a:visited{
+	color:#0000FF;
+}
+span.style_name{
+	font:Normal 8pt "Tahoma";
+	color:#FF0000;
+	margin:0px 5px;
+}
+div.open_close_all{
+	font-size:80%;
+	margin:5px 10px 5px 30px;
+	color:#3366A5;
+	text-align:Right;
+}
+div.open_close_next_sibling{
+	font-size:80%;
+	margin:5px 10px 5px 30px;
+	color:#3366A5;
+	text-align:Right;
+}
+div#id_content div.open_close_all a:hover,
+div#id_content div.open_close_next_sibling a:hover{
+	text-decoration:None;
+}
+a.open_all:hover,
+a.close_all:hover,
+a.open_next_sibling:hover,
+a.close_next_sibling:hover{
+	border-bottom:Solid 1px #3366A5;
+}
+a.open_all,
+a.close_all,
+a.open_next_sibling,
+a.close_next_sibling{
+	border-bottom:Dotted 1px #3366A5;
+	padding-right:15px;
+}
+a.open_all{
+	margin-right:5px;
+}
+a.open_next_sibling{
+}
+a.close_all,
+a.close_next_sibling{
+}
+div.invisible_begin{
+	color:#FFFFFF;
+	font-size:80%;
+	text-align:Right;
+}
+div.invisible_end{
+	color:#FFFFFF;
+	font-size:80%;
+	text-align:Right;
+}
+div.invisible{
+	display:None;
+	border-right:Dotted 1px #808080;
+	margin-right:10px;
+}
+@media print{
+div.open_close_all{
+	display:None;
+}
+div.open_close_next_sibling{
+	display:None;
+}
+div.invisible{
+	display:Block;
+	border-right:None;
+	margin-right:0px;
+}}
+div.hr{
+	border-top:Solid 2px #808080;
+	margin:25px 10px 0px 10px;
+	font-size:0pt;
+	color:#FFFFFF;
+}
+hr{
+	color:#808080;
+	background-color:#808080;
+	margin:25px 10px 0px 10px;
+	height:2px;
+	border:0;
+}
+/*-----------------------------------------------------------------------------------------------*/
+@supports (-ms-accelerator:true) { @media print {
+	div./*[style]*/list {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/list:before {
+		content: url(style_list.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 4px;
+	}
+	div./*[style]*/dash {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/dash:before {
+		content: url(style_dash.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 4px;
+	}
+	div./*[style]*/path {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/path:before {
+		content: url(style_path.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 1px;
+	}
+	div./*[style]*/step_path {
+		background: #F8F8F8!important;
+		position: relative;
+	}
+	div./*[style]*/step_path:before {
+		content: url(style_path.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 8px;
+	}
+	div./*[style]*/step_sub {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/step_sub:before {
+		content: url(style_step_sub.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 8px;
+	}
+	div./*[style]*/step_sub {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/step_sub:before {
+		content: url(style_step_sub.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 8px;
+	}
+	div./*[style]*/link a {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/link a:before {
+		content: url(style_link.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	div./*[style]*/list_link {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/list_link:before {
+		content: url(style_link.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	thead./*[style]*/table_important td./*[style]*/table_important {
+		background: none!important;
+		position: relative;
+	}
+	thead./*[style]*/table_important td./*[style]*/table_important:before {
+		content: url(style_important.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	thead./*[style]*/table_note td./*[style]*/table_note {
+		background: none!important;
+		position: relative;
+	}
+	thead./*[style]*/table_note td./*[style]*/table_note:before {
+		content: url(style_note.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+}}
+-->
+		</style>
+	</head>
+	<body>
+		<!--CONTENT_START-->
+		<div id="id_content">
+			<div class="h1"><a id="d3209d1e1265edc49d5d94202bdeb6ec"></a>Canon Generic Plus PCL6 skriverdriver versjon 1.30 for Microsoft Windows</div>
+			<div class="text">Les LISENSAVTALE FOR CANON PROGRAMVARE som vises under installasjon før du bruker programvaren. Du kan også se LISENSAVTALE FOR CANON PROGRAMVARE (EULAnb-NO.rtf) lagret i mappen [misc] i den medfølgende CD-ROM eller nedlastet drivermappe.</div>
+			<div class="text">Denne filen inneholder ekstrainformasjon for å hjelpe deg installere og bruke denne skrivedriveren med Microsoft Windows.</div>
+			<div class="text">I likhet med de fleste programvare- og maskinvareprodukter har noe informasjon blitt gjort tilgjengelig etter at håndboken ble utviklet. Oppdatert informasjon om denne skriverdriveren presenteres i denne filen. Hvis du trenger mer hjelp, kan du kontakte en lokal Canon-forhandler.</div>
+			<div class="text">Microsoft, Windows og Windows Vista er enten varemerker eller registrerte varemerker tilhørende Microsoft Corporation i USA og / eller andre land.</div>
+			<div class="text">Andre produkt- og firmanavn som nevnes her, kan være varemerker for sine respektive eiere.</div>
+			<div class="h2"><a id="0c970eb48f6aeb22f5fe56ddcefd64fa"></a>INNHOLD</div>
+			<div class="list_link"><a href="#636d58b85e05af14fba26f23ec13e2c6">Oversikt</a></div>
+			<div class="list_link"><a href="#cfbfe503012e612edb9d60eefc68d5af">Systemkrav</a></div>
+			<div class="list_link"><a href="#ff162bfa526082b732442a0925874960">Installere skriverdriveren</a></div>
+			<div class="list_link"><a href="#b6b8cb34c536624321aae23eb2118d27">Få tilgang til dialogboksen Egenskaper</a></div>
+			<div class="list_link"><a href="#a9472a69374d08acb201ac44575378ed">Få tilgang til hjelp</a></div>
+			<div class="list_link"><a href="#74722ef065ccaf1fa5e99bf717f10223">Advarsler og begrensninger</a></div>
+			<div class="list_link"><a href="#dc115480a653f4ae712776c26c0eefbd">Begrensninger i forhold til Enhetsinnstillinger</a></div>
+			<div class="list_link"><a href="#5250a9e2e1de3c109a21e8bbdec4797a">Begrensninger ved bruk av Canon Driver Configuration Tool</a></div>
+			<div class="list_link"><a href="#4a6bdb2eb8fe4b63a3a88976d8016900">Begrensninger for spesifikke skrivermodeller</a></div>
+			<div class="h4"><a id="636d58b85e05af14fba26f23ec13e2c6"></a>Oversikt</div>
+			<div class="text">Med denne skriverdriveren kan du skrive ut dokumenter fra et hvilket som helst Windows-program på skriveren din.</div>
+			<div class="text"><span class="bold">MERK</span></div>
+			<div class="list">Denne driveren støtter Canon Driver Configuration Tool. Du kan endre standardinnstillingene for skriverdriveren for å lage tilpassede driversett ved hjelp av Canon Driver Configuration Tool. Du finner detaljert informasjon om dette verktøyet i brukerhåndboken for Canon Driver Configuration Tool User's Guide.</div>
+			<div class="h4"><a id="cfbfe503012e612edb9d60eefc68d5af"></a>Systemkrav</div>
+			<div class="text">Denne skriverdriveren kan brukes i følgende miljøer:</div>
+			<div class="h5">Operativsystemer</div>
+			<div class="text">Windows Vista</div>
+			<div class="text">Windows 7</div>
+			<div class="text">Windows 8</div>
+			<div class="text">Windows 8.1</div>
+			<div class="text">Windows 10</div>
+			<div class="text">Windows Server 2008</div>
+			<div class="text">Windows Server 2008 R2</div>
+			<div class="text">Windows Server 2012</div>
+			<div class="text">Windows Server 2012 R2</div>
+			<div class="text">Windows Server 2016</div>
+			<div class="h5">Serverbasert databehandlingsmiljø</div>
+			<div class="h6">Serveroperativsystemer</div>
+			<div class="text">Windows Server 2008</div>
+			<div class="text">Windows Server 2008 R2</div>
+			<div class="text">Windows Server 2012</div>
+			<div class="text">Windows Server 2012 R2</div>
+			<div class="text">Windows Server 2016</div>
+			<div class="h6">Serverkomponenter</div>
+			<div class="text">Citrix Presentation Server 4.5</div>
+			<div class="text">Citrix XenApp 5.0</div>
+			<div class="text">Citrix XenApp 6.0</div>
+			<div class="text">Citrix XenApp 6.5</div>
+			<div class="text">Citrix XenApp 7.5</div>
+			<div class="text">Citrix XenApp 7.6</div>
+			<div class="text">Citrix XenApp 7.7</div>
+			<div class="text">Citrix XenApp 7.8</div>
+			<div class="text">Citrix XenApp 7.9</div>
+			<div class="text">Citrix XenApp 7.11</div>
+			<div class="text">Citrix XenApp 7.12</div>
+			<div class="text">Citrix XenDesktop 4.0</div>
+			<div class="text">Citrix XenDesktop 5.0</div>
+			<div class="text">Citrix XenDesktop 5.5</div>
+			<div class="text">Citrix XenDesktop 5.6</div>
+			<div class="text">Citrix XenDesktop 7.0</div>
+			<div class="text">Citrix XenDesktop 7.1</div>
+			<div class="text">Citrix XenDesktop 7.5</div>
+			<div class="text">Citrix XenDesktop 7.6</div>
+			<div class="text">Citrix XenDesktop 7.7</div>
+			<div class="text">Citrix XenDesktop 7.8</div>
+			<div class="text">Citrix XenDesktop 7.9</div>
+			<div class="text">Citrix XenDesktop 7.11</div>
+			<div class="text">Citrix XenDesktop 7.12</div>
+			<div class="text">VMware vSphere 4</div>
+			<div class="text">VMware vSphere 5</div>
+			<div class="text">VMware vSphere 5.1</div>
+			<div class="text">VMware vSphere 5.5</div>
+			<div class="text">VMware vSphere 6.0</div>
+			<div class="text">Microsoft Application Virtualization (App-V)</div>
+			<div class="text">Remote Desktop Service on Windows Server 2012 R2</div>
+			<div class="text">TS-RemoteApp on Windows Server 2008</div>
+			<div class="h6">Cluster Server</div>
+			<div class="text">Microsoft Windows Server 2008 Enterprise/Datacenter Edition</div>
+			<div class="text">Microsoft Windows Server 2008 R2 Enterprise/Datacenter Edition</div>
+			<div class="text">Microsoft Windows Server 2012</div>
+			<div class="text">Microsoft Windows Server 2012 R2</div>
+			<div class="h5"><a id="46736b31e3ec30e521e36b46c58fa250"></a>Datamaskin</div>
+			<div class="text">En datamaskin som garantert fungerer med operativsystemene over</div>
+			<div class="h4"><a id="ff162bfa526082b732442a0925874960"></a>Installere skriverdriveren</div>
+			<div class="text">Hvis du vil bruke denne skriverdriveren sammen med programmer som kjører på Microsoft Windows, må du følge installeringsprosedyren nedenfor.</div>
+			<div class="h6"><a id="2a30113ec12409ecaf1debadd080adee"></a><span class="bold">MERK</span></div>
+			<div class="list">Før du installerer, må du logge deg på Windows som &quot;Administrator&quot;.</div>
+			<div class="list">Hvis det vises en melding som ber deg starte datamaskinen på nytt når du bruker installeringsprogrammet, må du starte datamaskinen på nytt. Hvis du ikke starter datamaskinen på nytt, er det ikke sikkert at eksisterende drivere virker som de skal.</div>
+			<div class="list">Hvis du bruker skriverens automatiske opprettingsmekanisme i et Citrix XenApp -miljø, er det ikke sikkert du kan installere denne driveren riktig ved hjelp av installeringsprogrammet. Hvis det er tilfellet, omstarter du XenApp Server-PCen og sjekker Skrivere-mappen. Hvis eventuelle eksisterende skriverikoner ikke lenger vises, installerer du de aktuelle skriverdriverne på nytt på XenApp Server PC ved hjelp av veiviseren for skriver i Skrivere-mappen.<br />Deretter, før du starter installeringsprogrammet for å installere denne driveren, frakobler du alle klientskrivere fra alle ICA-sesjonene ved å bruke ICA Client Printer Configuration utility. Når driveren er installert, starter du ICA Client Printer Configuration utility på nytt og kobler til skriverne igjen.  </div>
+			<div class="list">Vi anbefaler at du bruker installasjonsprogrammet til å oppdatere eller legge til en skriverdriver. Du kan også oppdatere eller legge til en driver fra veiviseren for Legg til skriver. For detaljer, se &quot;<a href="#458c0fbe1c62532bfa546e541b069a2e">Slik installerer du ved hjelp av veiviseren for skriver:</a>&quot;.</div>
+			<div class="list">Hvis du bruker en SMB-skriver (NetBIOS-nettverk) som en delt skriver på server-PCen, bruker du veiviseren for skriver og velger Nettverksskriver når du installerer skriverdriveren.</div>
+			<div class="list">Hvis du installerer denne driveren med standardinnstillinger, vil alle Generic Plus skriverdrivere som allerede er installert oppdateres til de nyeste versjonene. For å legge til den nyeste versjonen av en driver uten å oppdatere installerte drivere, se &quot;<a href="#4465990d9b97bd6ecb35d37d0e37bf88">Å installere ved å lokalisere enheter i et nettverk</a>&quot;, &quot;<a href="#6651e2a85f87a56b7c2604df4c48b1fa">Installere ved å spesifisere en port</a>&quot;, eller &quot;<a href="#458c0fbe1c62532bfa546e541b069a2e">Slik installerer du ved hjelp av veiviseren for skriver:</a>&quot;.</div>
+			<div class="list">Hvis du bruker en delt skriver i Print Server (Pek og skriv ut), må du installere Canon Driver Information Assist Service i server-PCen for å bruke funksjonen for å hente enhetsinformasjon.</div>
+			<div class="list">Hvis en advarsel om fjerning av Windows Firewall-blokkering (brannmurblokkering) vises når du innhenter driverinformasjon via Canon Driver Information Assist Service, fjern blokkeringen.</div>
+			<div class="h5"><a id="4465990d9b97bd6ecb35d37d0e37bf88"></a>Å installere ved å lokalisere enheter i et nettverk</div>
+			<div class="text">Du kan søke etter enheter på TCP/IP-nettverk når du installerer driveren.</div>
+			<div class="text">Under installasjonen angis konfigurasjonsprofilen og enhetsfunksjonene som tilsvarer enhetstypen automatisk. Du kan også endre eller importere konfigurasjonsprofilen dersom det er nødvendig.</div>
+			<div class="text_level1">* Hvis du ikke kjenner nettverksmiljøet du benytter, kan du spørre nettverksadministratoren.</div>
+			<div class="text">1. Start installeringsprogrammet.</div>
+			<div class="text_level1">Dobbeltklikk på [Setup.exe] i den medfølgende CD-ROM eller nedlastet drivermappe.</div>
+			<div class="text">2. Velg [Språk], klikk deretter [Neste].</div>
+			<div class="text">3. Veiviseren og lisensavtalen for bruker vises på skjermen. Bekreft innholdet i lisensavtalen og klikk på [Ja]. </div>
+			<div class="text">4. Velg [Standard], og klikk på [Neste].</div>
+			<div class="text">5. Velg de nødvendige elementene, og klikk [Neste]</div>
+			<div class="text">6. Velg skriveren du skal installere fra [Skriverliste].</div>
+			<div class="text">7. Hvis du vil endre navn på enheten, angi den som standardenhet eller endre konfigurasjonsprofilen, velg [Angi skriverinformasjon], og klikk deretter på [Neste]. </div>
+			<div class="text">Ellers, klikk [Neste] og fortsett til steg 10.</div>
+			<div class="text">8.Klikk på [Endre] for å velge en konfigurasjonsprofil, og velg riktig konfigurasjonsprofil i dialogboksen [Endre konfigurasjonsprofil].</div>
+			<div class="annotation">* Du kan registrere konfigurasjonsprofiler fra [Importer] i dialogboksen [Endre konfigurasjonsprofil]. Du kan slette en registrert konfigurasjonsprofil ved å klikke på [Slett].</div>
+			<div class="text">9. Skriv inn [Skrivernavn], og klikk så på [Neste].</div>
+			<div class="annotation">* Hvis du ønsker å bruke skriveren som standardskriver, velg [Angi som standard].</div>
+			<div class="text">10. Hvis du ønsker å bruke skriveren uten å oppdatere driverne, klikk på [Velg skrivere som skal oppdateres] og fjern avmerkingen i avkrysningsboksene for driverne du ikke ønsker å oppdatere i [Skriverliste].</div>
+			<div class="text">11. Sjekk installasjonsinnstillingene og klikk på [Start]. Installasjonsprosessen begynner.</div>
+			<div class="text">12. Klikk på [Avslutt] for å fullføre installasjonsprogrammet. </div>
+			<div class="text_level1">Du er nå klar til å skrive ut fra ethvert Windows-program.</div>
+			<div class="h5"><a id="6651e2a85f87a56b7c2604df4c48b1fa"></a>Installere ved å spesifisere en port</div>
+			<div class="text">1. Start installeringsprogrammet.</div>
+			<div class="text_level1">Dobbeltklikk på [Setup.exe] i den medfølgende CD-ROM eller nedlastet drivermappe.</div>
+			<div class="text">2. Velg [Språk], klikk deretter [Neste].</div>
+			<div class="text">3. Veiviseren og lisensavtalen for bruker vises på skjermen. Bekreft innholdet i lisensavtalen og klikk på [Ja]. </div>
+			<div class="text">4. Velg [Tilpasset], og klikk på [Neste].</div>
+			<div class="text">5. Hvis det vises en dialogboks der du kan velge hvordan installeringen skal kjøres, velger du [Legg til nye skrivere], eller [Oppdater eksisterende skriverdrivere] og klikk på [Neste].</div>
+			<div class="text_level1">Hvis du har valgt [Oppdater eksisterende skriverdrivere], fortsett til trinn 9.</div>
+			<div class="text">6.Velg en [Port] fra rullegardinmenyen eller ved å klikke på [Legg til port].</div>
+			<div class="text">7.Klikk på [Endre] for å velge en konfigurasjonsprofil, og velg riktig konfigurasjonsprofil i dialogboksen [Endre konfigurasjonsprofil].</div>
+			<div class="annotation">* Du kan registrere konfigurasjonsprofiler fra [Importer] i dialogboksen [Endre konfigurasjonsprofil]. Du kan slette en registrert konfigurasjonsprofil ved å klikke på [Slett].</div>
+			<div class="text">8. Skriv inn [Skrivernavn], og klikk så på [Neste].</div>
+			<div class="annotation">* Hvis du ønsker å bruke skriveren som standardskriver, velg [Angi som standard].</div>
+			<div class="text">9. Hvis du ønsker å bruke skriveren uten å oppdatere driverne, klikk på [Velg skrivere som skal oppdateres] og fjern avmerkingen i avkrysningsboksene for driverne du ikke ønsker å oppdatere i [Skriverliste].</div>
+			<div class="text">10. Sjekk installasjonsinnstillingene og klikk på [Start]. Installasjonsprosessen begynner.</div>
+			<div class="text">11. Klikk på [Avslutt] for å fullføre installasjonsprogrammet. </div>
+			<div class="text_level1">Du er nå klar til å skrive ut fra ethvert Windows-program.</div>
+			<div class="h5"><a id="458c0fbe1c62532bfa546e541b069a2e"></a>Slik installerer du ved hjelp av veiviseren for skriver:</div>
+			<div class="text">1. Start Windows-veiviseren legg til skriver.</div>
+			<div class="text_level2">Hvis du starter fra [Innstillinger] (Kun Windows 10/Server 2016)</div>
+			<div class="text_level3">(1) Klikk på [Enheter] → klikk [Legg til skrivere eller skannere] fra [Skrivere og skannere].</div>
+			<div class="text_level3">(2) Klikk på [Skriveren jeg vil ha, er ikke i listen].</div>
+			<div class="text_level2">Hvis du starter fra [Kontrollpanel]</div>
+			<div class="text_level3">(1) Vis [Enheter og skrivere] → klikk [Legg til en skriver].</div>
+			<div class="text_level3">(2) Når skjermen for å velge en enhet vises, klikk [Skriveren jeg vil ha, er ikke listet].</div>
+			<div class="text">2.Bekreft at veiviseren er startet, og klikk på [Neste]-knappen. </div>
+			<div class="text">3. Fortsett installeringen ved å følge instruksjonene på skjermen. </div>
+			<div class="text">4.Klikk på [Har disk].</div>
+			<div class="text">5.Klikk [Bla gjennom] for å velge inf-fil, og klikk deretter på [OK].</div>
+			<div class="text_level1">Filen inf er lagret i mappen [Driver] i medfølgende CD-ROM eller nedlastet drivermappe.</div>
+			<div class="annotation">* Hvis du angir filen inf i den ovennevnte mappen og installerer driveren, vil alle de installerte driverne på datamaskinen oppdateres til det nyeste innholdet. Hvis du vil installere en ny driver separat uten å oppdatere denne driveren som allerede er installert på datamaskinen, kan du angi filen inf lagret i mappen [etc] i driveren du har åpnet.</div>
+			<div class="text">6.Velg skrivermodellen din fra [Skrivere], og klikk deretter på [Neste]. </div>
+			<div class="text">7.Følg instruksjonene på skjermen for å fortsette, og klikk på [Fullfør] for å begynne å kopiere filene. </div>
+			<div class="text_level1">Du er nå klar til å skrive ut fra ethvert Windows-program.</div>
+			<div class="h5"><a id="ae399ab3f7e27290818a8e90a8fa038c"></a>Slik installerer du via en USB-tilkobling:</div>
+			<div class="text">1. Slå av enheten. </div>
+			<div class="text">2. Start installeringsprogrammet → følg instruksjonene i dialogboksene.</div>
+			<div class="text">For detaljer, se steg 1 til 3 av &quot;<a href="#4465990d9b97bd6ecb35d37d0e37bf88">Å installere ved å lokalisere enheter i et nettverk</a>,&quot; eller &quot;<a href="#6651e2a85f87a56b7c2604df4c48b1fa">Installere ved å spesifisere en port</a>.&quot; </div>
+			<div class="text">3.Velg [USB-tilkobling] og klikk deretter på [Neste]. Hvis en dialogboks for skrivervalg vises, velger du driveren du ønsker å installere og klikker på [Neste].</div>
+			<div class="text">4.Klikk på [Ja] i boksen der du blir spurt om du vil starte installeringen. </div>
+			<div class="text">5. Når du blir bedt om det i en dialogboks, kobler du til USB-pluggen og slår deretter på skriveren.</div>
+			<div class="text_level1">* Hvis installeringen mislykkes på dette skjermbildet, kan du prøve følgende prosedyre:</div>
+			<div class="dash">Hvis enheten ikke gjenkjennes når den er tilkoblet via USB </div>
+			<div class="text">6.Klikk på [Endre] for å velge en konfigurasjonsprofil, og velg riktig konfigurasjonsprofil i dialogboksen [Endre konfigurasjonsprofil].</div>
+			<div class="annotation">* Du kan registrere konfigurasjonsprofiler fra [Importer] i dialogboksen [Endre konfigurasjonsprofil]. Du kan slette en registrert konfigurasjonsprofil ved å klikke på [Slett].</div>
+			<div class="text">7.Når installasjonen er ferdig, klikk på [Avslutt] i skjermbildet for fullført installasjon.</div>
+			<div class="text_level1">Dette fullfører installasjonen av skriverdriveren.</div>
+			<div class="h6"><a id="946b215ddf7d26eb1844ef13168bce61"></a>Hvis enheten ikke gjenkjennes når den er tilkoblet via USB</div>
+			<div class="text">Hvis enheten ikke gjenkjennes når den er tilkoblet via USB, kan du prøve følgende prosedyre:</div>
+			<div class="text">1. Koble skriveren til datamaskinen med en USB-kabel, og slå deretter skriveren på. </div>
+			<div class="text">2. Vis [Enhetsbehandling].</div>
+			<div class="text_level1">I Windows 10/Server 2016</div>
+			<div class="text_level2">Høyreklikk Windows-ikonet → klikk [Enhetsbehandling].</div>
+			<div class="text_level1">I Windows 7/Server 2008 R2/8/8.1/Server 2012/Server 2012 R2</div>
+			<div class="text_level2">Vis [Kontrollpanel] &gt; [Maskinvare og lyd] &gt; [Enhetsbehandling].</div>
+			<div class="text_level1">I Windows Vista/Server 2008</div>
+			<div class="text_level2">Vis [Kontrollpanel] &gt; [System og vedlikehold] &gt; [Enhetsbehandling].</div>
+			<div class="text">3. I [Andre enheter] høyreklikker du på navnet på skriveren du bruker → utfør [Slette].</div>
+			<div class="text_level1">Skrivernavnet blir</div>
+			<div class="text_level2">&quot;Canon + &lt;modellnavn&gt;&quot; </div>
+			<div class="text_level1">Når prosedyren ovenfor er fullført, installerer du driveren på nytt.</div>
+			<div class="h6">Avinstallere skriverdriveren</div>
+			<div class="text">1. Start avinstallasjonsprogrammet til driveren.</div>
+			<div class="list">Når du bruker Windows-funksjoner</div>
+			<div class="text_level1">I Windows 10/Server 2016</div>
+			<div class="text_level2">(1) Vis[Innstillinger] &gt; [System] &gt; [Apper og funksjoner].</div>
+			<div class="text_level2">(2) Velg driveren du vil avinstallere → klikk [Avinstaller].</div>
+			<div class="text_level1">I andre operativsystemer</div>
+			<div class="text_level2">(1) Vis[Kontrollpanel] &gt; [Programmer] &gt; [Avinstaller et program].</div>
+			<div class="text_level2">(2) Velg driveren du vil avinstallere → klikk [Avinstaller/endre].</div>
+			<div class="list">Når du bruker avinstaller-filen som leveres med driveren</div>
+			<div class="text_level3">Dobbeltklikk på én av følgende filer.</div>
+			<div class="text_level2">Når du bruker en fil på en installert drivermappe</div>
+			<div class="text_level3">Bruk [UNINSTAL.exe] samsvarende til driveren i følgende mappe.</div>
+			<div class="dash">&lt;installasjonsmappe&gt;\Canon\PrnUninstall</div>
+			<div class="text_level2">Når du bruker filen i medfølgende CD-ROM eller nedlastet drivermappe</div>
+			<div class="text_level3">Bruk følgende fil i drivermappen du har åpnet.</div>
+			<div class="dash">misc\UNINSTAL.exe</div>
+			<div class="text">2.Velg navnet på enheten du ønsker å avinstallere og klikk på [Slett].</div>
+			<div class="annotation">* Hvis du klikker på [Opprydning], fjernes alt av filer og registerinformasjon relatert til ikke bare den valgte driveren, men alle driverne som vises i listen. Under vanlige omstendigheter klikker du bare på [Slett] for å avinstallere skriverdriveren.</div>
+			<div class="text">3.Beskjeden som bekrefter avinstalleringen vises. Klikk på [Ja] for å starte avinstalleringen.</div>
+			<div class="text">4.Klikk på [Avslutt].</div>
+			<div class="text"></div>
+			<div class="h4"><a id="b6b8cb34c536624321aae23eb2118d27"></a>Få tilgang til dialogboksen Egenskaper</div>
+			<div class="text">Dialogboksen Egenskaper iinneholder flere ark som lar deg sette opp og kontrollere skriveren din. For å gå inn i Egenskaper-dialogboksen bruker du en av følgende fremgangsmåter:</div>
+			<div class="h6"><a id="8d941cd856e7fe97b977d837c0ab6ec3"></a>Slik får du tilgang fra skrivebordet:</div>
+			<div class="text">1.Vis [Enheter og skrivere] fra [Kontrollpanel] i Windows.</div>
+			<div class="text">2.Høyreklikk på skriverikonet for skriveren din i skrivermappen, og klikk deretter på [Egenskaper] eller [Skriveregenskaper] for å åpne [Skriveregenskaper]-dialogboksen, eller klikk på [Utskriftsinnstillinger] for å åpne [Dokumentegenskaper]-dialog boksen (eller [Utskriftsinnstillinger]-dialogboksen).</div>
+			<div class="h6"><a id="6367ad8a20cbc51529545a70e48a29c4"></a>Slik får du tilgang inne fra et program:</div>
+			<div class="text">1.Klikk på [Skriv ut]-kommandoen for å vise dialogboksen [Skriv ut]. </div>
+			<div class="text">2.Velg skrivernavnet i nedtrekksmenyen, og klikk deretter på [Innstillinger], [Skriveregenskaper], eller [Egenskaper]. </div>
+			<div class="h4"><a id="a9472a69374d08acb201ac44575378ed"></a>Få tilgang til hjelp</div>
+			<div class="text">Fra Egenskaper-dialogboksen kan du klikke på [Hjelp]-knappen for å vise informasjon om skriverdriveren.</div>
+			<div class="h4"><a id="74722ef065ccaf1fa5e99bf717f10223"></a>Advarsler og begrensninger</div>
+			<div class="list">Hvis du skriver ut et dokument som består av et ulikt antall sider, som et dobbeltsidig dokument fra et program, kan programmet automatisk sette inn en tom side for å få antall sider til å bli et partall. Når dette skjer, blir den blanke siden som settes inn av programmet, talt opp på samme måte som en utskrevet side. </div>
+			<div class="list">Hvis du bruker en USB-tilkobling med skriveren for å skrive ut, og avbryter en utskriftsjobb som er under utskrift fra datamaskinen via utskriftskøen, er det ikke sikkert at skriveren går tilbake til Klar-tilstand.<br />I denne tilstanden kan du skrive ut via USB, men ikke via et nettverk. Hvis du skal kunne skrive ut fra et nettverk, må du avbryte utskriftsjobben fra kontrollpanelet på skriveren før du skriver ut. </div>
+			<div class="list">Hvis du bruker Server Core på Windows Server-operativsystem kan du ikke bruke installasjonsprogrammet for skriverdriveren. Bruk operativsystemets installasjonsfunksjon for å installere skriverdriveren.</div>
+			<div class="dash">Noen utskriftsalternativer er ikke tilgjengelige under lokale miljøer eller ved bruk av Eksternt skrivebord i Windows. </div>
+			<div class="list">Hvis både en skriverdriver (eller faksdriver) og en USB-kompatibel skannerdriver ikke er installert, blir en enhet som kobles til via USB, gjenkjent som ny maskinvare, og selv om det følgende kan skje, påvirker det ikke driveroperasjonene.</div>
+			<div class="dash">Windows Vista: Det vises en dialogboks hver gang du kobler til enheten via USB.</div>
+			<div class="dash">Windows 7/8/8.1/10: Relevant(e) skriver(e) i mappen [Enheter og skrivere] har varselstatus.</div>
+			<div class="text_level2">Driveren vil likevel virke i disse tilstandene. Du kan unngå disse fenomenene ved å installere den USB-kompatible skannerdriveren (Color Network ScanGear 2 USB). Se Viktig-filen som fulgte med driveren, for å finne informasjon om hvordan du installerer skannerdriveren.</div>
+			<div class="list">Hvis du bruker denne skriverdriveren i et serverbasert databehandlingsmiljø, kan du ikke bruke skriverdriveren på klientdatamaskiner som bruker operativsystemer som ikke støttes.</div>
+			<div class="list">Når du oppretter et overleggsskjema på én datamaskin, kan du ikke spesifisere en annen datamaskin i nettverket som plassering for lagring av den nye skjemafilen.</div>
+			<div class="list">Visse TrueType-skrifter blir kanskje ikke skrevet ut riktig. Hvis dette skjer, bør du deaktivere innstillingen [Bruk skriverskrifter] i dialogboksen [Avanserte innstillinger] for å sikre at alle skrifter lastes ned sammen med dokumentet, i stedet for å bruke bare de skriftene som ligger i skriveren. Dialogboksen [Avanserte innstillinger] vises hvis du klikker på knappen [Avanserte innstillinger] på [Kvalitet]-arket.<br /></div>
+			<div class="list">Rotert tekst blir ikke skrevet ut riktig fra enkelte applikasjoner når [TrueType-modus] er satt på [Last ned som TrueType] eller [Last ned som punktgrafikk] i dialogboksen [Avanserte innstillinger]. Dialogboksen [Avanserte innstillinger] vises ved å klikke på knappen [Avanserte innstillinger] i arket [Kvalitet].</div>
+			<div class="list">Hvis du bruker dette produktet i Japan, gjelder følgende restriksjoner:</div>
+			<div class="text_level2">Følgende alternativer blir kanskje ikke brukt riktig når de velges i [Enhetsinnstillinger]-arket:</div>
+			<div class="dash">[Konvoluttmater]</div>
+			<div class="text_level3">Når du velger dette alternativet og angir [Konvolutt Monarch]/[Konvolutt nr. 10 (COM10)]/[Konvolutt DL]/[Konvolutt C5]/[Konvolutt B5] som sidestørrelse på [Grunninnstillinger]/[Sideoppsett]-arket, selv om du kan velge [Skuff 2] som papirkilde på [Papirkilde]-arket, blir ikke konvolutten(e) skrevet ut riktig på skriveren fordi skriveren ikke støtter denne kombinasjonen av innstillinger.</div>
+			<div class="dash">[2/3 hull]/[2/4 hull [fransk]]/[4 hull [svensk]]</div>
+			<div class="text_level3">Selv om du kan angi [Hullstansing] i [Etterbehandling]-arket når dette alternativet er valgt, vil ikke hullstansingstypen bli riktig hvis du velger [3 hull] eller [4 hull [svensk]], fordi skriveren ikke støtter disse innstillingene.</div>
+			<div class="text_level2">Når du velger [Fanepapir] som papirtypen som skal settes inn, i dialogboksen [Innstillinger for innsettingsark] på [Papirkilde]-arket, og velger [Skuff 2] som papirkilde, vil ikke fanepapiret bli skrevet ut riktig på skriveren fordi skriveren ikke støtter denne innstillingen.</div>
+			<div class="text_level2">Hvis du bruker imageRUNNER ADVANCE C7065/C7055, kan du velge [Hold] for [Utskriftsmetode], men skriveren støtter ikke denne funksjonen.</div>
+			<div class="list">Når du bruker driveren i et USB/WSD-tilkoblingsmiljø, kan du ikke bruke funksjonene Get Device Status, Department ID Management og User Authentication.</div>
+			<div class="list">Hvis du endrer skrivernavnet i [Enheter og skrivere]-mappen ([Skrivere]-mappen i Windows Vista/Server 2008), vil noen profilinnstillinger registrert i skriverdriveren (profiler lagt til fra dokumentegenskapene) bli slettet. Før du endrer skrivernavnet lagrer du profilinnstillingene som en fil, og importerer den lagrede filen etter at du har endret skrivernavnet.</div>
+			<div class="list">Egendefinerte papirstørrelser som kan angis for funksjonene i [Enhetsinnstillinger]-fanen &gt; [Etterbehandlingsinnstillinger] (dobbeltsidig utskrift, stifting osv.) varierer fra skriver til skriver. Se håndboken som leveres med skriveren for mer informasjon.</div>
+			<div class="list">Avhengig av skriveren du bruker, kan det være at papirtyper og papirstørrelser som ikke er tilgjengelige kan hentes fra [Enhetsinnstillinger]-fanen &gt; [Hent enhetsstatusinformasjon].</div>
+			<div class="list">Avhengig av miljøet du brukes, kan navnene i [Profil] og egendefinerte papirstørrelse være uforståelige. Hvis dette skjer, må du installere korrekt språkpakke.</div>
+			<div class="list">Avhengig av skriveren du bruker, kan det hende at ubrukte funksjoner kan hentes fra [Enhetsinnstillinger]-fanen &gt; [Hent enhetsstatusinformasjon].</div>
+			<div class="list">I noen språk kan det hende at jobbnavn, brukernavn, navn på lagret data osv. ikke vises riktig på skriveren. I disse tilfellene kan symbolene du ønsker å vise, vises rett ved å endre skriverens visningsspråk til språket som matcher disse symbolene.</div>
+			<div class="list">Hvis du endrer brukerrettighetene for datamaskinene du bruker, og kjører installasjonsprogrammet, kan det hende at installasjonen ikke kjøres riktig. I så fall må du logge på som administrator og kjøre installasjonen igjen.</div>
+			<div class="list">For å kunne registrere egendefinerte papirstørrelser må du logge på som administrator. Vis skriverdriverens skjermbilde for utskriftsinnstillinger fra [Enheter og skrivere]-mappen ([Skrivere]-mappen i Windows Vista/Server 2008) og konfigurer innstillingene i dialogboksen [Innstillinger for egendefinert papirstørrelse] på [Sideoppsett]-fanen.</div>
+			<div class="list">Hvis du bruker en skriver gjennom en USB-tilkobling med NetSpot Suite og Canon Driver Information Assist Service installert, må du ikke bruke ventemodus. Du kan angi ventemodus i [Start] (i Windows 8/8.1/Server 2012/2012 R2, viser du symbollinjen til høyre på skjermen på skrivebordet) &gt; [Innstillinger] &gt; [Kontrollpanel] &gt; [Strømalternativer].</div>
+			<div class="list">Når du skriver ut overlegg i noen applikasjoner, kan det hende at skjemadata ikke skrives ut fordi dokumentet som ble sendt, overskriver det tidligere dokumentet.</div>
+			<div class="list">Hvis du angir [Etterbehandling]-fanen &gt; [Avanserte innstillinger] &gt; [Utvid utskriftsområde og skriv ut], kan noen utskriftsdata bli avskåret rundt kantene av arket. Hvis dette skjer, fjern markeringen av denne innstillingen.</div>
+			<div class="list">Hvis skriverens navn inkluderer dobbeltbyte-tegn under et engelsk operativsystemmiljø, får du ikke hentet enhetens status fra [Enhetsinnstillinger]-fanen &gt; [Hent enhetsstatusinformasjon]. Hvis dette skjer, må du bytte skriverens navn til et som ikke inneholder dobbeltbyte-tegn.</div>
+			<div class="list">Hvis det brukes ulike språk i operativsystemene for skriverserveren og klientdatamaskinene i et delt skrivermiljø, kan det hende at «&lt;Endre&gt;» vises før skrivernavnet, selv når innstillingene for [Profil] for skriverdriveren som er installert på klientdatamaskinen, ikke har blitt endret.</div>
+			<div class="list">Dersom standard papirtype ikke er valgt i papirkilden til enheten du bruker, og du skriver ut fra en driver hvor [Grunnkonfigurasjon (Canon)] eller [Grunnkonfigurasjon (kompatibel)] er valgt fra [Konfig.profil], kan en feilmelding dukke opp på enhetens kontrollpanel som indikerer at det ikke er noe papir igjen. Hvis dette skjer, hent enhetens statusinformasjon eller velg en konfigurasjonsprofil som samsvarer med enheten. </div>
+			<div class="list">Når du bruker brettefunksjonen, kan det forekomme tilfeller hvor papiret ikke er brettet eller er brettet i en annen retning enn den du ønsket.</div>
+			<div class="list">Hvis installasjonsprogrammet avdekker en tidligere installert versjon av skriverdriveren under installasjon, vil det kunne dukke opp en dialogboks som spør om du ønsker å bruke de eldre filene. Pass på at du velger [Ja].</div>
+			<div class="list">Svart-hvitt-sider kan bli telt som fargesider, avhengig av data, program eller driverinnstillinger, når du velger [Automatisk [farger/svart-hvitt]] for [Fargemodus] i [Grunninnstillinger]/[Kvalitet] arket. Hvis du vil skrive ut et dokument som en svart-hvitt-jobb, velger du [Svart-hvitt] for [Fargemodus].</div>
+			<div class="list">Når du skriver ut med en Canon LBP-skriver, hvis [Konfig.profil] er [Grunnkonfigurasjon (kompatibel)], kan utskriftsjobbnavnet og brukernavnet bli vist som &quot;--&quot; på kontrollpanelet på skriveren.</div>
+			<div class="list">Når du skriver ut med en Canon LBP-skriver, hvis [Konfig.profil] er [Grunnkonfigurasjon (kompatibel)], selv hvis du setter [Sikker utskrift], kan dokumenter skrives ut uten [PIN-kode]-autentisering.</div>
+			<div class="text"></div>
+			<div class="list">Selv om du aktiverer funksjonen hastighetsprioritet i [Komprimeringsbehandling for dataoverføring], kan det, avhengig av i hvilket miljø du bruker og skriver ut dataene, ta enda lengre tid enn det gjør hvis funksjonen bildeprioritet er aktivert.</div>
+			<div class="h4"><a id="dc115480a653f4ae712776c26c0eefbd"></a>Begrensninger i forhold til Enhetsinnstillinger</div>
+			<div class="list">Avhengig av skriveren du bruker, kan utskrift ta lenger tid enn vanlig i følgende tilfeller.</div>
+			<div class="dash">Hvis du angir stående retning når du skriver ut fra en A4-papirkilde (liggende).</div>
+			<div class="dash">Hvis du angir liggende retning når du skriver ut fra en A4R-papirkilde (stående).</div>
+			<div class="dash">Hvis du angir liggende retning for A3-papir.</div>
+			<div class="list">Hvis du angir fargeutskrift for en sort/hvitt-skriver, vil dokumentet skrives ut i sort og hvitt, men utskriftskvaliteten blir kanskje forringet og utskriften kan ta litt tid.</div>
+			<div class="list">Hvis funksjoner som ikke støttes av skriverdriveren angis på kontrollpanelet på skriveren du bruker, blir skriverinnstillingene aktivert under utskrift. For eksempel: Hvis funksjonen for innsetting av et papirark mellom transparenter er aktivert på skriveren, vil et papirark settes inn mellom hver transparent som skrives ut, og hvis funksjonen for kopisettnummerering er aktivert på skriveren, vil dokumentet skrives ut med kopisettnummerering.</div>
+			<div class="list">Hvis du klikker på [Hent enhetsstatusinformasjon] i [Enhetsinnstillinger]-fanen, hentes konfigurasjonsinformasjonen for enheten, og mange av innstillingene i [Enhetsinnstillinger]-fanen konfigureres automatisk. [Papirkildeinnstillinger] i [Enhetsinnstillinger]-fanen og enkelte av innstillingene i [Detaljerte innstillinger]-dialogboksen må imidlertid angis manuelt. Det anbefales at du konfigurerer innstillingene ved å bruke [Hent enhetsstatusinformasjon], og deretter angir elementene som må angis, manuelt.</div>
+			<div class="list">Avhengig av kombinasjonen av valg på skriveren du bruker, kan det hende skriveren ikke gjenkjenner de installerte alternativene i [Enhetsinnstillinger]-fanen &gt; [Hent enhetsinformasjon]. For å kunne bruke alternativene som ikke ble gjenkjent, må du angi dem manuelt i [Enhetsinnstillinger]-fanen.</div>
+			<div class="list">For å bruke denne skriveren må du først angi hvilken type skriver du bruker og alternativene installert i skriveren i [Enhetsinnstillinger]-arket i dialogboksen for skriveregenskaper. Hvis du velger funksjoner i skriveren som ikke er tilgjengelige for den skriveren du brukeren, vil dette kunne medføre uønskede skriverresultater.</div>
+			<div class="dash">Hvis du angir en papirkilde som ikke er installert på skriveren, vil papir hentes fra skriverens prioriterte papirkilde.</div>
+			<div class="dash">Hvis papirkilden du har angitt og papirstørrelsen ikke stemmer overens, vil en feil inntreffe.</div>
+			<div class="dash">Hvis du angir dobbeltsidig utskrift for en skriver som ikke støtter dobbeltsidig utskrift, vil dokumentet bli skrevet ut på én side av papiret.</div>
+			<div class="dash">Hvis du angir stifting for en skriver som ikke støtter stifting, vil dokumentet skrives ut uten stifting.</div>
+			<div class="dash">Hvis du angir ryggstifting for en skriver som ikke støtter ryggstifting, vil dokumentet skrives ut uten ryggstifting.</div>
+			<div class="dash">Hvis du velger [Utskriftsmetode] &gt; [Lagre] når du skriver ut fra en skriver som ikke støtter postbokslagring, vil dokumentet skrives ut som normalt. Hvis det vises en feil på berøringspanelskjermen på skriveren og skriveren blir frakoblet, skrives dokumentet ut når skriveren kobles til igjen.</div>
+			<div class="dash">Hvis du angir administrasjon av avdelings-ID når du skriver ut med en skriver som ikke har en funksjon for administrasjon av avdelings-ID, vil det oppstå en feil.</div>
+			<div class="h4"><a id="5250a9e2e1de3c109a21e8bbdec4797a"></a>Begrensninger ved bruk av Canon Driver Configuration Tool</div>
+			<div class="list">Elementene som kan angis i hver fane i [Utskriftsinnstillinger] avhenger av innstillingene i [Enhetsinnstillinger]-fanen. Hvis du tilpasser driveren med Canon Driver Configuration Tool, må du angi hver fane i dialogboksen [Utskriftsinnstillinger] etter at du har satt opp [Enhetsinnstillinger]-fanen.</div>
+			<div class="h4"><a id="4a6bdb2eb8fe4b63a3a88976d8016900"></a>Begrensninger for spesifikke skrivermodeller</div>
+			<div class="list">Hvis noe av det følgende er angitt, kan du ikke skrive ut en bannerside.</div>
+			<div class="dash">sikret utskrift, lagre, vent, overleggsutskrift, perfekt innbinding, ryggstifting eller C-fold-utskrift</div>
+			<div class="dash">[Sorter [Av skriveren]] &gt; [Av] og [Driversortering] &gt; [Mønster 1] i [Enhetsinnstillinger]-fanen &gt; [Detaljer] &gt; [Etterbehandling]</div>
+			<div class="list">Hvis du bruker imageRUNNER ADVANCE 8085/8095/8105 mens tilleggsutstyret Stiftesluttbehandler-F1 eller Heftesluttbehandler-F1 er tilkoblet, kan du ikke skrive ut postkort eller egendefinerte papirstørrelser (med høyde på 148,0–181,9 mm).</div>
+			<div class="list">Det finnes tilfeller hvor utvalget innen egendefinerte papirstørrelser som kan spesifiseres i driveren og de som kan skrives ut av skriveren, avviker. For informasjon om egendefinerte papirstørrelser som kan skrives ut, se skriverens dokumentasjon.</div>
+			<div class="list">Hvis du bruker iR-ADV C2020/2030, C2020i/2030i, C2020L/2030L, eller C2025, gjelder følgende restriksjoner når du setter [Oppløsning] til [1200 ppt] i dialogboksen [Avanserte innstillinger] på [Kvalitet]-arket:</div>
+			<div class="dash">Du kan bare angi [Stifteposisjon] på [Etterbehandling]-arket til langsiden av et A4-ark.</div>
+			<div class="dash">Du kan ikke bruke innstillingene [Roter] og [Skriv ut med blandede papirstørrelser/papirretninger] på [Etterbehandling]-arket.</div>
+			<div class="dash">Avhengig av funksjonsversjonen til skriveren du bruker, er det ikke sikkert at du kan bruke innstillingen [Nummerering av kopisett] i dialogboksen [Avanserte innstillinger] fra [Etterbehandling]-arket. </div>
+			<div class="list">Hvis du bruker iR-ADV C2020/2030 uten tilleggsharddisken, eller iR-ADV C2020L/2030L, kan du ikke bruke følgende funksjoner:</div>
+			<div class="dash">[Sikker utskrift]</div>
+			<div class="dash">[Prioriter utskrift] </div>
+			<div class="list">Avhengig av skrivermodellen du bruker, når du lagrer en sikret utskriftsjobb i skriveren er det ikke sikkert at andre utskriftsjobber skrives ut. Hvis dette skjer, må du skrive ut den sikrede utskriftsjobben. Hvis du fremdeles ikke kan skrive ut andre utskriftsjobber, skriver du dem ut på nytt fra datamaskinen.</div>
+			<div class="text"></div>
+			<div class="list">Når du lagrer utskriftsdata i en innboks i enkelte skrivere i iR-serien, vil ikke utskriftstilinnstillinger (enkeltsidig/tosidig utskrift), papirkildeinnstillinger og enkelte innstillinger for sideoppsett- og skalering osv. bli vist korrekt på skriverens kontrollpanel. Utskriften vil imidlertid bli utført som angitt.</div>
+			<div class="list">Hvis stifting ikke kan utføres på den angitte stifteposisjonen i dokumentet, vil dokumentet i enkelte skrivere i iR-serien, bli skrevet ut uten stifting.</div>
+			<div class="list">Hvis du bruker imageRUNNER ADVANCE C351, pass på å angi [Tilleggsskuff/-kassett] i [Papirkilde]-dialogboksen på [Enhetsinnstillinger]-fanen til [Skuff x 3].</div>
+			<div class="list">Hvis du bruker imageRUNNER ADVANCE C2020/C2020F/C2030/C2030F, kan [Roter] kun brukes når du velger [Enhetsinnstillinger]-fanen &gt; [Detaljer] &gt; [Etterbehandling]-fanen &gt; [Sorter [Av skriveren]] &gt; [På].</div>
+			<div class="list">Hvis du bruker imageRUNNER ADVANCE C2020/C2020F/C2030/C2030F, støttes enhetens funksjon for sikret utskrift av funksjonsversjon 2.0 eller nyere.</div>
+			<div class="list">Hvis du bruker imageRUNNER ADVANCE C350F, kan du ikke bruke [[Roter]-funksjon].</div>
+			<div class="list">Angi [[Fold + beskjær]-funksjon for [Innstilling for Ryggstift]] manuelt hvis du har en sluttbehandler som støtter funksjonen.</div>
+			<div class="list">Angi [Forskyvning når stifting er angitt] manuelt hvis du har en sluttbehandler som støtter funksjonen.</div>
+			<div class="list">Angi [[Antall kopier i bunke]-funksjon] manuelt hvis du bruker et magasin.</div>
+			<div class="list">Angi [Aktivert innstillinger for Beskjæringsinnstillinger med 13x19-papir] manuelt hvis du bruker imagePRESS C6010/C6011 eller imagePRESS C7010VP/C7011VP.</div>
+			<div class="list">Hvis du angir stifteposisjonen for liggende utskriftsdata lagret i en innboks fra kontrollpanelet til skriveren i enkelte skrivere iR-serien, kan det hende at en annen posisjon blir stiftet til den faktiske loddrette retningen på utskriften.</div>
+			<hr />
+			<div class="text_right">Copyright Canon Inc. 2016</div>
+			<div class="text"></div>
+		</div>
+		<!--CONTENT_END-->
+	</body>
+</html>

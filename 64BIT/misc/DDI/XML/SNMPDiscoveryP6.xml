@@ -1,0 +1,727 @@
+<!--
+*************************************************************************
+* Copyright CANON INC. 1999                                           *
+*************************************************************************
+-->
+<!--
+*************************************************************************
+* Ver1.30 Installer Canon Generic Plus PCL6                          *
+*************************************************************************
+-->
+<discovery xmlns="urn:cissnmpdiscovery">
+	
+	<refreshRate>60</refreshRate>
+	<timeout>8</timeout>
+
+	<methodList onlyMatching="false">
+
+		<method mibType="Canon MIB"> 
+		    <OIDList>
+        <PDLTypeOID multiLevel="true">.1.3.6.1.2.1.43.15.1.1.2</PDLTypeOID>
+				<devTypeOID>.1.3.6.1.4.1.1602.1.1.1.1.0</devTypeOID>
+				<devNameOID>.1.3.6.1.4.1.1602.1.1.1.2.0</devNameOID>
+				<macAddrOID hexEncoded="true">.1.3.6.1.2.1.2.2.1.6.1</macAddrOID>
+				<sysDescOID>.1.3.6.1.2.1.1.1.0</sysDescOID>
+			</OIDList>
+			<deviceList>
+        
+        <device name="Not Support" enum="1">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR2016</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="2">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR2000</devTypeStr>
+            <devTypeStr>iR1600</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="3">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR2010</devTypeStr>
+            <devTypeStr>iR1610</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="4">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR2020</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="5">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR2018</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="6">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR1018</devTypeStr>
+            <devTypeStr>iR1022</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="7">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR400PSPCL</devTypeStr>
+            <devTypeStr>iR400PCL</devTypeStr>
+            <devTypeStr>iR330-400-P1_PSPCL</devTypeStr>
+            <devTypeStr>iR330-400-R1_PCL</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="8">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR2200</devTypeStr>
+            <devTypeStr>iR2800</devTypeStr>
+            <devTypeStr>iR3300</devTypeStr>
+            <devTypeStr>iR2200i</devTypeStr>
+            <devTypeStr>iR2800i</devTypeStr>
+            <devTypeStr>iR3300i</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="9">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR2220</devTypeStr>
+            <devTypeStr>iR3320</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="10">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR2230</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="11">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR1019</devTypeStr>
+            <devTypeStr>iR1023</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="12">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR1020</devTypeStr>
+            <devTypeStr>iR1024</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="13">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR1021</devTypeStr>
+            <devTypeStr>iR1025</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="14">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR3025</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="15">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR3225</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="16">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR2270</devTypeStr>
+            <devTypeStr>iR2870</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="17">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR2830</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="18">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR2022</devTypeStr>
+            <devTypeStr>iR2025</devTypeStr>
+            <devTypeStr>iR2030</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="19">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR3030</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="20">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR3230</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="21">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR3530</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="22">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR3570</devTypeStr>
+            <devTypeStr>iR4570</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="23">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR4530</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="24">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR3035</devTypeStr>
+            <devTypeStr>iR3045</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="25">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR3235</devTypeStr>
+            <devTypeStr>iR3245</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="26">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR5050</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="27">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR5050-S2</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="28">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR5070</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="29">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR5000-6000</devTypeStr>
+            <devTypeStr>iR5000</devTypeStr>
+            <devTypeStr>iR6000</devTypeStr>
+            <devTypeStr>iR5000i</devTypeStr>
+            <devTypeStr>iR6000i</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="30">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR5000-L1</devTypeStr>
+            <devTypeStr>iR6000-L1</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="31">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR5020</devTypeStr>
+            <devTypeStr>iR6020</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="32">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR5020-M2</devTypeStr>
+            <devTypeStr>iR6020-M2</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="33">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR5055</devTypeStr>
+            <devTypeStr>iR5065</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="34">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR5055-S2</devTypeStr>
+            <devTypeStr>iR5065-S2</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="35">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR5570</devTypeStr>
+            <devTypeStr>iR6570</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="36">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR5570-M3</devTypeStr>
+            <devTypeStr>iR6570-M3</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="37">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR5070-S1</devTypeStr>
+            <devTypeStr>iR5570-S1</devTypeStr>
+            <devTypeStr>iR6570-S1</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="38">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR7200</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="39">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR7200-M1</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="40">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR7200-M2</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="41">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR5075</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="42">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR5075-S2</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="43">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR8070</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="44">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR8070-M3</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="45">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR8070-S1</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="46">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR8500</devTypeStr>
+            <devTypeStr>iR85</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="47">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR8500-M1</devTypeStr>
+            <devTypeStr>iR85-M1</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="48">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR8500-M2</devTypeStr>
+            <devTypeStr>iR85-M2</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="49">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR85PLUS</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="50">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR85PLUS-M3</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="51">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR9070</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="52">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR9070-M3</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="53">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR105</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="54">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR105-M1</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="55">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR105-M2</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="56">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR105PLUS</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="57">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR105PLUS-M3</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="58">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR7086</devTypeStr>
+            <devTypeStr>iR7095</devTypeStr>
+            <devTypeStr>iR7105</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="59">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR7086-S1</devTypeStr>
+            <devTypeStr>iR7095-S1</devTypeStr>
+            <devTypeStr>iR7105-S1</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="60">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR7086-S2</devTypeStr>
+            <devTypeStr>iR7095-S2</devTypeStr>
+            <devTypeStr>iR7105-S2</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="61">
+          <matchingDevTypeStrs>
+            <devTypeStr>iPR C1</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="62">
+          <matchingDevTypeStrs>
+            <devTypeStr>iPR C1PLUS</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="63">
+          <matchingDevTypeStrs>
+            <devTypeStr>iPR C6000VP</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="64">
+          <matchingDevTypeStrs>
+            <devTypeStr>iPR C6000</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        <device name="Not Support" enum="65">
+          <matchingDevTypeStrs>
+            <devTypeStr>iPR C1-T1</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="66">
+          <matchingDevTypeStrs>
+            <devTypeStr>iPR C1PLUS-T1</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="67">
+          <matchingDevTypeStrs>
+            <devTypeStr>iPR C7000VP</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="68">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR C1022</devTypeStr>
+            <devTypeStr>iR C1021</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="69">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR C2580</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="70">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR C3180</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="71">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR 3180C EUR</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="72">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR C2880</devTypeStr>
+            <devTypeStr>iR C3380</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="73">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR C3080</devTypeStr>
+            <devTypeStr>iR C3480</devTypeStr>
+            <devTypeStr>iR C3580</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="74">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR C2380</devTypeStr>
+            <devTypeStr>iR C2550</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="75">
+          <matchingDevTypeStrs>
+            <devTypeStr>CLC4040-iR C4580-H1</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="76">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR C4080-H1</devTypeStr>
+            <devTypeStr>iR C4580-H1</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="77">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR C4080</devTypeStr>
+            <devTypeStr>iR C4580</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="78">
+          <matchingDevTypeStrs>
+            <devTypeStr>CLC5151-iR C5180-H1</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="79">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR C5180-H1</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="80">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR C5180</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="81">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR C5185</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="82">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR C5185-H1</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="83">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR C5058</devTypeStr>
+            <devTypeStr>iR C5068</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="84">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR 5880C EUR</devTypeStr>
+            <devTypeStr>iR 6880C EUR</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="85">
+          <matchingDevTypeStrs>
+            <devTypeStr>iR C5880</devTypeStr>
+            <devTypeStr>iR C6880</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="86">
+          <matchingDevTypeStrs>
+            <devTypeStr>iC2300</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="87">
+          <matchingDevTypeStrs>
+            <devTypeStr>MF7100 Series</devTypeStr>
+            <devTypeStr>MF7170i</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="88">
+          <matchingDevTypeStrs>
+            <devTypeStr>MF7200 Series</devTypeStr>
+            <devTypeStr>MF7280</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="89">
+          <matchingDevTypeStrs>
+            <devTypeStr>MF7470</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="90">
+          <matchingDevTypeStrs>
+            <devTypeStr>MF9100 Series</devTypeStr>
+            <devTypeStr>MF9100/9300 Series</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="91">
+          <matchingDevTypeStrs>
+            <devTypeStr>Canon Inc. LBP-2000 Printer</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="92">
+          <matchingDevTypeStrs>
+            <devTypeStr>LC800</devTypeStr>
+            <devTypeStr>L3000</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="93">
+          <matchingDevTypeStrs>
+            <devTypeStr>LBP3360</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="94">
+          <matchingDevTypeStrs>
+            <devTypeStr>LBP3370</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="95">
+          <matchingDevTypeStrs>
+            <devTypeStr>LBP3460</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="96">
+          <matchingDevTypeStrs>
+            <devTypeStr>LBP7750C</devTypeStr>
+            <devTypeStr>LBP5460</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="97">
+          <matchingDevTypeStrs>
+            <devTypeStr>LBP5970</devTypeStr>
+            <devTypeStr>LBP5975</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="98">
+          <matchingDevTypeStrs>
+            <devTypeStr>LASER CLASS 700</devTypeStr>
+            <devTypeStr>FAX-L2000</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+
+        <device name="Not Support" enum="99">
+          <matchingDevTypeStrs>
+            <devTypeStr>MF5800 Series</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+
+        <device name="Not Support" enum="100">
+          <matchingDevTypeStrs>
+            <devTypeStr>MF5900 Series</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="101">
+          <matchingDevTypeStrs>
+            <devTypeStr>MF8500C Series</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+
+        <device name="Not Support" enum="102">
+          <matchingDevTypeStrs>
+            <devTypeStr>MF6100 Series</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+
+        <device name="Not Support" enum="103">
+          <matchingDevTypeStrs>
+            <devTypeStr>D1300 Series</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+
+        <device name="Not Support" enum="104">
+          <matchingDevTypeStrs>
+            <devTypeStr>D1500 Series</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+        <device name="Not Support" enum="105">
+          <matchingDevTypeStrs>
+            <devTypeStr>Canon LBP151</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+
+        <device name="Canon Generic Plus PCL6" enum="106">
+          <matchingPDLTypeStrs>
+            <PDLTypeStr>47</PDLTypeStr>
+            <PDLTypeStr>3</PDLTypeStr>
+          </matchingPDLTypeStrs>
+        </device>
+        
+			</deviceList>
+		</method>
+	</methodList>
+</discovery>

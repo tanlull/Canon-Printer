@@ -1,0 +1,815 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+*************************************************************************
+* Copyright CANON INC. 1999                                          *
+*************************************************************************
+-->
+<!--
+*************************************************************************
+* Ver1.30 Installer Canon Generic Plus PCL6                          *
+*************************************************************************
+-->
+<discovery xmlns="urn:slpdiscovery">
+	
+	<refreshRate>60</refreshRate>
+	<timeout>4</timeout>
+  <destinationAddressIPv6>ff02:0:0:0:0:0:1:134c</destinationAddressIPv6>
+	<methodList onlyMatching="true">
+
+		<!-- SLP method to find "service:printer" devices -->
+		<method name="Test" serviceType="printer.canon"> 
+			<AttributeList>
+				<devNameOID>x-can-PdInfoMachineName</devNameOID>
+				<devTypeOID>x-can-PdInfoProductName</devTypeOID>
+ 				<sysDescOID>sysDescr</sysDescOID>
+			</AttributeList>
+
+			<deviceList>
+ 
+				<device name="Canon Generic Plus PCL6" enum="1">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR2520</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="2">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR2525</devTypeStr>
+						<devTypeStr>iR2530</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="3">
+					<matchingDevTypeStrs>
+						<devTypeStr>imageRUNNER1133 series</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="4">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR1435</devTypeStr>
+						<devTypeStr>iR1435P</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="5">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR2535</devTypeStr>
+						<devTypeStr>iR2545</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="6">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR1730</devTypeStr>
+						<devTypeStr>iR1740</devTypeStr>
+						<devTypeStr>iR1750</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="7">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR C1028</devTypeStr>
+						<devTypeStr>iR C1030</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="8">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR C1225</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="9">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR C1325</devTypeStr>
+						<devTypeStr>iR C1335</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="10">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 4025</devTypeStr>
+						<devTypeStr>iR-ADV 4035</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="11">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 4225</devTypeStr>
+						<devTypeStr>iR-ADV 4235</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="12">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 4525</devTypeStr>
+						<devTypeStr>iR-ADV 4535</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="13">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 400</devTypeStr>
+						<devTypeStr>iR-ADV 500</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="14">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 4045</devTypeStr>
+						<devTypeStr>iR-ADV 4051</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="15">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 4245</devTypeStr>
+						<devTypeStr>iR-ADV 4251</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="16">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 4545</devTypeStr>
+						<devTypeStr>iR-ADV 4551</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="17">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 6055</devTypeStr>
+						<devTypeStr>iR-ADV 6065</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="18">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 6055-U1</devTypeStr>
+						<devTypeStr>iR-ADV 6065-U1</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="19">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 6255</devTypeStr>
+						<devTypeStr>iR-ADV 6265</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="20">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 6255-U2</devTypeStr>
+						<devTypeStr>iR-ADV 6265-U2</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="21">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 6555</devTypeStr>
+						<devTypeStr>iR-ADV 6565</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="22">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 6075</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="23">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 6075-U1</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="24">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 6275</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="25">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 6275-U2</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="26">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 6555-Y1</devTypeStr>
+						<devTypeStr>iR-ADV 6565-Y1</devTypeStr>
+						<devTypeStr>iR-ADV 6575-Y1</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="27">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 6575</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="28">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 8085</devTypeStr>
+						<devTypeStr>iR-ADV 8095</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="29">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 8285</devTypeStr>
+						<devTypeStr>iR-ADV 8295</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="30">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 8585</devTypeStr>
+						<devTypeStr>iR-ADV 8595</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="31">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 8105-U1</devTypeStr>
+						<devTypeStr>iR-ADV 8095-U1</devTypeStr>
+						<devTypeStr>iR-ADV 8085-U1</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="32">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 8105</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="33">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 8205-U2</devTypeStr>
+						<devTypeStr>iR-ADV 8285-U2</devTypeStr>
+						<devTypeStr>iR-ADV 8295-U2</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="34">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 8205</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="35">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 8505-Y1</devTypeStr>
+						<devTypeStr>iR-ADV 8585-Y1</devTypeStr>
+						<devTypeStr>iR-ADV 8595-Y1</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="36">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV 8505</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="37">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C3320</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="38">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C3320L</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="39">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C3525</devTypeStr>
+						<devTypeStr>iR-ADV C3530</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="40">
+					<matchingDevTypeStrs>
+					<devTypeStr>iR-ADV C3520</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="41">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C2025</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="42">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C2225</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="43">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C2020</devTypeStr>
+						<devTypeStr>iR-ADV C2030</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="44">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C2020i</devTypeStr>
+						<devTypeStr>iR-ADV C2030i</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="45">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C2020L</devTypeStr>
+						<devTypeStr>iR-ADV C2030L</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="46">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C2220</devTypeStr>
+						<devTypeStr>iR-ADV C2230</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="47">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C3325</devTypeStr>
+						<devTypeStr>iR-ADV C3330</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="48">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C250</devTypeStr>
+						<devTypeStr>iR-ADV C350</devTypeStr>
+						<devTypeStr>iR-ADV C350P</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="49">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C255</devTypeStr>
+						<devTypeStr>iR-ADV C355</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="50">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C351</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="51">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C5030</devTypeStr>
+						<devTypeStr>iR-ADV C5035</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="52">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C5235</devTypeStr>
+						<devTypeStr>iR-ADV C5240</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="53">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C5535</devTypeStr>
+						<devTypeStr>iR-ADV C5540</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="54">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C5051-B1</devTypeStr>
+						<devTypeStr>iR-ADV C5045-B1</devTypeStr>
+						<devTypeStr>iR-ADV C5035-B1</devTypeStr>
+						<devTypeStr>iR-ADV C5030-B1</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="55">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C5045</devTypeStr>
+						<devTypeStr>iR-ADV C5051</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="56">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C5250-B2</devTypeStr>
+						<devTypeStr>iR-ADV C5255-B2</devTypeStr>
+						<devTypeStr>iR-ADV C5235-B2</devTypeStr>
+						<devTypeStr>iR-ADV C5240-B2</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="57">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C5250</devTypeStr>
+						<devTypeStr>iR-ADV C5255</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="58">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C5560-P1</devTypeStr>
+						<devTypeStr>iR-ADV C5550-P1</devTypeStr>
+						<devTypeStr>iR-ADV C5540-P1</devTypeStr>
+						<devTypeStr>iR-ADV C5535-P1</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="59">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C5550</devTypeStr>
+						<devTypeStr>iR-ADV C5560</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="60">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C7065-A1</devTypeStr>
+						<devTypeStr>iR-ADV C7055-A1</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="61">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C7055</devTypeStr>
+						<devTypeStr>iR-ADV C7065</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="62">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C7580-N1</devTypeStr>
+						<devTypeStr>iR-ADV C7570-N1</devTypeStr>
+						<devTypeStr>iR-ADV C7565-N1</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="63">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C7565</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="64">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C7260</devTypeStr>
+						<devTypeStr>iR-ADV C7270</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="65">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C9070-A1</devTypeStr>
+						<devTypeStr>iR-ADV C9060-A1</devTypeStr>
+						<devTypeStr>iR-ADV C9075-A1</devTypeStr>
+						<devTypeStr>iR-ADV C9065-A1</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="66">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C9060</devTypeStr>
+						<devTypeStr>iR-ADV C9070</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="67">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C9065</devTypeStr>
+						<devTypeStr>iR-ADV C9075</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="68">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C7260-A2</devTypeStr>
+						<devTypeStr>iR-ADV C7270-A2</devTypeStr>
+						<devTypeStr>iR-ADV C7280-A2</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="69">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C7280</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="70">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C7580</devTypeStr>
+						<devTypeStr>iR-ADV C7570</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="71">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C9270-A2</devTypeStr>
+						<devTypeStr>iR-ADV C9280-A2</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="72">
+					<matchingDevTypeStrs>
+						<devTypeStr>iR-ADV C9270</devTypeStr>
+						<devTypeStr>iR-ADV C9280</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="73">
+					<matchingDevTypeStrs>
+						<devTypeStr>iPR1135-J200</devTypeStr>
+						<devTypeStr>iPR1125-J200</devTypeStr>
+						<devTypeStr>iPR1110-J200</devTypeStr>
+						<devTypeStr>iPR1135-J100</devTypeStr>
+						<devTypeStr>iPR1125-J100</devTypeStr>
+						<devTypeStr>iPR1110-J100</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="74">
+					<matchingDevTypeStrs>
+						<devTypeStr>iPR1135-K200</devTypeStr>
+						<devTypeStr>iPR1125-K200</devTypeStr>
+						<devTypeStr>iPR1110-K200</devTypeStr>
+						<devTypeStr>iPR1135-K100</devTypeStr>
+						<devTypeStr>iPR1125-K100</devTypeStr>
+						<devTypeStr>iPR1110-K100</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="75">
+					<matchingDevTypeStrs>
+						<devTypeStr>iPR1135</devTypeStr>
+						<devTypeStr>iPR1125</devTypeStr>
+						<devTypeStr>iPR1110</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="76">
+					<matchingDevTypeStrs>
+						<devTypeStr>iPR C600</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="77">
+					<matchingDevTypeStrs>
+						<devTypeStr>iPR C600-G100</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="78">
+					<matchingDevTypeStrs>
+						<devTypeStr>iPR C6010</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="79">
+					<matchingDevTypeStrs>
+						<devTypeStr>iPR C6010VP</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="80">
+					<matchingDevTypeStrs>
+						<devTypeStr>iPR C60-G100</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+        
+				<device name="Canon Generic Plus PCL6" enum="81">
+					<matchingDevTypeStrs>
+						<devTypeStr>iPR C650</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="82">
+					<matchingDevTypeStrs>
+						<devTypeStr>iPR C65-G100</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="83">
+					<matchingDevTypeStrs>
+						<devTypeStr>iPR C650-G100</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="84">
+					<matchingDevTypeStrs>
+						<devTypeStr>iPR C7010VP</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="85">
+					<matchingDevTypeStrs>
+						<devTypeStr>iPR C800</devTypeStr>
+						<devTypeStr>iPR C700</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="86">
+					<matchingDevTypeStrs>
+						<devTypeStr>iPR C800-G100</devTypeStr>
+						<devTypeStr>iPR C700-G100</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="87">
+					<matchingDevTypeStrs>
+						<devTypeStr>iPR C850</devTypeStr>
+						<devTypeStr>iPR C750</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="88">
+					<matchingDevTypeStrs>
+						<devTypeStr>iPR C850-G100</devTypeStr>
+						<devTypeStr>iPR C750-G100</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="89">
+					<matchingDevTypeStrs>
+						<devTypeStr>Canon MF230 Series</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="90">
+					<matchingDevTypeStrs>
+						<devTypeStr>Canon MF240 Series</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="91">
+					<matchingDevTypeStrs>
+						<devTypeStr>MF410 Series</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="92">
+					<matchingDevTypeStrs>
+						<devTypeStr>MF510 Series</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="93">
+					<matchingDevTypeStrs>
+						<devTypeStr>MF720C Series</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="94">
+					<matchingDevTypeStrs>
+						<devTypeStr>MF9220</devTypeStr>
+						<devTypeStr>MF9280</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="95">
+					<matchingDevTypeStrs>
+						<devTypeStr>MF810</devTypeStr>
+						<devTypeStr>MF820</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+        <device name="Canon Generic Plus PCL6" enum="96">
+          <matchingDevTypeStrs>
+            <devTypeStr>Canon D570</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+				<device name="Canon Generic Plus PCL6" enum="97">
+					<matchingDevTypeStrs>
+						<devTypeStr>LBP251</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="98">
+					<matchingDevTypeStrs>
+						<devTypeStr>LBP8750</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+        <device name="Canon Generic Plus PCL6" enum="99">
+					<matchingDevTypeStrs>
+						<devTypeStr>LBP252</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="100">
+					<matchingDevTypeStrs>
+						<devTypeStr>LBP253</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+        <device name="Canon Generic Plus PCL6" enum="101">
+          <matchingDevTypeStrs>
+            <devTypeStr>LBP311</devTypeStr>
+            <devTypeStr>LBP312</devTypeStr>
+          </matchingDevTypeStrs>
+        </device>
+        
+				<device name="Canon Generic Plus PCL6" enum="102">
+					<matchingDevTypeStrs>
+						<devTypeStr>LBP351dn</devTypeStr>
+						<devTypeStr>LBP352dn</devTypeStr>
+						<devTypeStr>LBP351x</devTypeStr>
+						<devTypeStr>LBP352x</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="103">
+					<matchingDevTypeStrs>
+						<devTypeStr>LBP6650</devTypeStr>
+						<devTypeStr>LBP3470</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="104">
+					<matchingDevTypeStrs>
+						<devTypeStr>LBP6670</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="105">
+					<matchingDevTypeStrs>
+						<devTypeStr>LBP6680</devTypeStr>
+						<devTypeStr>LBP3480</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="106">
+					<matchingDevTypeStrs>
+						<devTypeStr>LBP6750</devTypeStr>
+						<devTypeStr>LBP3560</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="107">
+					<matchingDevTypeStrs>
+						<devTypeStr>LBP6780</devTypeStr>
+						<devTypeStr>LBP3580</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="108">
+					<matchingDevTypeStrs>
+						<devTypeStr>LBP8780</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="109">
+					<matchingDevTypeStrs>
+						<devTypeStr>LBP7660C</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="110">
+					<matchingDevTypeStrs>
+						<devTypeStr>LBP7680C</devTypeStr>
+						<devTypeStr>LBP5280</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="111">
+					<matchingDevTypeStrs>
+						<devTypeStr>LBP843Cx</devTypeStr>
+						<devTypeStr>LBP841Cdn</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="112">
+					<matchingDevTypeStrs>
+						<devTypeStr>LBP710Cx</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="113">
+					<matchingDevTypeStrs>
+						<devTypeStr>LBP7780C</devTypeStr>
+						<devTypeStr>LBP5480</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+				<device name="Canon Generic Plus PCL6" enum="114">
+					<matchingDevTypeStrs>
+						<devTypeStr>LBP712Cdn</devTypeStr>
+						<devTypeStr>LBP712Cx</devTypeStr>
+					</matchingDevTypeStrs>
+				</device>
+
+      </deviceList>
+    </method>
+  </methodList>
+</discovery>

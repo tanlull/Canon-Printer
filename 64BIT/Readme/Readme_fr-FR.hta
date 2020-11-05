@@ -1,0 +1,1538 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml" xmlns:hta="urn:HTMLApplication">
+	<head>
+		<meta name="Generator" content="CAESAR" />
+		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
+		<title>Version 1.30 du pilote d'imprimante Canon Generic Plus PCL6 pour Microsoft Windows</title>
+		<hta:application id="id_canon_main_window" applicationname="canon_main_window" border="thick" borderstyle="normal" caption="yes" maximizebutton="yes" minimizebutton="yes" showintaskbar="yes" singleinstance="no" sysmenu="yes" version="1.0" windowstate="normal" contextmenu="yes" navigable="yes" />
+		<style type="text/css">div.list{display:list-item!important;list-style-type:Disc;margin-left:40px!important;padding-left:5px!important;}table div.list{margin-left:20px!important;padding-left:5px!important;}div.dash{display:list-item!important;list-style-type:Circle;margin-left:65px!important;padding-left:5px!important;}table div.dash{margin-left:40px!important;padding-left:5px!important;}div.step_sub{display:list-item!important;list-style-type:Square;margin-left:30px!important;padding-left:5px!important;}div.list_link{display:list-item!important;list-style-type:Square;margin-left:50px!important;padding-left:5px!important;}div.h1{background:#F3F8FA!important;}div.h2,div.h2_2line,div.h2_3line{background:#F3F8FA!important;}div.h3{background:#F3F8FA!important;}thead.table_important td.table_important_col_0,thead.table_note td.table_note_col_0{padding:2px 5px 2px 5px!important;}</style>
+		<style type="text/css" >
+			<!--
+*{
+	font-family:"Arial","Helvetica",Sans-serif;
+	/*margin:0;*/
+	/*padding:0;*/
+	/*border:0;*/
+	/*background-color:Transparent;*/
+	font-size:100%;
+	/*font-style:Normal;*/
+	text-decoration:None;
+}
+html{
+	border:0;
+}
+body{
+	margin:0;
+	padding:0;
+	background:#FFFFFF;
+}
+span{
+	color:Inherit;
+}
+div#id_content a{
+	text-decoration:None;
+}
+div#id_content a:link{
+	color:#3366A5;
+	text-decoration:None;
+}
+div#id_content a:visited{
+	color:#3366A5;
+	text-decoration:None;
+}
+div#id_content a:hover{
+	color:#EC6700;
+	background-color:#FFFFCC;
+	text-decoration:Underline;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.chapter_title{
+	background:#4682B4;
+	padding:2px 5px 2px 5px;
+	border-bottom:Solid 1px #4682B4;
+	font-weight:Bold;
+	font-size:80%;
+	margin-bottom:16px;
+	text-align:Right;
+	color:#FFFFFF;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h1{
+	padding:32px 0 2px 8px;
+	border-bottom:Solid 1px #4682B4;
+	background:#F3F8FA;
+	font-weight:Bold;
+	font-size:120%;
+	margin-bottom:16px;
+	vertical-align:Bottom;
+	text-align:Left;
+	color:#000080;
+	position:Relative;
+}
+div.h1 a{
+	position:Absolute;
+	*position:Static!important;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h2,
+div.h2_2line,
+div.h2_3line{
+	border:Solid 1px #4682B4;
+	padding:5px;
+	margin:30px 10px 5px 10px;
+	font-size:90%;
+	font-weight:Bold;
+	background:#F3F8FA;
+	color:#000080;
+}
+div.h2 a,
+div.h2_2line a,
+div.h2_3line a{
+	font-weight:Bold;
+	text-decoration:None;
+	color:#0000FF;
+}
+div.h2 img,
+div.h2_2line img,
+div.h2_3line img{
+	vertical-align:Middle;
+	margin-right:2px;
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h3{
+	padding:5px;
+	margin:25px 10px 5px 10px;
+	font-size:90%;
+	font-weight:Bold;
+	background:#F3F8FA;
+	border-bottom:Solid 1px #87CEEB;
+	color:#000080;
+}
+div.h3 a{
+	font-weight:Bold;
+	text-decoration:None;
+	color:#0000FF;
+}
+div.h3 img{
+	vertical-align:Middle;
+	margin-right:2px;
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h4{
+	margin:20px 10px 5px 10px;
+	font-weight:Bold;
+	font-size:90%;
+	border-Bottom:Solid 1px #87CEEB;
+	background:#FFFFFF;
+	padding:0px 5px;
+	color:#000080;
+}
+div.h4 img{
+	vertical-align:Middle;
+	margin-right:2px;
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h5{
+	margin:20px 10px 5px 15px;
+	font-weight:Bold;
+	font-size:80%;
+	color:#000080;
+}
+div.h5 img{
+	vertical-align:Middle;
+	margin-right:5px;
+	margin-left:4px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h6{
+	margin:15px 10px 5px 30px;
+	font-weight:Bold;
+	font-size:80%;
+	color:#000080;
+}
+div.h6 img{
+	vertical-align:Middle;
+	margin-right:2px;
+	margin-left:0px;
+}
+table div.h6{
+	margin-left:0px;
+	margin-top:10px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text{
+	font-size:80%;
+	margin:5px 10px 5px 30px;
+	color:#000000;
+}
+table div.text{
+	margin:3px 0 0 0;
+}
+div.text img{
+	vertical-align:Middle;
+}
+table div.text img{
+	vertical-align:Middle;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_level1{
+	font-size:80%;
+	margin:5px 10px 5px 40px;
+	color:#000000;
+}
+table div.text_level1{
+	margin:3px 0 0 10px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_level2{
+	font-size:80%;
+	margin:5px 10px 5px 50px;
+	color:#000000;
+}
+table div.text_level2{
+	margin:3px 0 0 20px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_level3{
+	font-size:80%;
+	margin:5px 10px 5px 60px;
+	color:#000000;
+}
+table div.text_level3{
+	margin:3px 0 0 30px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_center{
+	text-align:Center;
+	font-size:80%;
+	color:#000000;
+}
+table div.text_center{
+	margin:3px 0 0 0;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_right{
+	text-align:Right;
+	font-size:80%;
+	color:#000000;
+	margin-right:10px;
+}
+table div.text_right{
+	margin-right:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.annotation{
+	font-size:75%;
+	margin:0px 10px 5px 55px;
+	text-indent:-1.5em;
+	color:#000000;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.list{
+	background:Transparent;
+	_background:Transparent;
+	margin-left:30px;
+	margin-right:10px;
+	margin-top:2px;
+	margin-bottom:2px;
+	padding-left:20px;
+	padding-top:0px;
+	font-weight:Normal;
+	font-size:80%;
+	color:#000000;
+}
+table div.list{
+	margin-left:0px;
+}
+div.list img{
+	vertical-align:Top;
+}
+table div.list img{
+	vertical-align:Top;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+div.dash{
+	margin-left:50px;
+	margin-right:10px;
+	margin-top:2px;
+	margin-bottom:2px;
+	font-weight:Normal;
+	font-size:80%;
+	background:Transparent;
+	_background:Transparent;
+	padding:0px 0px 0px 20px;
+	color:#000000;
+}
+*:first-child+html div.dash{
+	background:Transparent;
+}
+table div.dash{
+	margin-left:12px;
+}
+div.dash img{
+	vertical-align:Top;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.example{
+	font-size:80%;
+	font-family:Monospace;
+	margin:5px 10px 5px 30px;
+	clear:Both;
+	background:#707080;
+	padding:5px;
+	color:#FFFFFF;
+}
+div#id_content div.example a:link{
+	color:#0000FF;
+	text-decoration:None;
+}
+div#id_content div.example a:visited{
+	color:#0000FF;
+	text-decoration:None;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.path{
+	padding:3px 10px 3px 20px;
+	font-size:80%;
+	margin:0px 30px;
+	background:Transparent;
+	_background:Transparent;
+	color:#666666;
+}
+div.path img{
+	vertical-align:Middle;
+}
+table div.path{
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.step_number{
+	background:#F8F8F8;
+	font:Bold 200% "Arial";
+	color:#4682B4;
+	padding:0px 5px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:20px;
+	margin-bottom:0px;
+}
+div.step_number span{
+	font:Bold 100% "Arial";
+	color:#4682B4;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.step_path{
+	padding:3px 10px 3px 30px;
+	font-size:80%;
+	margin:0px 10px;
+	background:#F8F8F8;
+	_background:#F8F8F8;
+	color:#666666;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.step_text{
+	font-weight:Bold;
+	padding:0px 10px 15px 5px;
+	font-size:80%;
+	margin:0px 10px 10px 10px;
+	background:#F8F8F8;
+	color:#000000;
+}
+div.step_text img{
+	vertical-align:Middle;
+}
+@media print{div.step_text{
+	padding:0px 10px 20px 5px;
+}}
+/*-----------------------------------------------------------------------------------------------*/
+div.step_sub{
+	font-size:80%;
+	font-weight:Bold;
+	margin:10px 10px 5px 15px;
+	padding-left:15px;
+	background:Transparent;
+	_background:Transparent;
+	color:#000000;
+}
+div.step_sub img{
+	vertical-align:Top;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.figure{
+	text-align:Left;
+	margin-left:30px;
+	margin-bottom:10px;
+}
+table div.figure{
+	margin-left:0;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.link{
+	margin:10px;
+	font-size:80%;
+	color:#3366A5;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.link a{
+	text-decoration:None;
+	padding-left:10px;
+	background:Transparent;
+	_background:Transparent;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.list_link{
+	background:Transparent;
+	_background:Transparent;
+	margin-left:30px;
+	margin-right:10px;
+	margin-bottom:0px;
+	padding-left:20px;
+	padding-top:1px;
+	font-weight:Normal;
+	font-size:80%;
+	color:#3366A5;
+}
+table div.list_link{
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.link_to_top{
+	text-align:Right;
+	padding:5px 10px 30px 10px;
+	font-size:80%;
+	color:#3366A5;
+	border-top:Dotted 1px #87CEEB;
+	margin-top:30px;
+}
+@media print{div.link_to_top{
+	display:None;
+}}
+div.link_to_top a{
+	text-decoration:None;
+	padding-left:12px;
+	background:Transparent;
+	_background:Transparent;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.trouble_shooting{
+	margin:10px 10px 10px 30px;
+}
+table.trouble_shooting{
+	border-collapse:Collapse;
+	table-layout:Fixed;
+}
+td.trouble_shooting{
+	border:Solid 1px #FFFFFF;
+}
+td.trouble_shooting_col_0{
+	padding:5px;
+	vertical-align:Middle;
+	font-size:100%;
+	width:80px;
+	background:#C0C0C0;
+	padding-bottom:10px;
+}
+td.trouble_shooting_col_1{
+	background:#EFEFEF;
+	padding-top:5px;
+	padding-bottom:10px;
+	padding-left:5px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.outline{
+	margin:10px 10px 10px 30px;
+}
+table.outline{
+	border-collapse:Collapse;
+	font-size:100%;
+}
+td.outline{
+	padding:10px 5px 10px 5px;
+}
+td.outline_col_0{
+	vertical-align:Middle;
+	text-align:Center;
+	border:Solid 1px #87CEEB;
+	background:#F5F5F5;
+	width:30px;
+	font-size:130%;
+}
+td.outline_col_0 div.h6{
+	color:#4682B4;
+	margin:0px;
+}
+td.outline_col_1{
+	vertical-align:Middle;
+	border:Solid 1px #87CEEB;
+	border-left:None;
+	background:#F5F5F5;
+	width:150px;
+}
+td.outline_col_1 div.h6{
+	margin:0px;
+	color:#000000;
+}
+td.outline_col_2{
+	vertical-align:Middle;
+	background:#FFFFFF;
+	border:Solid 1px #87CEEB;
+	padding:3px 3px 3px 10px;
+}
+td.outline_col_2 div.list{
+	background:Transparent;
+	_background:Transparent;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_ui{
+	margin:5px 10px 10px 30px;
+}
+table.table_ui{
+	table-layout:Auto;
+	border-collapse:Collapse;
+	border:None;
+	border-bottom:Solid 1px #E0E0E0;
+}
+td.table_ui_col_0{
+	padding:0px;
+	vertical-align:Top;
+	font-size:100%;
+	width:150px;
+	color:#000000;
+	padding:0px 0px 5px 0px;
+	border-right:None;
+}
+td.table_ui_col_1{
+	background:#FFFFFF;
+	padding:3px;
+	padding-left:10px;
+	border:Solid 1px #E0E0E0;
+	border-left:Solid 1px #E0E0E0;
+	border-right:None;
+	border-bottom:None;
+	vertical-align:Top;
+}
+td.table_ui_col_0 div.ui_level0{
+	background:#FFFFFF;
+	font-size:80%;
+	padding:6px 3px 1px 3px;
+	border-top:Solid 1px #E0E0E0;
+	border-right:None;
+	border-left:Solid 10px #FFFFFF;
+	margin-left:0px;
+}
+td.table_ui_col_0 div.ui_level1{
+	background:#FFFFFF;
+	font-size:80%;
+	padding:6px 3px 10px 3px;
+	border-top:Solid 1px #E0E0E0;
+	border-right:None;
+	border-left:Solid 10px #87BEDB;
+	margin-left:0px;
+}
+td.table_ui_col_0 div.ui_level2{
+	background:#FFFFFF;
+	font-size:80%;
+	padding:6px 3px 10px 3px;
+	margin-left:10px;
+	border-top:Solid 1px #E0E0E0;
+	border-right:None;
+	border-left:Solid 10px #A0D0EA;
+}
+td.table_ui_col_0 div.ui_level3{
+	background:#FFFFFF;
+	font-size:80%;
+	padding:6px 3px 10px 3px;
+	margin-left:20px;
+	border-top:Solid 1px #E0E0E0;
+	border-right:None;
+	border-left:Solid 10px #C6E5F6;
+}
+td.table_ui_col_0 div.ui_level1 img,
+td.table_ui_col_0 div.ui_level2 img,
+td.table_ui_col_0 div.ui_level3 img{
+	vertical-align:Middle;
+}
+/*-----------------------------------------------------------------------------------------------*/
+table div.table_important,
+table div.table_caution,
+table div.table_warning,
+table div.table_note{
+	margin-left:20px;
+}
+div.table_important,
+div.table_caution,
+div.table_warning,
+div.table_note{
+	margin:10px 10px 10px 30px;
+}
+*:first-child+html table.table_important,
+*:first-child+html table.table_caution,
+*:first-child+html table.table_warning,
+*:first-child+html table.table_note{
+	width:Auto;
+	table-layout:Fixed;
+}
+table.table_important,
+table.table_caution,
+table.table_warning,
+table.table_note{
+	background:#FFFFFF;
+	border-collapse:Collapse;
+	font-size:100%;
+	width:100%;
+	_width:Auto;
+	_table-layout:Fixed;
+}
+*:first-child+html table td.table_important_col_0,
+*:first-child+html table td.table_caution_col_0,
+*:first-child+html table td.table_warning_col_0,
+*:first-child+html table td.table_note_col_0{
+	width:Auto;
+}
+table td.table_important_col_0,
+table td.table_caution_col_0,
+table td.table_warning_col_0,
+table td.table_note_col_0{
+	width:100%;
+	_width:Auto;
+	vertical-align:Top;
+}
+*:first-child+html tbody.table_important td.table_important_col_0,
+*:first-child+html tbody.table_caution td.table_caution_col_0,
+*:first-child+html tbody.table_warning td.table_warning_col_0,
+*:first-child+html tbody.table_note td.table_note_col_0{
+	width:Auto;
+}
+tbody.table_important td.table_important_col_0,
+tbody.table_caution td.table_caution_col_0,
+tbody.table_warning td.table_warning_col_0,
+tbody.table_note td.table_note_col_0{
+	padding-left:10px;
+	width:100%;
+	_width:Auto;
+}
+@media print{
+thead.table_important td.table_important,
+thead.table_caution td.table_caution,
+thead.table_warning td.table_warning,
+thead.table_note td.table_note{
+	padding-bottom:5px;
+}}
+tbody.table_important td.table_important,
+tbody.table_caution td.table_caution,
+tbody.table_warning td.table_warning,
+tbody.table_note td.table_note{
+	padding-left:10px;
+	padding-top:2px;
+	border-bottom:None;
+	padding-bottom:5px;
+	border-top:None;
+}
+thead.table_important td.table_important_col_0,
+thead.table_note td.table_note_col_0{
+	padding:2px 5px 2px 30px;
+	text-align:Left;
+	border-bottom:None;
+}
+thead.table_caution td.table_caution_col_0,
+thead.table_warning td.table_warning_col_0{
+	padding:2px 23px 5px 5px;
+	text-align:Center;
+	border-bottom:Solid 1px #808080;
+}
+thead.table_caution td.table_caution_col_0 div img,
+thead.table_warning td.table_warning_col_0 div img{
+	margin-right:3px;
+}
+thead.table_important td.table_important div,
+thead.table_caution td.table_caution div,
+thead.table_warning td.table_warning div,
+thead.table_note td.table_note div{
+	font-weight:Bold;
+}
+table.table_important{
+	border:Solid 1px #808080;
+}
+table.table_caution,
+table.table_warning{
+	border:Solid 1px #808080;
+}
+table.table_note{
+	border:Solid 1px #808080;
+}
+thead.table_important td.table_important{
+	background:Transparent;
+	_background:Transparent;
+}
+thead.table_caution td.table_caution div,
+thead.table_warning td.table_warning div{
+	font-size:120%;
+}
+
+thead.table_note td.table_note{
+	background:Transparent;
+	_background:Transparent;
+}
+thead.table_important td.table_important div{
+	color:#4682B4;
+}
+thead.table_caution td.table_caution div,
+thead.table_warning td.table_warning div{
+	color:#000000;
+}
+thead.table_note td.table_note div{
+	color:#808080;
+}
+thead.table_important td.table_important_col_0,
+tbody.table_important td.table_important_col_0{
+	border-right:Solid 1px #808080;
+}
+thead.table_caution td.table_caution_col_0,
+tbody.table_caution td.table_caution_col_0,
+thead.table_warning td.table_warning_col_0,
+tbody.table_warning td.table_warning_col_0{
+	border-right:Solid 1px #808080;
+}
+thead.table_note td.table_note_col_0,
+tbody.table_note td.table_note_col_0{
+	border-right:Solid 1px #808080;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_no_border{
+	margin:10px 10px 10px 30px;	
+}
+table div.table_no_border{
+	margin-left:10px;
+}
+table.table_no_border{
+	border:None;
+	width:Auto;
+}
+thead.table_no_border td.table_no_border{
+	padding:0px 5px 0px 0px;
+	border:None;
+	font-size:100%;
+	text-align:Left;
+	font-weight:Bold;
+	vertical-align:Middle;
+}
+tbody.table_no_border td.table_no_border{
+	padding:0px 5px 0px 0px;
+	vertical-align:Top;
+	border:None;
+	font-size:100%;
+	padding-bottom:5px;
+}
+tbody.table_no_border td.table_no_border div{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_matrix{
+	margin:10px 10px 10px 30px;
+}
+table div.table_matrix{
+	margin-left:20px;
+}
+table.table_matrix{
+	border-collapse:Collapse;
+	border:Solid 1px #808080;
+}
+thead.table_matrix td.table_matrix{
+	padding:5px;
+	background-color:#DDDDDD;
+	border:Solid 1px #808080;
+	font-size:100%;
+	text-align:Center;
+	font-weight:Normal;
+	vertical-align:Middle;
+}
+tbody.table_matrix td.table_matrix_col_0{
+	padding:5px 0px;
+	padding-left:5px;
+	width:120px;
+	vertical-align:Middle;
+	background-color:#EFEFEF;
+	border:Solid 1px #808080;
+	font-size:100%;
+	font-weight:Normal;
+}
+tbody.table_matrix td.table_matrix{
+	padding:3px 10px;
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+	font-size:100%;
+}
+thead.table_matrix td.table_matrix_col_1{
+	background-color:#DDDDDD;
+	border:Solid 1px #808080;
+	padding:5px;
+}
+tbody.table_matrix td.table_matrix_col_1{
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+}
+thead.table_matrix td.table_matrix_col_0{
+	border:Solid 1px #808080;
+	background-color:#DDDDDD;
+	padding:5px;
+}
+thead.table_matrix td.table_matrix div{
+	color:#000000;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_general{
+	margin:10px 10px 10px 30px;
+}
+table div.table_general{
+	margin-left:20px;
+}
+table.table_general{
+	border-collapse:Collapse;
+	border:Solid 1px #808080;
+}
+thead.table_general td.table_general{
+	padding:5px;
+	border:Solid 1px #808080;
+	font-size:100%;
+	text-align:Center;
+	font-weight:Normal;
+	vertical-align:Middle;
+}
+tbody.table_general td.table_general_col_0{
+	padding:5px 0px;
+	padding-left:5px;
+	width:120px;
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+	font-size:100%;
+	font-weight:Normal;
+}
+tbody.table_general td.table_general{
+	padding:3px 10px;
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+	font-size:100%;
+}
+thead.table_general td.table_general_col_1{
+	border:Solid 1px #808080;
+	padding:5px;
+}
+tbody.table_general td.table_general_col_1{
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+}
+thead.table_general td.table_general_col_0{
+	border:Solid 1px #808080;
+	padding:5px;
+}
+thead.table_general td.table_general div{
+	color:#000000;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_number{
+	margin:10px 10px 10px 35px;	
+}
+table div.table_number{
+	margin-left:25px;
+}
+table.table_number{
+	border-collapse:Collapse;
+	border:None;
+	width:Auto;
+}
+tbody.table_number td.table_number{
+	padding:0px 5px 0px 0px;
+	border:None;
+	font-size:100%;
+	text-align:Left;
+	vertical-align:Top;
+}
+tbody.table_number td.table_number_col_0{
+	width:1.5em;
+	border:None;
+}
+tbody.table_number td.table_number_col_0 div{
+	margin-left:0px;
+	margin-right:0px;
+	font-weight:Normal;
+	text-align:Right;
+}
+tbody.table_number td.table_number_col_1{
+	width:Auto;
+}
+/*-----------------------------------------------------------------------------------------------*/
+span.bold{
+	font-weight:Bold;
+}
+span.italic{
+	font-style:Italic;
+}
+span.no_break{
+	white-space:Nowrap;
+}
+span.superscript{
+	vertical-align:Super;
+	font-size:80%;
+}
+span.subscript{
+	vertical-align:Sub;
+	font-size:80%;
+}
+span.underline{
+	text-decoration:Underline;
+}
+span.color_white{
+	color:#FFFFFF;
+}
+span.color_blue{
+	color:#0000FF;
+}
+span.color_red{
+	color:#FF0000;
+}
+span.color_orange{
+	color:#FFA500;
+}
+span.color_green{
+	color:#008000;
+}
+span.bold\+color_red{
+	color:#FF0000;
+	font-weight:Bold;
+}
+span.bold\+italic{
+	font-style:Italic;
+	font-weight:Bold;
+}
+span.bold\+superscript{
+	vertical-align:Super;
+	font-size:80%;
+	font-weight:Bold;
+}
+span.bold\+underline{
+	text-decoration:Underline;
+	font-weight:Bold;
+}
+span.italic\+superscript{
+	vertical-align:Super;
+	font-size:80%;
+	font-style:Italic;
+}
+span.yenmark{
+	/*font-family:"MS PGothic","Osaka","Arial","Helvetica",Sans-serif;*/
+}
+span.yenmark\+italic{
+	/*font-family:"MS PGothic","Osaka","Arial","Helvetica",Sans-serif;*/
+	font-style:Italic;
+}
+span.bold\+color_orange{
+	color:#FFA500;
+	font-weight:Bold;
+}
+span.bold\+superscript\+color_red{
+	color:#FF0000;
+	vertical-align:Super;
+	font-size:80%;
+	font-weight:Bold;
+}
+span.bold\+superscript\+color_orange{
+	color:#FFA500;
+	vertical-align:Super;
+	font-size:80%;
+	font-weight:Bold;
+}
+span.bold\+no_break{
+	white-space:Nowrap;
+	font-weight:Bold;
+}
+span.bold\+no_break\+superscript{
+	white-space:Nowrap;
+	font-weight:Bold;
+	vertical-align:Super;
+	font-size:80%;
+}
+span.no_break\+superscript{
+	white-space:Nowrap;
+	vertical-align:Super;
+	font-size:80%;
+}
+span.superscript\+color_red{
+	color:#FF0000;
+	vertical-align:Super;
+	font-size:80%;
+}
+span.superscript\+color_orange{
+	color:#FFA500;
+	vertical-align:Super;
+	font-size:80%;
+}
+span.ui_text{
+}
+span.ui_bold{
+	font-weight:Bold;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+div#id_breadcrumbs{
+	font-size:70%;
+	position:Absolute;
+	left:5px;
+	top:10px;
+	z-index:1;
+	cursor:Default;
+	display:None;
+}
+div#id_breadcrumbs a{
+	margin:0px 5px;
+}
+div#id_breadcrumbs a:link{
+	color:#0000FF;
+}
+div#id_breadcrumbs a:visited{
+	color:#0000FF;
+}
+span.style_name{
+	font:Normal 8pt "Tahoma";
+	color:#FF0000;
+	margin:0px 5px;
+}
+div.open_close_all{
+	font-size:80%;
+	margin:5px 10px 5px 30px;
+	color:#3366A5;
+	text-align:Right;
+}
+div.open_close_next_sibling{
+	font-size:80%;
+	margin:5px 10px 5px 30px;
+	color:#3366A5;
+	text-align:Right;
+}
+div#id_content div.open_close_all a:hover,
+div#id_content div.open_close_next_sibling a:hover{
+	text-decoration:None;
+}
+a.open_all:hover,
+a.close_all:hover,
+a.open_next_sibling:hover,
+a.close_next_sibling:hover{
+	border-bottom:Solid 1px #3366A5;
+}
+a.open_all,
+a.close_all,
+a.open_next_sibling,
+a.close_next_sibling{
+	border-bottom:Dotted 1px #3366A5;
+	padding-right:15px;
+}
+a.open_all{
+	margin-right:5px;
+}
+a.open_next_sibling{
+}
+a.close_all,
+a.close_next_sibling{
+}
+div.invisible_begin{
+	color:#FFFFFF;
+	font-size:80%;
+	text-align:Right;
+}
+div.invisible_end{
+	color:#FFFFFF;
+	font-size:80%;
+	text-align:Right;
+}
+div.invisible{
+	display:None;
+	border-right:Dotted 1px #808080;
+	margin-right:10px;
+}
+@media print{
+div.open_close_all{
+	display:None;
+}
+div.open_close_next_sibling{
+	display:None;
+}
+div.invisible{
+	display:Block;
+	border-right:None;
+	margin-right:0px;
+}}
+div.hr{
+	border-top:Solid 2px #808080;
+	margin:25px 10px 0px 10px;
+	font-size:0pt;
+	color:#FFFFFF;
+}
+hr{
+	color:#808080;
+	background-color:#808080;
+	margin:25px 10px 0px 10px;
+	height:2px;
+	border:0;
+}
+/*-----------------------------------------------------------------------------------------------*/
+@supports (-ms-accelerator:true) { @media print {
+	div./*[style]*/list {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/list:before {
+		content: url(style_list.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 4px;
+	}
+	div./*[style]*/dash {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/dash:before {
+		content: url(style_dash.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 4px;
+	}
+	div./*[style]*/path {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/path:before {
+		content: url(style_path.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 1px;
+	}
+	div./*[style]*/step_path {
+		background: #F8F8F8!important;
+		position: relative;
+	}
+	div./*[style]*/step_path:before {
+		content: url(style_path.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 8px;
+	}
+	div./*[style]*/step_sub {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/step_sub:before {
+		content: url(style_step_sub.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 8px;
+	}
+	div./*[style]*/step_sub {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/step_sub:before {
+		content: url(style_step_sub.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 8px;
+	}
+	div./*[style]*/link a {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/link a:before {
+		content: url(style_link.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	div./*[style]*/list_link {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/list_link:before {
+		content: url(style_link.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	thead./*[style]*/table_important td./*[style]*/table_important {
+		background: none!important;
+		position: relative;
+	}
+	thead./*[style]*/table_important td./*[style]*/table_important:before {
+		content: url(style_important.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	thead./*[style]*/table_note td./*[style]*/table_note {
+		background: none!important;
+		position: relative;
+	}
+	thead./*[style]*/table_note td./*[style]*/table_note:before {
+		content: url(style_note.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+}}
+-->
+		</style>
+	</head>
+	<body>
+		<!--CONTENT_START-->
+		<div id="id_content">
+			<div class="h1"><a id="d3209d1e1265edc49d5d94202bdeb6ec"></a>Version 1.30 du pilote d'imprimante Canon Generic Plus PCL6 pour Microsoft Windows</div>
+			<div class="text">Avant d'utiliser ce logiciel, assurez-vous de lire le CONTRAT DE LICENCE LOGICIELLE CANON affiché au cours de l'installation. Vous pouvez également consulter le CONTRAT DE LICENCE LOGICIELLE CANON (EULAfr-FR.rtf) stocké dans le dossier [misc] du CD-ROM joint ou du dossier du pilote téléchargé.</div>
+			<div class="text">Ce fichier contient des informations complémentaires pour vous aider à installer et à utiliser votre ce d'imprimante avec Microsoft Windows.</div>
+			<div class="text">Pour la plupart des matériels et des logiciels, certaines informations ne sont disponibles qu'après l'élaboration du manuel. Vous trouverez, dans ce fichier, les toutes dernières informations relatives à ce pilote d'imprimante. Si vous souhaitez bénéficier d'autres services d'assistance, contactez votre revendeur ou prestataire de services agréé Canon.</div>
+			<div class="text">Microsoft, Windows et Windows Vista sont des marques commerciales ou des marques déposées de Microsoft Corporation aux États-Unis et/ou dans d'autres pays.</div>
+			<div class="text">Les autres produits et noms de sociétés contenus dans ce manuel sont des marques de fabrique de leurs propriétaires respectifs.</div>
+			<div class="h2"><a id="0c970eb48f6aeb22f5fe56ddcefd64fa"></a>SOMMAIRE</div>
+			<div class="list_link"><a href="#636d58b85e05af14fba26f23ec13e2c6">Présentation</a></div>
+			<div class="list_link"><a href="#cfbfe503012e612edb9d60eefc68d5af">Spécifications système</a></div>
+			<div class="list_link"><a href="#ff162bfa526082b732442a0925874960">Installation du pilote d'imprimante</a></div>
+			<div class="list_link"><a href="#b6b8cb34c536624321aae23eb2118d27">Accès à la boîte de dialogue [Propriétés]</a></div>
+			<div class="list_link"><a href="#a9472a69374d08acb201ac44575378ed">Accès aux informations d'aide</a></div>
+			<div class="list_link"><a href="#74722ef065ccaf1fa5e99bf717f10223">Avertissements, limites et restrictions</a></div>
+			<div class="list_link"><a href="#98b9d8a48ac3e2f2c31976e81639273e">Précautions et restrictions en cas d'utilisation de l'impression sécurisée cryptée</a></div>
+			<div class="list_link"><a href="#dc115480a653f4ae712776c26c0eefbd">Restrictions relatives aux Paramètres du périphérique</a></div>
+			<div class="list_link"><a href="#5250a9e2e1de3c109a21e8bbdec4797a">Restrictions en cas d'utilisation de Canon Driver Configuration Tool</a></div>
+			<div class="list_link"><a href="#4a6bdb2eb8fe4b63a3a88976d8016900">Limites de modèles d'imprimante spécifiques</a></div>
+			<div class="h4"><a id="636d58b85e05af14fba26f23ec13e2c6"></a>Présentation</div>
+			<div class="text">Ce pilote d'imprimante vous permet d'imprimer des documents depuis n'importe quelle application Windows sur votre imprimante.</div>
+			<div class="text">Les fonctions d'impression sécurisée cryptée qu'il était auparavant nécessaire d'installer sous forme d'extensions séparées sont également prises en charge.</div>
+			<div class="text"><span class="bold">REMARQUE</span></div>
+			<div class="list">Ce pilote prend en charge l'outil Canon Driver Configuration Tool. Vous pouvez modifier les réglages par défaut d'usine du pilote d'imprimante de manière à créer des paramètres de pilote personnalisés à l'aide de l'outil Canon Driver Configuration Tool. Pour plus d'informations sur cet utilitaire, reportez-vous au Canon Driver Configuration Tool User's Guide.</div>
+			<div class="h4"><a id="cfbfe503012e612edb9d60eefc68d5af"></a>Spécifications système</div>
+			<div class="text">Ce pilote d'imprimante peut être utilisé dans les environnements suivants :</div>
+			<div class="h5">Systèmes d'exploitation</div>
+			<div class="text">Windows Vista</div>
+			<div class="text">Windows 7</div>
+			<div class="text">Windows 8</div>
+			<div class="text">Windows 8.1</div>
+			<div class="text">Windows 10</div>
+			<div class="text">Windows Server 2008</div>
+			<div class="text">Windows Server 2008 R2</div>
+			<div class="text">Windows Server 2012</div>
+			<div class="text">Windows Server 2012 R2</div>
+			<div class="text">Windows Server 2016</div>
+			<div class="h5">Environnement serveur</div>
+			<div class="h6">Systèmes d'exploitation serveurs</div>
+			<div class="text">Windows Server 2008</div>
+			<div class="text">Windows Server 2008 R2</div>
+			<div class="text">Windows Server 2012</div>
+			<div class="text">Windows Server 2012 R2</div>
+			<div class="text">Windows Server 2016</div>
+			<div class="h6">Composants serveurs</div>
+			<div class="text">Citrix Presentation Server 4.5</div>
+			<div class="text">Citrix XenApp 5.0</div>
+			<div class="text">Citrix XenApp 6.0</div>
+			<div class="text">Citrix XenApp 6.5</div>
+			<div class="text">Citrix XenApp 7.5</div>
+			<div class="text">Citrix XenApp 7.6</div>
+			<div class="text">Citrix XenApp 7.7</div>
+			<div class="text">Citrix XenApp 7.8</div>
+			<div class="text">Citrix XenApp 7.9</div>
+			<div class="text">Citrix XenApp 7.11</div>
+			<div class="text">Citrix XenApp 7.12</div>
+			<div class="text">Citrix XenDesktop 4.0</div>
+			<div class="text">Citrix XenDesktop 5.0</div>
+			<div class="text">Citrix XenDesktop 5.5</div>
+			<div class="text">Citrix XenDesktop 5.6</div>
+			<div class="text">Citrix XenDesktop 7.0</div>
+			<div class="text">Citrix XenDesktop 7.1</div>
+			<div class="text">Citrix XenDesktop 7.5</div>
+			<div class="text">Citrix XenDesktop 7.6</div>
+			<div class="text">Citrix XenDesktop 7.7</div>
+			<div class="text">Citrix XenDesktop 7.8</div>
+			<div class="text">Citrix XenDesktop 7.9</div>
+			<div class="text">Citrix XenDesktop 7.11</div>
+			<div class="text">Citrix XenDesktop 7.12</div>
+			<div class="text">VMware vSphere 4</div>
+			<div class="text">VMware vSphere 5</div>
+			<div class="text">VMware vSphere 5.1</div>
+			<div class="text">VMware vSphere 5.5</div>
+			<div class="text">VMware vSphere 6.0</div>
+			<div class="text">Microsoft Application Virtualization (App-V)</div>
+			<div class="text">Remote Desktop Service on Windows Server 2012 R2</div>
+			<div class="text">TS-RemoteApp on Windows Server 2008</div>
+			<div class="h6">Serveurs en cluster</div>
+			<div class="text">Microsoft Windows Server 2008 Enterprise/Datacenter Edition</div>
+			<div class="text">Microsoft Windows Server 2008 R2 Enterprise/Datacenter Edition</div>
+			<div class="text">Microsoft Windows Server 2012</div>
+			<div class="text">Microsoft Windows Server 2012 R2</div>
+			<div class="h5"><a id="46736b31e3ec30e521e36b46c58fa250"></a>Ordinateur</div>
+			<div class="text">Un ordinateur garanti compatible avec les systèmes d'exploitation mentionnés ci-dessus</div>
+			<div class="h4"><a id="ff162bfa526082b732442a0925874960"></a>Installation du pilote d'imprimante</div>
+			<div class="text">Pour utiliser ce pilote d'imprimante avec des applications fonctionnant sous Microsoft Windows, utilisez la procédure d'installation suivante.</div>
+			<div class="h6"><a id="2a30113ec12409ecaf1debadd080adee"></a><span class="bold">REMARQUE</span></div>
+			<div class="list">Avant d'effectuer l'installation, connectez-vous à Windows en tant qu'administrateur.</div>
+			<div class="list">Si lors de l'utilisation du programme d'installation, un message vous invite à redémarrer votre ordinateur, veillez bien à redémarrer votre ordinateur. Sinon, il se peut que les pilotes existants ne fonctionnent pas correctement.</div>
+			<div class="list">Si vous utilisez le mécanisme de création automatique d'imprimante dans un environnement Citrix XenApp, vous ne pourrez peut-être pas installer correctement ce pilote à l'aide du programme d'installation. Dans ce cas, procédez à une vérification en redémarrant le PC serveur XenApp et en consultant le contenu du dossier Imprimantes. Si les icônes des imprimantes existantes n'y figurent plus, réinstallez les pilotes d'imprimante appropriés sur le XenApp Server PC à l'aide de l'Assistant Ajout d'imprimante du dossier [Imprimantes].<br />Ensuite, avant de lancer le programme d'installation du pilote, déconnectez toutes les imprimantes clientes de toutes les sessions ICA en utilisant ICA Client Printer Configuration Utility. Après l'installation du pilote, relancez l'utilitaire et reconnectez les imprimantes. </div>
+			<div class="list">Pour mettre à jour ou ajouter un pilote d'imprimante, nous vous conseillons d'utiliser le programme d'installation. Vous pouvez également avoir recours à l'Assistant Ajout d'imprimante. Pour plus d'informations, consultez la section « <a href="#458c0fbe1c62532bfa546e541b069a2e">Pour effectuer l'installation à l'aide de l'assistant Ajout d'imprimante :</a> ».</div>
+			<div class="list">Si vous utilisez une imprimante SMB (réseau NetBIOS) dans la fonction d'imprimante partagée sur l'ordinateur serveur, utilisez l'assistant Ajout d'imprimante, puis sélectionnez [Imprimante réseau] lors de l'installation du pilote d'imprimante.</div>
+			<div class="list">Si vous installez ce pilote avec les paramètres par défaut, tous les pilotes d'imprimante Generic Plus déjà installés seront mis à jour dans les versions les plus récentes. Pour ajouter la nouvelle version du pilote sans mettre à jour les pilotes installés, consultez la section « <a href="#4465990d9b97bd6ecb35d37d0e37bf88">Installation en découvrant des périphériques sur un réseau</a> », « <a href="#6651e2a85f87a56b7c2604df4c48b1fa">Installation en spécifiant un port</a> » ou « <a href="#458c0fbe1c62532bfa546e541b069a2e">Pour effectuer l'installation à l'aide de l'assistant Ajout d'imprimante :</a> ».</div>
+			<div class="list">Si vous utilisez une imprimante partagée dans l'environnement de serveur d'impression (Pointer et imprimer), vous devez installer Canon Driver Information Assist Service sur le PC serveur pour utiliser la fonction d'acquisition des informations relatives au périphérique.</div>
+			<div class="list">Lors de l'acquisition d'informations relatives au pilote au moyen du Canon Driver Information Assist Service, si un avertissement s'affiche concernant la levée du blocage du pare-feu Windows, levez le blocage.</div>
+			<div class="list">Il convient d'agir avec précaution lors de l'installation de ce pilote si l'un des pilotes d'imprimante suivants a déjà été installé.</div>
+			<div class="dash">Pilote d'imprimante Canon PCL6</div>
+			<div class="dash">Pilote d'imprimante Canon UFR II</div>
+			<div class="dash">Pilote d'imprimante Canon PS3</div>
+			<div class="text_level2">S'il est nécessaire d'installer les extensions Impression sécurisée cryptée pour l'un de ces pilotes d'imprimante, veuillez procéder avant d'installer le présent pilote.</div>
+			<div class="h5"><a id="4465990d9b97bd6ecb35d37d0e37bf88"></a>Installation en découvrant des périphériques sur un réseau</div>
+			<div class="text">Vous pouvez rechercher des périphériques sur les réseaux TCP/IP lors de l'installation du pilote.</div>
+			<div class="text">Lors de l'installation, le profil de configuration et les fonctions du périphérique correspondant au modèle d'imprimante sont automatiquement configurés. Vous pouvez également modifier ou importer un profil de configuration, si nécessaire.</div>
+			<div class="text_level1">* Si vous ne savez pas quel environnement réseau est utilisé, consultez votre administrateur réseau.</div>
+			<div class="text">1. Démarrez le programme d'installation.</div>
+			<div class="text_level1">Double-cliquez sur le fichier [Setup.exe] sur le CD-ROM joint ou dans le dossier du pilote téléchargé.</div>
+			<div class="text">2. Sélectionnez [Langue], puis cliquez sur [Suivant].</div>
+			<div class="text">3. L'assistant et le contrat de licence s'affichent à l'écran. Confirmez le contenu du contrat de licence, puis cliquez sur [Oui].  </div>
+			<div class="text">4. Sélectionnez [Standard], puis cliquez sur [Suivant].</div>
+			<div class="text">5. Sélectionnez les éléments requis, puis cliquez sur [Suivant].</div>
+			<div class="text">6. Sélectionnez l'imprimante à installer depuis [Liste des imprimantes].</div>
+			<div class="text">7. Si vous souhaitez modifier le nom du périphérique, définissez-le en tant que périphérique par défaut ou changez de profil de configuration, sélectionnez [Définir les informations sur l'imprimante], puis cliquez sur [Suivant]. </div>
+			<div class="text">Sinon, cliquez sur [Suivant] et passez directement à l'étape 10.</div>
+			<div class="text">8.Pour sélectionner un profil de configuration, cliquez sur [Changer] et sélectionnez le profil de configuration approprié dans la boîte de dialogue [Changer de profil de configuration].</div>
+			<div class="annotation">* Vous pouvez enregistrer les profils de configuration à partir de [Importer] dans la boîte de dialogue [Changer de profil de configuration]. Vous pouvez supprimer un profil de configuration enregistré en cliquant sur [Supprimer].</div>
+			<div class="text">9. Entrez-le [Nom de l'imprimante], puis cliquez sur [Suivant].</div>
+			<div class="annotation">* Si vous souhaitez utiliser l'imprimante comme imprimante par défaut, sélectionnez [Définir par défaut].</div>
+			<div class="text">10. Si vous souhaitez utiliser l'imprimante sans mettre à jour les pilotes, cliquez sur [Sélectionner les imprimantes à mettre à jour] et décochez les cases des imprimantes dont vous ne souhaitez pas mettre les pilotes à jour dans la [Liste des imprimantes].</div>
+			<div class="text">11. Vérifiez les paramètres d'installation, puis cliquez sur [Démarrer]. L'installation démarre.</div>
+			<div class="text">12. Cliquez sur [Quitter] pour fermer le programme d'installation.  </div>
+			<div class="text_level1">Vous êtes à présent prêt à imprimer depuis n'importe quelle application Windows. </div>
+			<div class="h5"><a id="6651e2a85f87a56b7c2604df4c48b1fa"></a>Installation en spécifiant un port</div>
+			<div class="text">1. Démarrez le programme d'installation.</div>
+			<div class="text_level1">Double-cliquez sur le fichier [Setup.exe] sur le CD-ROM joint ou dans le dossier du pilote téléchargé.</div>
+			<div class="text">2. Sélectionnez [Langue], puis cliquez sur [Suivant].</div>
+			<div class="text">3. L'assistant et le contrat de licence s'affichent à l'écran. Confirmez le contenu du contrat de licence, puis cliquez sur [Oui]. </div>
+			<div class="text">4. Sélectionnez [Personnalisée], puis cliquez sur [Suivant].</div>
+			<div class="text">5. Si la boîte de dialogue permettant d'exécuter l'installation s'affiche, sélectionnez [Ajouter de nouvelles imprimantes] ou [Mettre à jour les pilotes d'imprimante existants] et cliquez sur [Suivant].</div>
+			<div class="text_level1">Si vous avez sélectionné [Mettre à jour les pilotes d'imprimante existants], passez à l'étape 9.</div>
+			<div class="text">6. Sélectionnez un [Port] dans le menu déroulant ou cliquez sur [Ajouter un port].</div>
+			<div class="text">7. Pour sélectionner un profil de configuration, cliquez sur [Changer] et sélectionnez le profil de configuration approprié dans la boîte de dialogue [Changer de profil de configuration].</div>
+			<div class="annotation">* Vous pouvez enregistrer les profils de configuration à partir de [Importer] dans la boîte de dialogue [Changer de profil de configuration]. Vous pouvez supprimer un profil de configuration enregistré en cliquant sur [Supprimer].</div>
+			<div class="text">8. Entrez-le [Nom de l'imprimante], puis cliquez sur [Suivant].</div>
+			<div class="annotation">* Si vous souhaitez utiliser l'imprimante comme imprimante par défaut, sélectionnez [Définir par défaut].</div>
+			<div class="text">9. Si vous souhaitez utiliser l'imprimante sans mettre à jour les pilotes, cliquez sur [Sélectionner les imprimantes à mettre à jour] et décochez les cases des imprimantes dont vous ne souhaitez pas mettre les pilotes à jour dans la [Liste des imprimantes].</div>
+			<div class="text">10. Vérifiez les paramètres d'installation, puis cliquez sur [Démarrer]. L'installation démarre.</div>
+			<div class="text">11. Cliquez sur [Quitter] pour fermer le programme d'installation. </div>
+			<div class="text_level1">Vous êtes à présent prêt à imprimer depuis n'importe quelle application Windows. </div>
+			<div class="h5"><a id="458c0fbe1c62532bfa546e541b069a2e"></a>Pour effectuer l'installation à l'aide de l'assistant Ajout d'imprimante :</div>
+			<div class="text">1. Démarrez l'assistant ajout d'imprimante de Windows.</div>
+			<div class="text_level2">À partir des [Paramètres] (Windows 10/Server 2016 uniquement)</div>
+			<div class="text_level3">(1) Cliquez sur [Périphériques] → cliquez sur [Ajouter une imprimante ou un scanner] à partir de [Imprimantes et scanners].</div>
+			<div class="text_level3">(2) Cliquez sur [L'imprimante souhaitée n'est pas indiquée].</div>
+			<div class="text_level2">À partir du [Panneau de configuration]</div>
+			<div class="text_level3">(1) Affichez [Périphériques et imprimantes] → cliquez sur [Ajouter une imprimante].</div>
+			<div class="text_level3">(2) Lorsque l'écran de sélection d'un périphérique s'affiche, cliquez sur [L'imprimante que je veux n'est pas répertoriée].</div>
+			<div class="text">2.Une fois l'assistant démarré, cliquez sur [Suivant]. </div>
+			<div class="text">3. Observez les instructions qui s'affichent à l'écran pour effectuer l'installation. </div>
+			<div class="text">4.Cliquez sur [Disque fourni].</div>
+			<div class="text">5. Cliquez sur [Parcourir] pour sélectionner le fichier inf, puis cliquez sur [OK].</div>
+			<div class="text_level1">Le fichier inf est stocké dans le dossier [Driver] sur le CD-ROM joint ou dans le dossier du pilote téléchargé.</div>
+			<div class="annotation">* Si vous sélectionnez le fichier inf dans le dossier ci-dessus et si vous installez le pilote, tous les pilotes installés sur l'ordinateur seront mis à jour. Si vous souhaitez installer un nouveau pilote séparément sans mettre à jour ce pilote déjà installé sur l'ordinateur, sélectionnez le fichier inf stocké dans le dossier [etc] à l'intérieur du dossier du pilote que vous avez acquis.</div>
+			<div class="text">6.Sélectionnez votre modèle d'imprimante dans [Imprimantes], puis cliquez sur [Suivant].  </div>
+			<div class="text">7.Suivez les instructions à l'écran pour continuer, puis cliquez sur [Quitter] pour commencer à copier les fichiers.  </div>
+			<div class="text_level1">Vous êtes à présent prêt à imprimer depuis n'importe quelle application Windows. </div>
+			<div class="h5"><a id="ae399ab3f7e27290818a8e90a8fa038c"></a>Pour effectuer l'installation à l'aide d'une connexion USB :</div>
+			<div class="text">1. Mettez le périphérique hors tension. </div>
+			<div class="text">2. Démarrez le programme d'installation → suivez les instructions des boîtes de dialogue.</div>
+			<div class="text">Pour plus d'informations, consultez les étapes 1 à 3 de la section « <a href="#4465990d9b97bd6ecb35d37d0e37bf88">Installation en découvrant des périphériques sur un réseau</a> » ou « <a href="#6651e2a85f87a56b7c2604df4c48b1fa">Installation en spécifiant un port</a> ». </div>
+			<div class="text">3.Sélectionnez [Connexion USB], puis cliquez sur [Suivant]. Si une boîte de dialogue de sélection du pilote d'imprimante s'affiche, sélectionnez le pilote que vous voulez installer puis cliquez sur [Suivant].</div>
+			<div class="text">4.Cliquez sur [Oui] dans la boîte de message vous demandant si vous voulez démarrer l'installation.  </div>
+			<div class="text">5. Lorsqu'une boîte de dialogue vous y invite, connectez la prise USB et mettez l'imprimante sous tension.</div>
+			<div class="text_level1">* En cas d'échec de l'installation à ce stade, essayez la procédure suivante.</div>
+			<div class="dash">Si le périphérique n'est pas reconnu lorsqu'il est connecté avec un câble USB </div>
+			<div class="text">6.Pour sélectionner un profil de configuration, cliquez sur [Changer] et sélectionnez le profil de configuration approprié dans la boîte de dialogue [Changer de profil de configuration].</div>
+			<div class="annotation">* Vous pouvez enregistrer les profils de configuration à partir de [Importer] dans la boîte de dialogue [Changer de profil de configuration]. Vous pouvez supprimer un profil de configuration enregistré en cliquant sur [Supprimer].</div>
+			<div class="text">7.Lorsque l'installation est terminée, cliquez sur [Quitter] dans l'écran de fin d'installation.</div>
+			<div class="text_level1">L'installation du pilote d'imprimante est terminée.</div>
+			<div class="h6"><a id="946b215ddf7d26eb1844ef13168bce61"></a>Si le périphérique n'est pas reconnu lorsqu'il est connecté avec un câble USB</div>
+			<div class="text">Si le périphérique n'est pas reconnu lorsqu'il est connecté avec un câble USB, essayez la procédure suivante.</div>
+			<div class="text">1. Connectez l'imprimante à l'ordinateur par un câble USB, puis allumez l'imprimante. </div>
+			<div class="text">2. Affichez [Gestionnaire de périphériques].</div>
+			<div class="text_level1">Sous Windows 10/Server 2016</div>
+			<div class="text_level2">Cliquez avec le bouton droit sur l'icône de Windows → cliquez sur [Gestionnaire de périphériques].</div>
+			<div class="text_level1">Sous Windows 7/Server 2008 R2/8/8.1/Server 2012/Server 2012 R2</div>
+			<div class="text_level2">Affichez [Panneau de configuration] &gt; [Matériel et audio] &gt; [Gestionnaire de périphériques].</div>
+			<div class="text_level1">Sous Windows Vista/Server 2008</div>
+			<div class="text_level2">Affichez [Panneau de configuration] &gt; [Système et maintenance] &gt; [Gestionnaire de périphériques].</div>
+			<div class="text">3. Dans [Autres périphériques], cliquez avec le bouton droit sur le nom de l'imprimante utilisée → exécutez [Suppression].</div>
+			<div class="text_level1">Le nom de l'imprimante devient</div>
+			<div class="text_level2">« Canon + &lt;nom du modèle&gt; » </div>
+			<div class="text_level1">Une fois la procédure décrite ci-dessus terminée, réinstallez le pilote. </div>
+			<div class="h6">Désinstallation du pilote d'imprimante</div>
+			<div class="text">1. Démarrez le programme de désinstallation du pilote.</div>
+			<div class="list">Si vous utilisez les fonctions de Windows</div>
+			<div class="text_level1">Sous Windows 10/Server 2016</div>
+			<div class="text_level2">(1) Affichez [Paramètres] &gt; [Système] &gt; [Applications et fonctionnalités].</div>
+			<div class="text_level2">(2) Sélectionnez le pilote que vous souhaitez désinstaller → cliquez sur [Désinstaller].</div>
+			<div class="text_level1">Sous d'autres systèmes d'exploitation que ceux mentionnés précédemment</div>
+			<div class="text_level2">(1) Affichez [Panneau de configuration] &gt; [Programmes] &gt; [Désinstaller un programme].</div>
+			<div class="text_level2">(2) Sélectionnez le pilote que vous souhaitez désinstaller → cliquez sur [Désinstaller/Modifier].</div>
+			<div class="list">Si vous utilisez le fichier de désinstallation fourni avec le pilote</div>
+			<div class="text_level3">Double-cliquez sur l'un des fichiers suivants.</div>
+			<div class="text_level2">Si vous utilisez un fichier dans un dossier des pilotes installés</div>
+			<div class="text_level3">Utilisez le fichier [UNINSTAL.exe] correspondant au pilote dans le dossier suivant.</div>
+			<div class="dash">&lt;dossier d'installation&gt;\Canon\PrnUninstall</div>
+			<div class="text_level2">Si vous utilisez le fichier sur le CD-ROM joint ou dans le dossier du pilote téléchargé</div>
+			<div class="text_level3">Utilisez le fichier suivant dans le dossier du pilote que vous avez acquis.</div>
+			<div class="dash">misc\UNINSTAL.exe</div>
+			<div class="text">2.Sélectionnez le nom du périphérique que vous souhaitez désinstaller et cliquez sur [Supprimer].</div>
+			<div class="annotation">* Si vous cliquez sur [Nettoyer], tous les fichiers et informations de registre associés non seulement au pilote sélectionné, mais tous les pilotes affichés dans la liste, sont supprimés. Normalement, il suffit de cliquer sur [Supprimer] pour désinstaller le pilote d'imprimante.</div>
+			<div class="text">3.Le message de confirmation de désinstallation s'affiche. Cliquez sur [Oui] pour lancer la désinstallation.</div>
+			<div class="text">4.Cliquez sur [Quitter].</div>
+			<div class="text"></div>
+			<div class="h4"><a id="b6b8cb34c536624321aae23eb2118d27"></a>Accès à la boîte de dialogue [Propriétés]</div>
+			<div class="text">La boîte de dialogue Propriétés contient plusieurs feuilles vous permettant de configurer et de contrôler votre imprimante. Pour accéder à la boîte de dialogue Propriétés, suivez l'une des procédures suivantes :</div>
+			<div class="h6"><a id="8d941cd856e7fe97b977d837c0ab6ec3"></a>Accès à partir du bureau :</div>
+			<div class="text">1. Affichez [Périphériques et imprimantes] à partir du [Panneau de configuration] de Windows.</div>
+			<div class="text">2. Cliquez avec le bouton droit sur l'icône correspondant à votre imprimante dans le dossier Imprimantes, puis cliquez sur [Propriétés] ou [Propriétés de l'imprimante] pour ouvrir la boîte de dialogue [Propriétés de l'imprimante], ou cliquez sur [Options d'impression] pour ouvrir la boîte de dialogue [Propriétés du document] (ou la boîte de dialogue [Options d'impression]).</div>
+			<div class="h6"><a id="6367ad8a20cbc51529545a70e48a29c4"></a>Accès à partir d'une application :</div>
+			<div class="text">1. Cliquez sur la commande [Imprimer] pour afficher la boîte de dialogue [Imprimer].  </div>
+			<div class="text">2. Sélectionnez le nom de votre imprimante dans la liste déroulante, puis cliquez sur [Préférences], [Propriétés de l'imprimante] ou [Propriétés]. </div>
+			<div class="h4"><a id="a9472a69374d08acb201ac44575378ed"></a>Accès aux informations d'aide</div>
+			<div class="text">Dans la boîte de dialogue Propriétés, vous pouvez cliquer sur [Aide] pour afficher les informations concernant le pilote d'imprimante.</div>
+			<div class="h4"><a id="74722ef065ccaf1fa5e99bf717f10223"></a>Avertissements, limites et restrictions</div>
+			<div class="list">Si vous imprimez un document comportant un nombre impair de pages sous forme de document recto verso depuis une application, il se peut que l'application insère automatiquement une page blanche pour que le nombre de pages soit pair. Dans ce cas, la page insérée par l'application est comptabilisée au même titre qu'une page imprimée. </div>
+			<div class="list">Si vous utilisez votre imprimante via une connexion USB, et que vous annulez un travail d'impression en cours depuis le spouleur d'impression, il se peut que l'imprimante ne revienne pas dans un état prêt.<br />Dans cet état, vous pouvez imprimer via une connexion USB, mais pas via un réseau. Pour pouvoir imprimer via un réseau, annulez le travail d'impression en utilisant le panneau de configuration de l'imprimante avant de lancer l'impression. </div>
+			<div class="list">Si vous utilisez Server Core dans le système d'exploitation Windows Server, vous ne pouvez pas utiliser le programme d'installation du pilote d'imprimante. Pour installer le pilote d'imprimante, utilisez la fonction d'installation du système d'exploitation.</div>
+			<div class="dash">Certaines options d'impression ne sont pas disponibles en local ou via un bureau à distance Windows. </div>
+			<div class="list">Lorsqu'aucun pilote d'imprimante (ou pilote de fax) ni de scanner compatible USB n'est installé, le périphérique connecté par un câble USB est reconnu en tant que nouveau matériel et, bien qu'il puisse se passer ce qui suit, le fonctionnement du pilote n'est pas affecté.</div>
+			<div class="dash">Windows Vista : une boîte de dialogue s'affiche chaque fois que vous connectez le périphérique avec un câble USB.</div>
+			<div class="dash">Windows 7/8/8.1/10 : un état d'avertissement est activé sur la ou les imprimantes concernées dans le dossier [Périphériques et imprimantes].</div>
+			<div class="text_level2">Ces états n'affectent pas le fonctionnement du pilote. Pour éviter ce problème, installez le pilote de scanner compatible USB (Color Network ScanGear 2 USB). Pour obtenir des instructions sur l'installation du pilote du scanner, consultez le fichier Lisezmoi fourni avec le pilote.</div>
+			<div class="list">Si vous utilisez ce pilote d'imprimante dans un environnement serveur, vous ne pouvez pas l'utiliser sur des ordinateurs clients fonctionnant sous des systèmes d'exploitation non pris en charge.</div>
+			<div class="list">Lorsque vous créez un fichier de fond de page sur un ordinateur, vous ne pouvez pas définir un autre ordinateur du réseau comme emplacement d'enregistrement.</div>
+			<div class="list">Il se peut que certaines polices TrueType ne s'impriment pas correctement. Si cela se produit, vous devez désactiver le paramètre [Utiliser les polices de l'imprimante] dans la boîte de dialogue [Paramètres avancés] pour faire en sorte que toutes les polices soient téléchargées avec le document, plutôt que de n'utiliser que les polices résidant sur l'imprimante. La boîte de dialogue [Paramètres avancés] s'affiche lorsque vous cliquez sur le bouton [Paramètres avancés] dans la feuille [Qualité].<br /></div>
+			<div class="list">Avec certaines applications, l'impression de texte pivoté est incorrecte lorsque [Mode TrueType] est défini sur [Télécharger en tant que TrueType] ou sur [Télécharger en tant qu'image binaire] dans la boîte de dialogue [Paramètres avancés]. Pour accéder à la boîte de dialogue [Paramètres avancés], cliquez sur le bouton [Paramètres avancés] sur la feuille [Qualité].</div>
+			<div class="list">Si vous utilisez ce produit au Japon, les restrictions suivantes s'appliquent.</div>
+			<div class="text_level2">Il se peut que les options suivantes ne soient pas correctement appliquées lorsqu'elles sont sélectionnées sur la feuille [Paramètres du périphérique].</div>
+			<div class="dash">[Chargeur d'enveloppes]</div>
+			<div class="text_level3">Lorsque vous sélectionnez cette option et définissez [Enveloppe Monarch]/[Enveloppe N° 10 (COM10)]/[Enveloppe DL]/[Enveloppe C5]/[Enveloppe B5] comme format de page dans la feuille [Paramètres de base]/[Configuration page], bien que vous puissiez sélectionner [Cassette 2] comme source d'alimentation papier dans la feuille [Alimentation papier], la ou les enveloppes ne seront pas correctement imprimées car l'imprimante ne prend pas en charge cette combinaison de paramètres.</div>
+			<div class="dash">[2/3 trous]/[2/4 trous [Français]]/[4 trous [Suédois]]</div>
+			<div class="text_level3">Bien que vous puissiez définir la [Perforation] sur la feuille [Finition] lorsque cette option est sélectionnée, le résultat de ce type de perforation ne sera pas satisfaisant si vous sélectionnez [3 trous] ou [4 trous [Suédois]], car l'imprimante ne prend pas en charge ces paramètres.</div>
+			<div class="text_level2">Lorsque vous sélectionnez [Papier à onglet] en tant que type de papier à insérer dans la boîte de dialogue [Paramètres d'insertion de feuilles] de la feuille [Alimentation papier] et [Cassette 2] en tant qu'alimentation papier, le résultat du papier à onglet n'est pas correct car l'imprimante ne prend pas en charge ce paramètre.</div>
+			<div class="text_level2">Si vous utilisez le modèle imageRUNNER ADVANCE C7065/C7055, l'imprimante ne prend pas en charge cette fonction, bien que vous puissiez sélectionner [Attente] pour [Méthode de sortie].</div>
+			<div class="list">Lorsque vous utilisez le pilote dans un environnement de connexion USB/WSD, vous ne pouvez pas utiliser les fonctions Lire l'état du périphérique, Gestion d'ID de service et Authentification de l'utilisateur.</div>
+			<div class="list">Si vous modifiez le nom de l'imprimante dans le dossier [Périphériques et imprimantes] (dossier [Imprimantes] sous Windows Vista/Server 2008), certains paramètres du profil enregistrés dans le pilote de l'imprimante (profils ajoutés depuis les propriétés du document) seront supprimés. Avant de modifier le nom de l'imprimante, enregistrez les paramètres du profil dans un fichier et importez le fichier enregistré une fois le nom de l'imprimante modifié.</div>
+			<div class="list">Les formats papier personnalisés qui peuvent être définis pour les fonctions dans la page [Paramètres du périphérique] - [Paramètres de finition] (impression recto verso, agrafage, etc.) varient d'une imprimante à l'autre. Pour obtenir des informations détaillées, reportez-vous au manuel fourni avec l'imprimante.</div>
+			<div class="list">En fonction de l'imprimante que vous utilisez, les formats et les types de papier indisponibles peuvent être récupérés via la page [Paramètres du périphérique] - [Récupérer les informations sur l'état du périphérique].</div>
+			<div class="list">En fonction de l'environnement que vous utilisez, les noms dans [Profil] et les noms des formats papier personnalisés peuvent être incompréhensibles. Si tel est le cas, installez le pack de langue approprié.</div>
+			<div class="list">En fonction de l'imprimante que vous utilisez, les fonctions inutilisables peuvent être récupérées via la page [Paramètres du périphérique] - [Récupérer les informations sur l'état du périphérique].</div>
+			<div class="list">Dans certaines langues, le nom de la tâche, le nom d'utilisateur, le nom des données stockées, etc. ne s'affichent pas correctement sur l'imprimante. Dans ce cas, les chaînes de caractères que vous souhaitez afficher peuvent être affichées correctement en changeant la langue d'affichage de l'imprimante pour correspondre à celle des chaînes de caractères.</div>
+			<div class="list">Si vous modifiez les droits d'utilisateur sur l'ordinateur que vous utilisez et si vous exécutez le programme d'installation, celle-ci peut ne pas être correcte. Dans ce cas, connectez-vous en tant qu'Administrateur, puis recommencez l'installation.</div>
+			<div class="list">Pour enregistrer des formats papier personnalisés, connectez-vous avec les droits d'Administrateur, affichez l'écran des paramètres d'imprimante dans le dossier [Périphériques et imprimantes] ([Imprimantes] sous Windows Vista/Server 2008), et configurez les paramètres dans la boîte de dialogue [Paramètres de format papier personnalisé] de la page [Configuration page].</div>
+			<div class="list">Si vous utilisez une imprimante via une connexion USB avec NetSpot Suite et Canon Driver Information Assist Service installés, n'utilisez pas le mode veille. Vous pouvez définir le mode veille dans le menu [Démarrer] (sous Windows 8/8.1/Server 2012/2012 R2, affichez la barre des icônes à droite de l'écran sur le Bureau) &gt; [Paramètres] &gt; [Panneau de configuration] &gt; [Options d'alimentation].</div>
+			<div class="list">En cas d'impression avec fond de page avec certaines applications, les données de formulaire peuvent ne pas s'imprimer car le document envoyé écrase le document précédent.</div>
+			<div class="list">Si vous sélectionnez [Finition] &gt; [Paramètres avancés] &gt; [Développer la région d'impression et imprimer], certaines données d'impression peuvent être coupées sur le bord du papier. Dans ce cas, désélectionnez ce paramètre.</div>
+			<div class="list">Si le nom de l'imprimante comporte des caractères à deux octets dans un système d'exploitation anglais, vous ne pouvez pas récupérer l'état du périphérique dans la page [Paramètres du périphérique] &gt; [Récupérer les informations sur l'état du périphérique]. Dans cas, remplacez le nom de l'imprimante par un nom ne comportant pas de caractères à deux octets.</div>
+			<div class="list">Si la langue des systèmes d'exploitation utilisés par le serveur d'impression et les ordinateurs clients dans un environnement de partage d'imprimante est différente, &quot;&lt;Modifier&gt;&quot; peut s'afficher avant le nom du profil même si les paramètres de [Profil] du pilote d'imprimante installé sur un ordinateur client n'ont pas été modifiés.</div>
+			<div class="list">Si le type de papier par défaut n'est pas défini dans la source papier du périphérique que vous utilisez, et si vous imprimez à partir d'un pilote dans lequel [Configuration de base (Canon)] ou [Configuration de base (compatible)] est sélectionné dans [Profil config.], un message d'erreur indiquant qu'il n'y a pas de papier peut s'afficher sur le panneau de commande du périphérique. Dans ce cas, récupérez les informations d'état du périphérique ou sélectionnez un profil de configuration correspondant au périphérique.</div>
+			<div class="list">Si vous utilisez la fonction de rainage, dans certains cas le papier peut ne pas être rainé ou être rainé dans un sens différent de celui prévu.</div>
+			<div class="list">Au cours de l'installation, si le programme d'installation détecte qu'une version précédente du pilote d'imprimate est déjà installée, il se peut qu'une boîte de dialogue vous demandant si vous souhaitez utiliser les anciens fichiers s'affiche. Sélectionnez [Oui].</div>
+			<div class="list">Les pages en noir et blanc peuvent être considérées comme des pages couleur, selon les paramètres de données, d'application ou de pilote lorsque vous sélectionnez [Auto [Couleur/N&amp;B]] pour [Mode couleur] dans la feuille [Paramètres de base]/[Qualité]. Pour imprimer un document sous la forme d'un travail en noir et blanc, sélectionnez [Noir et Blanc] pour [Mode couleur]. </div>
+			<div class="list">Lorsque vous imprimez avec une imprimante Canon LBP, si le [Profil config.] est la [Configuration de base (compatible)], le nom de la tâche d'impression et le nom de l'utilisateur peuvent être remplacés par « -- » sur le panneau de commande de l'imprimante.</div>
+			<div class="list">Lorsque vous imprimez avec une imprimante Canon LBP, si le [Profil config.] est la [Configuration de base (compatible)], même si vous définissez l'option [Impression sécurisée], les documents peuvent être imprimés sans authentification par code [PIN].</div>
+			<div class="text"></div>
+			<div class="list">Même si vous activez la fonction Vitesse prioritaire dans [Traitement de la compression avant transfert de données], selon l'environnement que vous utilisez et les données d'impression, l'impression peut durer plus longtemps que lorsque la Priorité image a été activée.</div>
+			<div class="h4"><a id="98b9d8a48ac3e2f2c31976e81639273e"></a>Précautions et restrictions en cas d'utilisation de l'impression sécurisée cryptée</div>
+			<div class="list">Dans les environnements utilisant l'impression sécurisée cryptée, vérifiez que la même version du pilote d'imprimante est installée sur tous les ordinateurs clients et que les fonctions d'impression sécurisée cryptée sont activées dans les pilotes d'imprimante.</div>
+			<div class="list">Vérifiez les éléments suivants dans la boîte de dialogue [Propriétés de l'imprimante] en cas d'impression à l'aide de l'impression sécurisée cryptée.</div>
+			<div class="dash">Le port qui sera utilisé par l'imprimante effectuant l'impression sécurisée cryptée a été sélectionné.</div>
+			<div class="dash">[Utiliser l'impression sécurisée cryptée] a été sélectionné dans la feuille [Crypté(e)-P].</div>
+			<div class="list">Seuls les utilisateurs disposant des droits d'administrateur pour le périphérique peuvent configurer les paramètres [Utiliser l'impression sécurisée cryptée] et [Modifier les informations du travail lors de l'impression] dans la feuille [Crypté(e)-P].</div>
+			<div class="list">Si vous allez utiliser l'impression sécurisée cryptée avec l'un des produits ou services suivants, veillez à prendre connaissance des instructions pour chaque produit ou service.</div>
+			<div class="dash">Canon NetSpot Job Monitor</div>
+			<div class="text_level3">Des problèmes peuvent survenir en cas d'utilisation de ce logiciel avec l'impression sécurisée cryptée. Nous vous recommandons d'éteindre le NetSpot Job Monitor.</div>
+			<div class="list">Les fonctions suivantes ne peuvent pas être utilisées avec l'impression sécurisée cryptée.</div>
+			<div class="dash">Fonction de stockage</div>
+			<div class="text_level3">Cette fonction permet de stocker des données d'impression sur un disque dur ou une mémoire d'imprimante.</div>
+			<div class="dash">Fonction d'impression sécurisée</div>
+			<div class="text_level3">Cette fonction permet de stocker des tâches d'impression sur l'imprimante en leur joignant un nom d'utilisateur et un mot de passe. Contrairement à la fonction d'impression sécurisée cryptée, la fonction d'impression sécurisée ne crypte pas les données d'impression.</div>
+			<div class="dash">Enregistrement d'un formulaire</div>
+			<div class="text_level3">Cette fonction permet d'enregistrer des données déjà créées sous forme de formulaire sur l'imprimante ou l'ordinateur, et d'imprimer le contenu du formulaire avec un document original au moment précis de l'impression.</div>
+			<div class="dash">Fonction de spooling de métafichier</div>
+			<div class="text_level3">Cette fonction permet de stocker provisoirement des données d'impression dans la mémoire tampon de spooling de l'ordinateur au format EMF (métafichier).</div>
+			<div class="dash">Fonction d'attente</div>
+			<div class="text_level3">Cette fonction permet de stocker des tâches d'impression dans la file d'attente de l'imprimante.</div>
+			<div class="list">Si vous imprimez en utilisant la fonction d'impression sécurisée cryptée sans que la feuille [Crypté(e)-P] &gt; boîte de dialogue [Paramètres de mot de passe] &gt; [Ne pas afficher la boîte de dialogue de mot de passe lors de l'impression] ne soit activée, veillez à saisir le mot de passe du cryptage dans la boîte de dialogue [Paramètres de mot de passe d'impression sécurisée cryptée] qui s'affiche lors de l'impression. Si vous ne saisissez pas le mot de passe, les données d'impression ne seront pas cryptées.</div>
+			<div class="list">Si vous imprimez plusieurs feuilles dans Microsoft Excel, il se peut que plusieurs boîtes de dialogue [Paramètres de mot de passe d'impression sécurisée cryptée] et [Modifier les informations du travail] s'affichent simultanément.</div>
+			<div class="list">Si vous imprimez depuis Internet Explorer, une boîte de dialogue d'avertissement peut s'afficher, selon la version. Cliquez sur [Autoriser] pour continuer l'impression.</div>
+			<div class="text_level2">Pour éviter que cette boîte de dialogue d'avertissement ne s'affiche à chaque impression, sélectionnez [Ne plus afficher d'avertissement pour ce programme] et cliquez sur [Autoriser].</div>
+			<div class="list">L'environnement informatique, les spécifications de l'application, l'état du traitement, etc. peuvent influencer la vitesse d'exécution de l'ordinateur.</div>
+			<div class="list">Si vous utilisez plusieurs imprimantes prises en charge par l'impression sécurisée cryptée, la feuille [Crypté(e)-P] &gt; la boîte de dialogue [Paramètres de mot de passe] &gt; [Ne pas afficher la boîte de dialogue de mot de passe lors de l'impression], le mot de passe utilisé pour son fonctionnement et les paramètres [Mot de passe (par défaut)] ne peuvent pas être définis séparément pour chaque imprimante. Des paramètres communs sont appliqués pour toutes les imprimantes prises en charge.</div>
+			<div class="list">Si vous utilisez cette fonction dans un environnement à plusieurs langues, il vous est recommandé d'utiliser la dernière version pour chaque langue.</div>
+			<div class="list">Pour garantir la sécurité d'impression, configurez des paramètres de sécurité appropriés pour ce produit et l'environnement (système d'exploitation, réseau, etc.) que vous utilisez.</div>
+			<div class="list">Lorsque vous imprimez normalement sans utiliser l'impression sécurisée cryptée, vérifiez les éléments suivants dans la boîte de dialogue [Propriétés de l'imprimante].</div>
+			<div class="dash">Le port utilisé par l'imprimante que vous utilisez pour imprimer normalement a été sélectionné.</div>
+			<div class="dash">[Utiliser l'impression sécurisée cryptée] n'a pas été sélectionné dans la feuille [Crypté(e)-P].</div>
+			<div class="h4"><a id="dc115480a653f4ae712776c26c0eefbd"></a>Restrictions relatives aux Paramètres du périphérique</div>
+			<div class="list">Selon l'imprimante que vous utilisez, l'impression peut prendre plus de temps que d'habitude dans les cas suivants :</div>
+			<div class="dash">Lorsque vous spécifiez l'orientation portrait lors d'une impression à partir d'une source d'alimentation papier A4 (paysage).</div>
+			<div class="dash">Lorsque vous spécifiez l'orientation paysage lors d'une impression à partir d'une source d'alimentation papier A4R (portrait).</div>
+			<div class="dash">Lorsque vous spécifiez l'orientation paysage pour du papier A3.</div>
+			<div class="list">Lorsque vous spécifiez l'impression couleur pour une imprimante noir et blanc, le document est imprimé en noir et blanc, mais la qualité d'impression peut se détériorer et l'impression prendre un certain temps.</div>
+			<div class="list">Lorsque des fonctions non prises en charge par ce pilote d'imprimante sont définies sur le panneau de configuration de l'imprimante que vous utilisez, les paramètres d'impression sont validés lors de l'impression. Par exemple, lorsque la fonction d'insertion d'une feuille de papier entre des transparents est sélectionnée sur l'imprimante, une feuille de papier est insérée entre chaque transparent lors de l'impression. Lorsque la fonction de numérotation des copies a été activée sur l'imprimante, le document est imprimé avec la numérotation des copies.</div>
+			<div class="list">Si vous cliquez sur [Récupérer les informations sur l'état du périphérique] dans la page [Paramètres du périphérique], vous obtenez les informations de configuration du périphérique et la plupart des paramètres de la page [Paramètres du périphérique] sont configurés automatiquement. Cependant, les [Paramètres d'alimentation papier] dans la page [Paramètres du périphérique] et certains paramètres dans la boîte de dialogue [Paramètres détaillés] doivent être configurés manuellement. Il est recommandé de configurer les paramètres à l'aide de [Récupérer les informations sur l'état du périphérique], puis de configurer ceux devant être configurés manuellement.</div>
+			<div class="list">Selon les combinaisons d'options de l'imprimante que vous utilisez, le pilote d'imprimante peut ne pas reconnaître les options installées dans la page [Paramètres du périphérique] &gt; [Récupérer les informations sur le périphérique]. Afin d'utiliser les options non reconnues, définissez-les manuellement dans la page [Paramètres du périphérique].</div>
+			<div class="list">Pour utiliser cette imprimante, vous devez d'abord définir le type d'imprimante utilisée et les options installées sur celle-ci sur la feuille [Paramètres du périphérique] de la boîte de dialogue des propriétés de l'imprimante. Si vous sélectionnez des fonctions du pilote d'imprimante qui ne sont pas disponibles pour l'imprimante utilisée, les résultats d'impression peuvent être différents de vos attentes.</div>
+			<div class="dash">Lorsque vous définissez une source d'alimentation papier qui n'est pas installée sur l'imprimante, le papier est alimenté depuis la source prioritaire de l'imprimante.</div>
+			<div class="dash">Lorsque l'alimentation papier que vous avez spécifiée et le format papier ne correspondent pas, une erreur survient.</div>
+			<div class="dash">Lorsque vous spécifiez l'impression recto verso pour une imprimante qui ne prend pas en charge cette fonction, le document est imprimé sur une seule face du papier.</div>
+			<div class="dash">Lorsque vous sélectionnez la fonction d'agrafage pour une imprimante qui ne prend pas en charge ce mode d'impression, le document est imprimé sans être agrafé.</div>
+			<div class="dash">Lorsque vous sélectionnez la fonction de piqûre à cheval pour une imprimante qui ne prend pas en charge ce mode d'impression, le document est imprimé sans piqûre à cheval.</div>
+			<div class="dash">Si vous sélectionnez [Méthode de sortie] &gt; [Stocker] lors d'une impression depuis une imprimante qui ne prend pas en charge le stockage vers une boîte à lettres, le document est imprimé normalement. Si un message d'erreur s'affiche sur l'écran tactile de l'imprimante et si l'imprimante passe hors ligne, le document est imprimé lorsque l'imprimante est de nouveau en ligne.</div>
+			<div class="dash">Si vous configurez la gestion d'ID de service pour une imprimante qui ne dispose pas de cette fonction, une erreur survient.</div>
+			<div class="h4"><a id="5250a9e2e1de3c109a21e8bbdec4797a"></a>Restrictions en cas d'utilisation de Canon Driver Configuration Tool</div>
+			<div class="list">Les éléments qui peuvent être configurés dans chacune des pages des [Options d'impression] dépendent des paramètres dans la page [Paramètres du périphérique]. Si vous personnalisez le pilote à l'aide de Canon Driver Configuration Tool, configurez chaque page dans la boîte de dialogue [Options d'impression] après avoir configuré la page [Paramètres du périphérique].</div>
+			<div class="h4"><a id="4a6bdb2eb8fe4b63a3a88976d8016900"></a>Limites de modèles d'imprimante spécifiques</div>
+			<div class="list">Si l'une des options suivantes est définie, vous ne pouvez pas imprimer de page de garde.</div>
+			<div class="dash">Impression sécurisée, stocker, attente, impression avec fond de page, reliure, piqûre à cheval ou impression pliage en C</div>
+			<div class="dash">[Assembler [Par le périphérique]] &gt; [Désactivé] et [Assemblage du pilote] &gt; [Motif 1] dans la page [Paramètres du périphérique] &gt; [Détails] &gt; [Finition]</div>
+			<div class="list">Si vous utilisez imageRUNNER ADVANCE 8085/8095/8105 avec le Module de finition agrafage-F1 ou le Module de finition brochure-F1 en option, vous ne pouvez pas imprimer de cartes postales ni de formats de papier personnalisés (de 148,0 à 181,9 mm de hauteur).</div>
+			<div class="list">Dans certains cas, la gamme de formats papier personnalisés pouvant être spécifiés à l'aide du pilote et les formats papier compatibles avec l'imprimante sont différents. Pour plus d'informations sur les formats papier pouvant être imprimés, reportez-vous au manuel fourni avec l'imprimante.</div>
+			<div class="list">Si vous utilisez le modèle iR-ADV C2020/2030, C2020i/2030i, C2020L/2030L, ou C2025, les restrictions suivantes s'appliquent quand vous définissez [Résolution] sur [1200 ppp] dans la boîte de dialogue [Paramètres avancés] de la feuille [Qualité] :</div>
+			<div class="dash">Vous pouvez définir [Emplacement des agrafes] sur la feuille [Finition] sur le côté le plus long d'une feuille A4.</div>
+			<div class="dash">Vous ne pouvez pas utiliser les paramètres [Rotation] et [Imprimer avec Formats de papier/Orientations assortis] sur la feuille [Finition].</div>
+			<div class="dash">Selon la version de fonction de l'imprimante utilisée, vous ne pourrez peut-être pas employer le paramètre [Numérotation des copies] dans la boîte de dialogue [Paramètres avancés] de la feuille [Finition]. </div>
+			<div class="list">Si vous utilisez le modèle iR-ADV C2020/2030 sans le disque dur en option ou le modèle iR-ADV C2020L/2030L, vous ne pouvez pas utiliser les fonctions suivantes :</div>
+			<div class="dash">[Impression sécurisée]</div>
+			<div class="dash">[Promouvoir l'impression] </div>
+			<div class="list">Selon le modèle d'imprimante que vous utilisez, lorsque vous stockez un travail d'impression sécurisée dans l'imprimante, vous ne pourrez peut-être pas effectuer d'autres travaux d'impression. Si cela se produit, effectuez l'impression sécurisée. Si le problème n'est toujours pas résolu, relancez l'impression depuis l'ordinateur.</div>
+			<div class="text"></div>
+			<div class="list">Lors de l'enregistrement des données d'impression dans la boîte de réception de certaines imprimantes de la série iR, la configuration du style d'impression (impression recto/impression recto verso), la configuration de la source d'alimentation papier et certains paramètres de mise à l'échelle et de mise en page, etc. ne s'afficheront pas correctement sur le panneau de commande de l'imprimante. Cependant, l'impression sera tout de même conforme aux paramètres définis.</div>
+			<div class="list">Sur certaines imprimantes de la série iR, si l'agrafage ne peut pas être réalisé à la position d'agrafage spécifiée, le document est imprimé sans agrafe.</div>
+			<div class="list">Si vous utilisez l'imageRUNNER ADVANCE C351, assurez-vous de configurer la [Cassette facultative] dans la boîte de dialogue [Alimentation papier] de la page [Paramètres du périphérique] sur [Cassette x 3].</div>
+			<div class="list">Si vous utilisez l'imageRUNNER ADVANCE C2020/C2020F/C2030/C2030F, l'option [Rotation] ne peut être utilisée que si vous sélectionnez la page [Paramètres du périphérique] &gt; [Détails] &gt; la page [Finition] &gt; [Assembler [Par le périphérique]] &gt; [Activé].</div>
+			<div class="list">Si vous utilisez l'imageRUNNER ADVANCE C2020/C2020F/C2030/C2030F, la fonction d'impression sécurisée est prise en charge par la version 2.0 ou une version ultérieure.</div>
+			<div class="list">Si vous utilisez l'imageRUNNER ADVANCE C350F, vous ne pouvez pas utiliser la [Fonction [Rotation]].</div>
+			<div class="list">Configurez [Fonction [Pliage + découpe] de [Paramètre de piqûre à cheval]] manuellement si votre module de finition prend en charge cette fonction.</div>
+			<div class="list">Configurez [Décalage lorsque l'agrafage est spécifié] manuellement si votre module de finition prend en charge cette fonction.</div>
+			<div class="list">Configurez [Fonction [Nombre de copies à empiler]] manuellement si vous utilisez un empileur.</div>
+			<div class="list">Configurez [Eléments de configuration activés pour les paramètres de découpage avec papier 13x19] si vous utilisez l'imagePRESS C6010/C6011 ou l'imagePRESS C7010VP/C7011VP.</div>
+			<div class="list">Sur certaines imprimantes de la série iR, si vous spécifiez via le panneau de commande l'emplacement des agrafes pour les données en mode paysage enregistrées dans une boîte de réception, l'agrafage peut être effectué à un autre emplacement dans l'orientation verticale réelle du résultat de l'impression.</div>
+			<hr />
+			<div class="text_right">Copyright Canon Inc. 2016</div>
+			<div class="text"></div>
+		</div>
+		<!--CONTENT_END-->
+	</body>
+</html>

@@ -1,0 +1,1500 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="nl" xmlns="http://www.w3.org/1999/xhtml" xmlns:hta="urn:HTMLApplication">
+	<head>
+		<meta name="Generator" content="CAESAR" />
+		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
+		<title>Canon Generic Plus PCL6-printerstuurprogramma versie 1.30 voor Microsoft Windows</title>
+		<hta:application id="id_canon_main_window" applicationname="canon_main_window" border="thick" borderstyle="normal" caption="yes" maximizebutton="yes" minimizebutton="yes" showintaskbar="yes" singleinstance="no" sysmenu="yes" version="1.0" windowstate="normal" contextmenu="yes" navigable="yes" />
+		<style type="text/css">div.list{display:list-item!important;list-style-type:Disc;margin-left:40px!important;padding-left:5px!important;}table div.list{margin-left:20px!important;padding-left:5px!important;}div.dash{display:list-item!important;list-style-type:Circle;margin-left:65px!important;padding-left:5px!important;}table div.dash{margin-left:40px!important;padding-left:5px!important;}div.step_sub{display:list-item!important;list-style-type:Square;margin-left:30px!important;padding-left:5px!important;}div.list_link{display:list-item!important;list-style-type:Square;margin-left:50px!important;padding-left:5px!important;}div.h1{background:#F3F8FA!important;}div.h2,div.h2_2line,div.h2_3line{background:#F3F8FA!important;}div.h3{background:#F3F8FA!important;}thead.table_important td.table_important_col_0,thead.table_note td.table_note_col_0{padding:2px 5px 2px 5px!important;}</style>
+		<style type="text/css" >
+			<!--
+*{
+	font-family:"Arial","Helvetica",Sans-serif;
+	/*margin:0;*/
+	/*padding:0;*/
+	/*border:0;*/
+	/*background-color:Transparent;*/
+	font-size:100%;
+	/*font-style:Normal;*/
+	text-decoration:None;
+}
+html{
+	border:0;
+}
+body{
+	margin:0;
+	padding:0;
+	background:#FFFFFF;
+}
+span{
+	color:Inherit;
+}
+div#id_content a{
+	text-decoration:None;
+}
+div#id_content a:link{
+	color:#3366A5;
+	text-decoration:None;
+}
+div#id_content a:visited{
+	color:#3366A5;
+	text-decoration:None;
+}
+div#id_content a:hover{
+	color:#EC6700;
+	background-color:#FFFFCC;
+	text-decoration:Underline;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.chapter_title{
+	background:#4682B4;
+	padding:2px 5px 2px 5px;
+	border-bottom:Solid 1px #4682B4;
+	font-weight:Bold;
+	font-size:80%;
+	margin-bottom:16px;
+	text-align:Right;
+	color:#FFFFFF;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h1{
+	padding:32px 0 2px 8px;
+	border-bottom:Solid 1px #4682B4;
+	background:#F3F8FA;
+	font-weight:Bold;
+	font-size:120%;
+	margin-bottom:16px;
+	vertical-align:Bottom;
+	text-align:Left;
+	color:#000080;
+	position:Relative;
+}
+div.h1 a{
+	position:Absolute;
+	*position:Static!important;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h2,
+div.h2_2line,
+div.h2_3line{
+	border:Solid 1px #4682B4;
+	padding:5px;
+	margin:30px 10px 5px 10px;
+	font-size:90%;
+	font-weight:Bold;
+	background:#F3F8FA;
+	color:#000080;
+}
+div.h2 a,
+div.h2_2line a,
+div.h2_3line a{
+	font-weight:Bold;
+	text-decoration:None;
+	color:#0000FF;
+}
+div.h2 img,
+div.h2_2line img,
+div.h2_3line img{
+	vertical-align:Middle;
+	margin-right:2px;
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h3{
+	padding:5px;
+	margin:25px 10px 5px 10px;
+	font-size:90%;
+	font-weight:Bold;
+	background:#F3F8FA;
+	border-bottom:Solid 1px #87CEEB;
+	color:#000080;
+}
+div.h3 a{
+	font-weight:Bold;
+	text-decoration:None;
+	color:#0000FF;
+}
+div.h3 img{
+	vertical-align:Middle;
+	margin-right:2px;
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h4{
+	margin:20px 10px 5px 10px;
+	font-weight:Bold;
+	font-size:90%;
+	border-Bottom:Solid 1px #87CEEB;
+	background:#FFFFFF;
+	padding:0px 5px;
+	color:#000080;
+}
+div.h4 img{
+	vertical-align:Middle;
+	margin-right:2px;
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h5{
+	margin:20px 10px 5px 15px;
+	font-weight:Bold;
+	font-size:80%;
+	color:#000080;
+}
+div.h5 img{
+	vertical-align:Middle;
+	margin-right:5px;
+	margin-left:4px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.h6{
+	margin:15px 10px 5px 30px;
+	font-weight:Bold;
+	font-size:80%;
+	color:#000080;
+}
+div.h6 img{
+	vertical-align:Middle;
+	margin-right:2px;
+	margin-left:0px;
+}
+table div.h6{
+	margin-left:0px;
+	margin-top:10px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text{
+	font-size:80%;
+	margin:5px 10px 5px 30px;
+	color:#000000;
+}
+table div.text{
+	margin:3px 0 0 0;
+}
+div.text img{
+	vertical-align:Middle;
+}
+table div.text img{
+	vertical-align:Middle;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_level1{
+	font-size:80%;
+	margin:5px 10px 5px 40px;
+	color:#000000;
+}
+table div.text_level1{
+	margin:3px 0 0 10px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_level2{
+	font-size:80%;
+	margin:5px 10px 5px 50px;
+	color:#000000;
+}
+table div.text_level2{
+	margin:3px 0 0 20px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_level3{
+	font-size:80%;
+	margin:5px 10px 5px 60px;
+	color:#000000;
+}
+table div.text_level3{
+	margin:3px 0 0 30px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_center{
+	text-align:Center;
+	font-size:80%;
+	color:#000000;
+}
+table div.text_center{
+	margin:3px 0 0 0;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.text_right{
+	text-align:Right;
+	font-size:80%;
+	color:#000000;
+	margin-right:10px;
+}
+table div.text_right{
+	margin-right:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.annotation{
+	font-size:75%;
+	margin:0px 10px 5px 55px;
+	text-indent:-1.5em;
+	color:#000000;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.list{
+	background:Transparent;
+	_background:Transparent;
+	margin-left:30px;
+	margin-right:10px;
+	margin-top:2px;
+	margin-bottom:2px;
+	padding-left:20px;
+	padding-top:0px;
+	font-weight:Normal;
+	font-size:80%;
+	color:#000000;
+}
+table div.list{
+	margin-left:0px;
+}
+div.list img{
+	vertical-align:Top;
+}
+table div.list img{
+	vertical-align:Top;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+div.dash{
+	margin-left:50px;
+	margin-right:10px;
+	margin-top:2px;
+	margin-bottom:2px;
+	font-weight:Normal;
+	font-size:80%;
+	background:Transparent;
+	_background:Transparent;
+	padding:0px 0px 0px 20px;
+	color:#000000;
+}
+*:first-child+html div.dash{
+	background:Transparent;
+}
+table div.dash{
+	margin-left:12px;
+}
+div.dash img{
+	vertical-align:Top;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.example{
+	font-size:80%;
+	font-family:Monospace;
+	margin:5px 10px 5px 30px;
+	clear:Both;
+	background:#707080;
+	padding:5px;
+	color:#FFFFFF;
+}
+div#id_content div.example a:link{
+	color:#0000FF;
+	text-decoration:None;
+}
+div#id_content div.example a:visited{
+	color:#0000FF;
+	text-decoration:None;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.path{
+	padding:3px 10px 3px 20px;
+	font-size:80%;
+	margin:0px 30px;
+	background:Transparent;
+	_background:Transparent;
+	color:#666666;
+}
+div.path img{
+	vertical-align:Middle;
+}
+table div.path{
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.step_number{
+	background:#F8F8F8;
+	font:Bold 200% "Arial";
+	color:#4682B4;
+	padding:0px 5px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:20px;
+	margin-bottom:0px;
+}
+div.step_number span{
+	font:Bold 100% "Arial";
+	color:#4682B4;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.step_path{
+	padding:3px 10px 3px 30px;
+	font-size:80%;
+	margin:0px 10px;
+	background:#F8F8F8;
+	_background:#F8F8F8;
+	color:#666666;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.step_text{
+	font-weight:Bold;
+	padding:0px 10px 15px 5px;
+	font-size:80%;
+	margin:0px 10px 10px 10px;
+	background:#F8F8F8;
+	color:#000000;
+}
+div.step_text img{
+	vertical-align:Middle;
+}
+@media print{div.step_text{
+	padding:0px 10px 20px 5px;
+}}
+/*-----------------------------------------------------------------------------------------------*/
+div.step_sub{
+	font-size:80%;
+	font-weight:Bold;
+	margin:10px 10px 5px 15px;
+	padding-left:15px;
+	background:Transparent;
+	_background:Transparent;
+	color:#000000;
+}
+div.step_sub img{
+	vertical-align:Top;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.figure{
+	text-align:Left;
+	margin-left:30px;
+	margin-bottom:10px;
+}
+table div.figure{
+	margin-left:0;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.link{
+	margin:10px;
+	font-size:80%;
+	color:#3366A5;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.link a{
+	text-decoration:None;
+	padding-left:10px;
+	background:Transparent;
+	_background:Transparent;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.list_link{
+	background:Transparent;
+	_background:Transparent;
+	margin-left:30px;
+	margin-right:10px;
+	margin-bottom:0px;
+	padding-left:20px;
+	padding-top:1px;
+	font-weight:Normal;
+	font-size:80%;
+	color:#3366A5;
+}
+table div.list_link{
+	margin-left:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.link_to_top{
+	text-align:Right;
+	padding:5px 10px 30px 10px;
+	font-size:80%;
+	color:#3366A5;
+	border-top:Dotted 1px #87CEEB;
+	margin-top:30px;
+}
+@media print{div.link_to_top{
+	display:None;
+}}
+div.link_to_top a{
+	text-decoration:None;
+	padding-left:12px;
+	background:Transparent;
+	_background:Transparent;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.trouble_shooting{
+	margin:10px 10px 10px 30px;
+}
+table.trouble_shooting{
+	border-collapse:Collapse;
+	table-layout:Fixed;
+}
+td.trouble_shooting{
+	border:Solid 1px #FFFFFF;
+}
+td.trouble_shooting_col_0{
+	padding:5px;
+	vertical-align:Middle;
+	font-size:100%;
+	width:80px;
+	background:#C0C0C0;
+	padding-bottom:10px;
+}
+td.trouble_shooting_col_1{
+	background:#EFEFEF;
+	padding-top:5px;
+	padding-bottom:10px;
+	padding-left:5px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.outline{
+	margin:10px 10px 10px 30px;
+}
+table.outline{
+	border-collapse:Collapse;
+	font-size:100%;
+}
+td.outline{
+	padding:10px 5px 10px 5px;
+}
+td.outline_col_0{
+	vertical-align:Middle;
+	text-align:Center;
+	border:Solid 1px #87CEEB;
+	background:#F5F5F5;
+	width:30px;
+	font-size:130%;
+}
+td.outline_col_0 div.h6{
+	color:#4682B4;
+	margin:0px;
+}
+td.outline_col_1{
+	vertical-align:Middle;
+	border:Solid 1px #87CEEB;
+	border-left:None;
+	background:#F5F5F5;
+	width:150px;
+}
+td.outline_col_1 div.h6{
+	margin:0px;
+	color:#000000;
+}
+td.outline_col_2{
+	vertical-align:Middle;
+	background:#FFFFFF;
+	border:Solid 1px #87CEEB;
+	padding:3px 3px 3px 10px;
+}
+td.outline_col_2 div.list{
+	background:Transparent;
+	_background:Transparent;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_ui{
+	margin:5px 10px 10px 30px;
+}
+table.table_ui{
+	table-layout:Auto;
+	border-collapse:Collapse;
+	border:None;
+	border-bottom:Solid 1px #E0E0E0;
+}
+td.table_ui_col_0{
+	padding:0px;
+	vertical-align:Top;
+	font-size:100%;
+	width:150px;
+	color:#000000;
+	padding:0px 0px 5px 0px;
+	border-right:None;
+}
+td.table_ui_col_1{
+	background:#FFFFFF;
+	padding:3px;
+	padding-left:10px;
+	border:Solid 1px #E0E0E0;
+	border-left:Solid 1px #E0E0E0;
+	border-right:None;
+	border-bottom:None;
+	vertical-align:Top;
+}
+td.table_ui_col_0 div.ui_level0{
+	background:#FFFFFF;
+	font-size:80%;
+	padding:6px 3px 1px 3px;
+	border-top:Solid 1px #E0E0E0;
+	border-right:None;
+	border-left:Solid 10px #FFFFFF;
+	margin-left:0px;
+}
+td.table_ui_col_0 div.ui_level1{
+	background:#FFFFFF;
+	font-size:80%;
+	padding:6px 3px 10px 3px;
+	border-top:Solid 1px #E0E0E0;
+	border-right:None;
+	border-left:Solid 10px #87BEDB;
+	margin-left:0px;
+}
+td.table_ui_col_0 div.ui_level2{
+	background:#FFFFFF;
+	font-size:80%;
+	padding:6px 3px 10px 3px;
+	margin-left:10px;
+	border-top:Solid 1px #E0E0E0;
+	border-right:None;
+	border-left:Solid 10px #A0D0EA;
+}
+td.table_ui_col_0 div.ui_level3{
+	background:#FFFFFF;
+	font-size:80%;
+	padding:6px 3px 10px 3px;
+	margin-left:20px;
+	border-top:Solid 1px #E0E0E0;
+	border-right:None;
+	border-left:Solid 10px #C6E5F6;
+}
+td.table_ui_col_0 div.ui_level1 img,
+td.table_ui_col_0 div.ui_level2 img,
+td.table_ui_col_0 div.ui_level3 img{
+	vertical-align:Middle;
+}
+/*-----------------------------------------------------------------------------------------------*/
+table div.table_important,
+table div.table_caution,
+table div.table_warning,
+table div.table_note{
+	margin-left:20px;
+}
+div.table_important,
+div.table_caution,
+div.table_warning,
+div.table_note{
+	margin:10px 10px 10px 30px;
+}
+*:first-child+html table.table_important,
+*:first-child+html table.table_caution,
+*:first-child+html table.table_warning,
+*:first-child+html table.table_note{
+	width:Auto;
+	table-layout:Fixed;
+}
+table.table_important,
+table.table_caution,
+table.table_warning,
+table.table_note{
+	background:#FFFFFF;
+	border-collapse:Collapse;
+	font-size:100%;
+	width:100%;
+	_width:Auto;
+	_table-layout:Fixed;
+}
+*:first-child+html table td.table_important_col_0,
+*:first-child+html table td.table_caution_col_0,
+*:first-child+html table td.table_warning_col_0,
+*:first-child+html table td.table_note_col_0{
+	width:Auto;
+}
+table td.table_important_col_0,
+table td.table_caution_col_0,
+table td.table_warning_col_0,
+table td.table_note_col_0{
+	width:100%;
+	_width:Auto;
+	vertical-align:Top;
+}
+*:first-child+html tbody.table_important td.table_important_col_0,
+*:first-child+html tbody.table_caution td.table_caution_col_0,
+*:first-child+html tbody.table_warning td.table_warning_col_0,
+*:first-child+html tbody.table_note td.table_note_col_0{
+	width:Auto;
+}
+tbody.table_important td.table_important_col_0,
+tbody.table_caution td.table_caution_col_0,
+tbody.table_warning td.table_warning_col_0,
+tbody.table_note td.table_note_col_0{
+	padding-left:10px;
+	width:100%;
+	_width:Auto;
+}
+@media print{
+thead.table_important td.table_important,
+thead.table_caution td.table_caution,
+thead.table_warning td.table_warning,
+thead.table_note td.table_note{
+	padding-bottom:5px;
+}}
+tbody.table_important td.table_important,
+tbody.table_caution td.table_caution,
+tbody.table_warning td.table_warning,
+tbody.table_note td.table_note{
+	padding-left:10px;
+	padding-top:2px;
+	border-bottom:None;
+	padding-bottom:5px;
+	border-top:None;
+}
+thead.table_important td.table_important_col_0,
+thead.table_note td.table_note_col_0{
+	padding:2px 5px 2px 30px;
+	text-align:Left;
+	border-bottom:None;
+}
+thead.table_caution td.table_caution_col_0,
+thead.table_warning td.table_warning_col_0{
+	padding:2px 23px 5px 5px;
+	text-align:Center;
+	border-bottom:Solid 1px #808080;
+}
+thead.table_caution td.table_caution_col_0 div img,
+thead.table_warning td.table_warning_col_0 div img{
+	margin-right:3px;
+}
+thead.table_important td.table_important div,
+thead.table_caution td.table_caution div,
+thead.table_warning td.table_warning div,
+thead.table_note td.table_note div{
+	font-weight:Bold;
+}
+table.table_important{
+	border:Solid 1px #808080;
+}
+table.table_caution,
+table.table_warning{
+	border:Solid 1px #808080;
+}
+table.table_note{
+	border:Solid 1px #808080;
+}
+thead.table_important td.table_important{
+	background:Transparent;
+	_background:Transparent;
+}
+thead.table_caution td.table_caution div,
+thead.table_warning td.table_warning div{
+	font-size:120%;
+}
+
+thead.table_note td.table_note{
+	background:Transparent;
+	_background:Transparent;
+}
+thead.table_important td.table_important div{
+	color:#4682B4;
+}
+thead.table_caution td.table_caution div,
+thead.table_warning td.table_warning div{
+	color:#000000;
+}
+thead.table_note td.table_note div{
+	color:#808080;
+}
+thead.table_important td.table_important_col_0,
+tbody.table_important td.table_important_col_0{
+	border-right:Solid 1px #808080;
+}
+thead.table_caution td.table_caution_col_0,
+tbody.table_caution td.table_caution_col_0,
+thead.table_warning td.table_warning_col_0,
+tbody.table_warning td.table_warning_col_0{
+	border-right:Solid 1px #808080;
+}
+thead.table_note td.table_note_col_0,
+tbody.table_note td.table_note_col_0{
+	border-right:Solid 1px #808080;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_no_border{
+	margin:10px 10px 10px 30px;	
+}
+table div.table_no_border{
+	margin-left:10px;
+}
+table.table_no_border{
+	border:None;
+	width:Auto;
+}
+thead.table_no_border td.table_no_border{
+	padding:0px 5px 0px 0px;
+	border:None;
+	font-size:100%;
+	text-align:Left;
+	font-weight:Bold;
+	vertical-align:Middle;
+}
+tbody.table_no_border td.table_no_border{
+	padding:0px 5px 0px 0px;
+	vertical-align:Top;
+	border:None;
+	font-size:100%;
+	padding-bottom:5px;
+}
+tbody.table_no_border td.table_no_border div{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_matrix{
+	margin:10px 10px 10px 30px;
+}
+table div.table_matrix{
+	margin-left:20px;
+}
+table.table_matrix{
+	border-collapse:Collapse;
+	border:Solid 1px #808080;
+}
+thead.table_matrix td.table_matrix{
+	padding:5px;
+	background-color:#DDDDDD;
+	border:Solid 1px #808080;
+	font-size:100%;
+	text-align:Center;
+	font-weight:Normal;
+	vertical-align:Middle;
+}
+tbody.table_matrix td.table_matrix_col_0{
+	padding:5px 0px;
+	padding-left:5px;
+	width:120px;
+	vertical-align:Middle;
+	background-color:#EFEFEF;
+	border:Solid 1px #808080;
+	font-size:100%;
+	font-weight:Normal;
+}
+tbody.table_matrix td.table_matrix{
+	padding:3px 10px;
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+	font-size:100%;
+}
+thead.table_matrix td.table_matrix_col_1{
+	background-color:#DDDDDD;
+	border:Solid 1px #808080;
+	padding:5px;
+}
+tbody.table_matrix td.table_matrix_col_1{
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+}
+thead.table_matrix td.table_matrix_col_0{
+	border:Solid 1px #808080;
+	background-color:#DDDDDD;
+	padding:5px;
+}
+thead.table_matrix td.table_matrix div{
+	color:#000000;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_general{
+	margin:10px 10px 10px 30px;
+}
+table div.table_general{
+	margin-left:20px;
+}
+table.table_general{
+	border-collapse:Collapse;
+	border:Solid 1px #808080;
+}
+thead.table_general td.table_general{
+	padding:5px;
+	border:Solid 1px #808080;
+	font-size:100%;
+	text-align:Center;
+	font-weight:Normal;
+	vertical-align:Middle;
+}
+tbody.table_general td.table_general_col_0{
+	padding:5px 0px;
+	padding-left:5px;
+	width:120px;
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+	font-size:100%;
+	font-weight:Normal;
+}
+tbody.table_general td.table_general{
+	padding:3px 10px;
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+	font-size:100%;
+}
+thead.table_general td.table_general_col_1{
+	border:Solid 1px #808080;
+	padding:5px;
+}
+tbody.table_general td.table_general_col_1{
+	vertical-align:Middle;
+	border:Solid 1px #808080;
+}
+thead.table_general td.table_general_col_0{
+	border:Solid 1px #808080;
+	padding:5px;
+}
+thead.table_general td.table_general div{
+	color:#000000;
+}
+/*-----------------------------------------------------------------------------------------------*/
+div.table_number{
+	margin:10px 10px 10px 35px;	
+}
+table div.table_number{
+	margin-left:25px;
+}
+table.table_number{
+	border-collapse:Collapse;
+	border:None;
+	width:Auto;
+}
+tbody.table_number td.table_number{
+	padding:0px 5px 0px 0px;
+	border:None;
+	font-size:100%;
+	text-align:Left;
+	vertical-align:Top;
+}
+tbody.table_number td.table_number_col_0{
+	width:1.5em;
+	border:None;
+}
+tbody.table_number td.table_number_col_0 div{
+	margin-left:0px;
+	margin-right:0px;
+	font-weight:Normal;
+	text-align:Right;
+}
+tbody.table_number td.table_number_col_1{
+	width:Auto;
+}
+/*-----------------------------------------------------------------------------------------------*/
+span.bold{
+	font-weight:Bold;
+}
+span.italic{
+	font-style:Italic;
+}
+span.no_break{
+	white-space:Nowrap;
+}
+span.superscript{
+	vertical-align:Super;
+	font-size:80%;
+}
+span.subscript{
+	vertical-align:Sub;
+	font-size:80%;
+}
+span.underline{
+	text-decoration:Underline;
+}
+span.color_white{
+	color:#FFFFFF;
+}
+span.color_blue{
+	color:#0000FF;
+}
+span.color_red{
+	color:#FF0000;
+}
+span.color_orange{
+	color:#FFA500;
+}
+span.color_green{
+	color:#008000;
+}
+span.bold\+color_red{
+	color:#FF0000;
+	font-weight:Bold;
+}
+span.bold\+italic{
+	font-style:Italic;
+	font-weight:Bold;
+}
+span.bold\+superscript{
+	vertical-align:Super;
+	font-size:80%;
+	font-weight:Bold;
+}
+span.bold\+underline{
+	text-decoration:Underline;
+	font-weight:Bold;
+}
+span.italic\+superscript{
+	vertical-align:Super;
+	font-size:80%;
+	font-style:Italic;
+}
+span.yenmark{
+	/*font-family:"MS PGothic","Osaka","Arial","Helvetica",Sans-serif;*/
+}
+span.yenmark\+italic{
+	/*font-family:"MS PGothic","Osaka","Arial","Helvetica",Sans-serif;*/
+	font-style:Italic;
+}
+span.bold\+color_orange{
+	color:#FFA500;
+	font-weight:Bold;
+}
+span.bold\+superscript\+color_red{
+	color:#FF0000;
+	vertical-align:Super;
+	font-size:80%;
+	font-weight:Bold;
+}
+span.bold\+superscript\+color_orange{
+	color:#FFA500;
+	vertical-align:Super;
+	font-size:80%;
+	font-weight:Bold;
+}
+span.bold\+no_break{
+	white-space:Nowrap;
+	font-weight:Bold;
+}
+span.bold\+no_break\+superscript{
+	white-space:Nowrap;
+	font-weight:Bold;
+	vertical-align:Super;
+	font-size:80%;
+}
+span.no_break\+superscript{
+	white-space:Nowrap;
+	vertical-align:Super;
+	font-size:80%;
+}
+span.superscript\+color_red{
+	color:#FF0000;
+	vertical-align:Super;
+	font-size:80%;
+}
+span.superscript\+color_orange{
+	color:#FFA500;
+	vertical-align:Super;
+	font-size:80%;
+}
+span.ui_text{
+}
+span.ui_bold{
+	font-weight:Bold;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+div#id_breadcrumbs{
+	font-size:70%;
+	position:Absolute;
+	left:5px;
+	top:10px;
+	z-index:1;
+	cursor:Default;
+	display:None;
+}
+div#id_breadcrumbs a{
+	margin:0px 5px;
+}
+div#id_breadcrumbs a:link{
+	color:#0000FF;
+}
+div#id_breadcrumbs a:visited{
+	color:#0000FF;
+}
+span.style_name{
+	font:Normal 8pt "Tahoma";
+	color:#FF0000;
+	margin:0px 5px;
+}
+div.open_close_all{
+	font-size:80%;
+	margin:5px 10px 5px 30px;
+	color:#3366A5;
+	text-align:Right;
+}
+div.open_close_next_sibling{
+	font-size:80%;
+	margin:5px 10px 5px 30px;
+	color:#3366A5;
+	text-align:Right;
+}
+div#id_content div.open_close_all a:hover,
+div#id_content div.open_close_next_sibling a:hover{
+	text-decoration:None;
+}
+a.open_all:hover,
+a.close_all:hover,
+a.open_next_sibling:hover,
+a.close_next_sibling:hover{
+	border-bottom:Solid 1px #3366A5;
+}
+a.open_all,
+a.close_all,
+a.open_next_sibling,
+a.close_next_sibling{
+	border-bottom:Dotted 1px #3366A5;
+	padding-right:15px;
+}
+a.open_all{
+	margin-right:5px;
+}
+a.open_next_sibling{
+}
+a.close_all,
+a.close_next_sibling{
+}
+div.invisible_begin{
+	color:#FFFFFF;
+	font-size:80%;
+	text-align:Right;
+}
+div.invisible_end{
+	color:#FFFFFF;
+	font-size:80%;
+	text-align:Right;
+}
+div.invisible{
+	display:None;
+	border-right:Dotted 1px #808080;
+	margin-right:10px;
+}
+@media print{
+div.open_close_all{
+	display:None;
+}
+div.open_close_next_sibling{
+	display:None;
+}
+div.invisible{
+	display:Block;
+	border-right:None;
+	margin-right:0px;
+}}
+div.hr{
+	border-top:Solid 2px #808080;
+	margin:25px 10px 0px 10px;
+	font-size:0pt;
+	color:#FFFFFF;
+}
+hr{
+	color:#808080;
+	background-color:#808080;
+	margin:25px 10px 0px 10px;
+	height:2px;
+	border:0;
+}
+/*-----------------------------------------------------------------------------------------------*/
+@supports (-ms-accelerator:true) { @media print {
+	div./*[style]*/list {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/list:before {
+		content: url(style_list.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 4px;
+	}
+	div./*[style]*/dash {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/dash:before {
+		content: url(style_dash.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 4px;
+	}
+	div./*[style]*/path {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/path:before {
+		content: url(style_path.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 1px;
+	}
+	div./*[style]*/step_path {
+		background: #F8F8F8!important;
+		position: relative;
+	}
+	div./*[style]*/step_path:before {
+		content: url(style_path.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 8px;
+	}
+	div./*[style]*/step_sub {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/step_sub:before {
+		content: url(style_step_sub.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 8px;
+	}
+	div./*[style]*/step_sub {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/step_sub:before {
+		content: url(style_step_sub.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 8px;
+	}
+	div./*[style]*/link a {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/link a:before {
+		content: url(style_link.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	div./*[style]*/list_link {
+		background: none!important;
+		position: relative;
+	}
+	div./*[style]*/list_link:before {
+		content: url(style_link.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	thead./*[style]*/table_important td./*[style]*/table_important {
+		background: none!important;
+		position: relative;
+	}
+	thead./*[style]*/table_important td./*[style]*/table_important:before {
+		content: url(style_important.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	thead./*[style]*/table_note td./*[style]*/table_note {
+		background: none!important;
+		position: relative;
+	}
+	thead./*[style]*/table_note td./*[style]*/table_note:before {
+		content: url(style_note.gif);
+		line-height: 100%;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+}}
+-->
+		</style>
+	</head>
+	<body>
+		<!--CONTENT_START-->
+		<div id="id_content">
+			<div class="h1"><a id="d3209d1e1265edc49d5d94202bdeb6ec"></a>Canon Generic Plus PCL6-printerstuurprogramma versie 1.30 voor Microsoft Windows</div>
+			<div class="text">Alvorens deze software te gebruiken, moet u ervoor zorgen dat u de LICENTIEOVEREENKOMST VOOR CANON-PROGRAMMATUUR, die tijdens de installatie wordt weergegeven, hebt gelezen en begrepen. U kunt ook de LICENTIEOVEREENKOMST VOOR CANON-PROGRAMMATUUR (EULAnl-NL.rtf) bekijken, die in de map [misc] te vinden is op de meegeleverde CD-ROM of die werd gedownload in de map van het stuurprogramma.</div>
+			<div class="text">Dit bestand bevat aanvullende informatie die u helpt bij de installatie en het gebruik van dit printerstuurprogramma met Microsoft Windows.</div>
+			<div class="text">Net zoals bij de meeste software- en hardwareproducten wordt bepaalde informatie pas beschikbaar gemaakt nadat de handleiding is voltooid. In dit bestand vindt u de bijgewerkte informatie over dit printerstuurprogramma. Als u extra ondersteuning nodig hebt, neemt u contact op met uw plaatselijke Canon-vestiging.</div>
+			<div class="text">Microsoft, Windows en Windows Vista zijn gedeponeerde handelsmerken of handelsmerken van Microsoft Corporation in de Verenigde Staten en/of andere landen. </div>
+			<div class="text">Andere vermelde product- en bedrijfsnamen zijn mogelijk de handelsmerken van hun respectieve eigenaren.</div>
+			<div class="h2"><a id="0c970eb48f6aeb22f5fe56ddcefd64fa"></a>INHOUDSOPGAVE</div>
+			<div class="list_link"><a href="#636d58b85e05af14fba26f23ec13e2c6">Overzicht</a></div>
+			<div class="list_link"><a href="#cfbfe503012e612edb9d60eefc68d5af">Systeemvereisten</a></div>
+			<div class="list_link"><a href="#ff162bfa526082b732442a0925874960">Printerstuurprogramma installeren</a></div>
+			<div class="list_link"><a href="#b6b8cb34c536624321aae23eb2118d27">Dialoogvenster Eigenschappen openen</a></div>
+			<div class="list_link"><a href="#a9472a69374d08acb201ac44575378ed">Informatie van de Help openen</a></div>
+			<div class="list_link"><a href="#74722ef065ccaf1fa5e99bf717f10223">Waarschuwingen en beperkingen</a></div>
+			<div class="list_link"><a href="#dc115480a653f4ae712776c26c0eefbd">Beperkingen met betrekking tot Apparaatinstellingen</a></div>
+			<div class="list_link"><a href="#5250a9e2e1de3c109a21e8bbdec4797a">Beperkingen bij het gebruik van de Canon Driver Configuration Tool</a></div>
+			<div class="list_link"><a href="#4a6bdb2eb8fe4b63a3a88976d8016900">Beperkingen van specifieke printermodellen</a></div>
+			<div class="h4"><a id="636d58b85e05af14fba26f23ec13e2c6"></a>Overzicht</div>
+			<div class="text">Met dit printerstuurprogramma kunt u vanaf elke Windows-toepassing documenten afdrukken naar uw printer.</div>
+			<div class="text"><span class="bold">OPMERKING</span></div>
+			<div class="list">Dit stuurprogramma ondersteunt de Canon Driver Configuration Tool. U kunt met de Canon Driver Configuration Tool de standaardfabrieksinstellingen van het printerstuurprogramma wijzigen om aangepaste stuurprogrammasets te maken. Voor meer informatie over dit hulpprogramma kunt u de Canon Driver Configuration Tool User's Guide raadplegen.</div>
+			<div class="h4"><a id="cfbfe503012e612edb9d60eefc68d5af"></a>Systeemvereisten</div>
+			<div class="text">Dit printerstuurprogramma kan worden gebruikt in de volgende omgevingen:</div>
+			<div class="h5">Besturingssystemen</div>
+			<div class="text">Windows Vista</div>
+			<div class="text">Windows 7</div>
+			<div class="text">Windows 8</div>
+			<div class="text">Windows 8.1</div>
+			<div class="text">Windows 10</div>
+			<div class="text">Windows Server 2008</div>
+			<div class="text">Windows Server 2008 R2</div>
+			<div class="text">Windows Server 2012</div>
+			<div class="text">Windows Server 2012 R2</div>
+			<div class="text">Windows Server 2016</div>
+			<div class="h5">Server-based computing omgeving</div>
+			<div class="h6">Serverbesturingssystemen</div>
+			<div class="text">Windows Server 2008</div>
+			<div class="text">Windows Server 2008 R2</div>
+			<div class="text">Windows Server 2012</div>
+			<div class="text">Windows Server 2012 R2</div>
+			<div class="text">Windows Server 2016</div>
+			<div class="h6">Servercomponenten</div>
+			<div class="text">Citrix Presentation Server 4.5</div>
+			<div class="text">Citrix XenApp 5.0</div>
+			<div class="text">Citrix XenApp 6.0</div>
+			<div class="text">Citrix XenApp 6.5</div>
+			<div class="text">Citrix XenApp 7.5</div>
+			<div class="text">Citrix XenApp 7.6</div>
+			<div class="text">Citrix XenApp 7.7</div>
+			<div class="text">Citrix XenApp 7.8</div>
+			<div class="text">Citrix XenApp 7.9</div>
+			<div class="text">Citrix XenApp 7.11</div>
+			<div class="text">Citrix XenApp 7.12</div>
+			<div class="text">Citrix XenDesktop 4.0</div>
+			<div class="text">Citrix XenDesktop 5.0</div>
+			<div class="text">Citrix XenDesktop 5.5</div>
+			<div class="text">Citrix XenDesktop 5.6</div>
+			<div class="text">Citrix XenDesktop 7.0</div>
+			<div class="text">Citrix XenDesktop 7.1</div>
+			<div class="text">Citrix XenDesktop 7.5</div>
+			<div class="text">Citrix XenDesktop 7.6</div>
+			<div class="text">Citrix XenDesktop 7.7</div>
+			<div class="text">Citrix XenDesktop 7.8</div>
+			<div class="text">Citrix XenDesktop 7.9</div>
+			<div class="text">Citrix XenDesktop 7.11</div>
+			<div class="text">Citrix XenDesktop 7.12</div>
+			<div class="text">VMware vSphere 4</div>
+			<div class="text">VMware vSphere 5</div>
+			<div class="text">VMware vSphere 5.1</div>
+			<div class="text">VMware vSphere 5.5</div>
+			<div class="text">VMware vSphere 6.0</div>
+			<div class="text">Microsoft Application Virtualization (App-V)</div>
+			<div class="text">Remote Desktop Service on Windows Server 2012 R2</div>
+			<div class="text">TS-RemoteApp on Windows Server 2008</div>
+			<div class="h6">Clusterserver</div>
+			<div class="text">Microsoft Windows Server 2008 Enterprise/Datacenter Edition</div>
+			<div class="text">Microsoft Windows Server 2008 R2 Enterprise/Datacenter Edition</div>
+			<div class="text">Microsoft Windows Server 2012</div>
+			<div class="text">Microsoft Windows Server 2012 R2</div>
+			<div class="h5"><a id="46736b31e3ec30e521e36b46c58fa250"></a>Computer</div>
+			<div class="text">Een computer die gegarandeerd werkt met de bovenstaande besturingssystemen</div>
+			<div class="h4"><a id="ff162bfa526082b732442a0925874960"></a>Printerstuurprogramma installeren</div>
+			<div class="text">Om dit printerstuurprogramma te gebruiken met softwaretoepassingen die draaien onder Microsoft Windows, gebruikt u de volgende installatieprocedure.</div>
+			<div class="h6"><a id="2a30113ec12409ecaf1debadd080adee"></a><span class="bold">OPMERKING</span></div>
+			<div class="list">Meld u voor de installatie aan bij Windows als beheerder.</div>
+			<div class="list">Als er een bericht wordt weergegeven dat u de computer opnieuw moet opstarten terwijl u het installatieprogramma gebruikt, moet u de computer opnieuw opstarten. Als u dit niet doet, werken de bestaande stuurprogramma's wellicht niet goed.</div>
+			<div class="list">Als u de functie voor automatisch maken van de printer gebruikt in een Citrix XenApp-omgeving, kunt u het stuurprogramma mogelijk niet goed installeren met het installatieprogramma. Als dit het geval is, start u de XenApp-servercomputer opnieuw op en controleert u de map Printere. Als bestaande printerpictogrammen niet meer worden weergegeven, installeert u de relevante printerstuurprogramma's opnieuw op de computer met de XenApp Server PC. Gebruik hiervoor de wizard Printer toevoegen in de map Printers.<br />Voordat u het installatieprogramma start om dit stuurprogramma te installeren, sluit u op alle clientprinters de ICA-sessies af met het hulpprogramma ICA Client Printer Configuration. Nadat u het stuurprogramma hebt geïnstalleerd, start u het hulpprogramma ICA Client Printer opnieuw en sluit u de printers opnieuw aan.  </div>
+			<div class="list">We raden aan om het installatieprogramma te gebruiken om een printerstuurprogramma te updaten of toe te voegen. U kunt een stuurprogramma ook updaten of toevoegen vanaf de wizard Printer toevoegen. Voor meer informatie, raadpleeg &quot;<a href="#458c0fbe1c62532bfa546e541b069a2e">Ga als volgt te werk om de wizard Printer toevoegen te gebruiken:</a>.&quot;</div>
+			<div class="list">Gebruikt u een SMB-printer (NetBIOS-netwerk) als een gedeelde printer op de servercomputer, dan selecteert u Netwerkprinter in de wizard Printer toevoegen, als u het printerstuurprogramma installeert.</div>
+			<div class="list">Als u dit stuurprogramma met de standaardinstellingen installeert, zullen alle reeds geïnstalleerde Generic Plus-printerstuurprogramma's naar de nieuwste versies worden geüpdatet. Om de nieuwste versie van een stuurprogramma toe te voegen zonder de geïnstalleerde stuurprogramma's te updaten, raadpleegt u &quot;<a href="#4465990d9b97bd6ecb35d37d0e37bf88">Installeren door de functie Apparaten op een netwerk ontdekken</a>,&quot; &quot;<a href="#6651e2a85f87a56b7c2604df4c48b1fa">Installeren door een poort aan te geven</a>,&quot; of &quot;<a href="#458c0fbe1c62532bfa546e541b069a2e">Ga als volgt te werk om de wizard Printer toevoegen te gebruiken:</a>.&quot;</div>
+			<div class="list">Als u een gedeelde printer in de Printserveromgeving (Point and Print) gebruikt, is het noodzakelijk om Canon Driver Information Assist Service op de server-pc te installeren om gebruik te maken van de functie Apparaatinformatie verwerven.</div>
+			<div class="list">Wanneer u informatie over het stuurprogramma verwerft via de Canon Driver Information Assist Service en als er een waarschuwing met betrekking tot de verwijdering van de Windows Firewall-blokkering wordt weergegeven, verwijder dan de blokkering.</div>
+			<div class="h5"><a id="4465990d9b97bd6ecb35d37d0e37bf88"></a>Installeren door de functie Apparaten op een netwerk ontdekken</div>
+			<div class="text">U kunt naar apparaten op TCP/IP-netwerken zoeken wanneer u het stuurprogramma installeert.</div>
+			<div class="text">Tijdens de installatie worden het configuratieprofiel en de apparaatfuncties die overeenstemmen met het printermodel automatisch ingesteld. U kunt ook een configuratieprofiel importeren of wijzigen indien nodig.</div>
+			<div class="text_level1">* Als u niet weet welke netwerkomgeving u gebruikt, neem dan contact op met uw netwerkbeheerder.</div>
+			<div class="text">1. Start het installatieprogramma.</div>
+			<div class="text_level1">Dubbelklik op [Setup.exe] in de meegeleverde [CD-ROM] of in de map waarin het stuurprogramma werd gedownload.</div>
+			<div class="text">2. Selecteer [Taal] en klik op [Volgende].</div>
+			<div class="text">3. De wizard wordt weergegeven en de licentieovereenkomst voor de gebruiker wordt op het scherm weergegeven. Bevestig de inhoud van de licentieovereenkomst en klik dan op [Ja]. </div>
+			<div class="text">4. Selecteer [Standaard] en klik vervolgens op [Volgende].</div>
+			<div class="text">5. Selecteer de vereiste items en klik vervolgens op [Volgende].</div>
+			<div class="text">6. Selecteer de te installeren printer in de [Lijst met printers].</div>
+			<div class="text">7. Als u de naam van het apparaat wilt wijzigen, stelt u het in als standaardapparaat of wijzigt u het configuratieprofiel, selecteert u [Printerinformatie instellen] en klikt u vervolgens op [Volgende]. </div>
+			<div class="text">Of klik op [Volgende] en ga naar stap 10.</div>
+			<div class="text">8.Om een configuratieprofiel te selecteren, klikt u op [Wijzigen] en selecteert u in het dialoogvenster [Configuratieprofiel wijzigen] het juiste configuratieprofiel.</div>
+			<div class="annotation">* U kunt configuratieprofielen registreren via [Importeren] in het dialoogvenster [Configuratieprofiel wijzigen]. U kunt een geregistreerd configuratieprofiel verwijderen door te klikken op [Verwijderen].</div>
+			<div class="text">9. Voer [Printernaam] in en klik vervolgens op [Volgende].</div>
+			<div class="annotation">* Als u de printer wilt gebruiken als standaardprinter, selecteert u [Als standaard instellen].</div>
+			<div class="text">10. Als u de printer wilt gebruiken zonder stuurprogramma's bij te werken, klikt u op [Printers selecteren die bijgewerkt moeten worden] en schakelt u in [Lijst met printers] de selectievakjes uit van de printers waarvoor u de stuurprogramma's niet wilt bijwerken.</div>
+			<div class="text">11. Controleer de installatie-instellingen en klik vervolgens op [Starten]. Het installatieproces wordt gestart.</div>
+			<div class="text">12. Klik op [Afsluiten] om het installatieprogramma te voltooien. </div>
+			<div class="text_level1">U kunt nu afdrukken vanuit elke willekeurige Windows-toepassing.</div>
+			<div class="h5"><a id="6651e2a85f87a56b7c2604df4c48b1fa"></a>Installeren door een poort aan te geven</div>
+			<div class="text">1. Start het installatieprogramma.</div>
+			<div class="text_level1">Dubbelklik op [Setup.exe] in de meegeleverde [CD-ROM] of in de map waarin het stuurprogramma werd gedownload.</div>
+			<div class="text">2. Selecteer [Taal] en klik op [Volgende].</div>
+			<div class="text">3. De wizard wordt weergegeven en de licentieovereenkomst voor de gebruiker wordt op het scherm weergegeven. Bevestig de inhoud van de licentieovereenkomst en klik dan op [Ja]. </div>
+			<div class="text">4. Selecteer [Aangepast] en klik vervolgens op [Volgende].</div>
+			<div class="text">5. Als het dialoogvenster wordt weergegeven waarin u kunt selecteren hoe de installatie wordt uitgevoerd, selecteert u [Nieuwe printers toevoegen] of [Bestaande printerstuurprogramma's bijwerken] en klikt u op [Volgende].</div>
+			<div class="text_level1">Als u [Bestaande printerstuurprogramma's bijwerken] hebt geselecteerd, gaat u door naar stap 9.</div>
+			<div class="text">6. Selecteer een [Poort] uit het drop-downmenu of klik op [Poort toevoegen].</div>
+			<div class="text">7. Om een configuratieprofiel te selecteren, klikt u op [Wijzigen] en selecteert u in het dialoogvenster [Configuratieprofiel wijzigen] het juiste configuratieprofiel.</div>
+			<div class="annotation">* U kunt configuratieprofielen registreren via [Importeren] in het dialoogvenster [Configuratieprofiel wijzigen]. U kunt een geregistreerd configuratieprofiel verwijderen door te klikken op [Verwijderen].</div>
+			<div class="text">8. Voer [Printernaam] in en klik vervolgens op [Volgende].</div>
+			<div class="annotation">* Als u de printer wilt gebruiken als standaardprinter, selecteert u [Als standaard instellen].</div>
+			<div class="text">9. Als u de printer wilt gebruiken zonder stuurprogramma's bij te werken, klikt u op [Printers selecteren die bijgewerkt moeten worden] en schakelt u in [Lijst met printers] de selectievakjes uit van de printers waarvoor u de stuurprogramma's niet wilt bijwerken.</div>
+			<div class="text">10. Controleer de installatie-instellingen en klik vervolgens op [Starten]. Het installatieproces wordt gestart.</div>
+			<div class="text">11. Klik op [Afsluiten] om het installatieprogramma te voltooien. </div>
+			<div class="text_level1">U kunt nu afdrukken vanuit elke willekeurige Windows-toepassing.</div>
+			<div class="h5"><a id="458c0fbe1c62532bfa546e541b069a2e"></a>Ga als volgt te werk om de wizard Printer toevoegen te gebruiken:</div>
+			<div class="text">1. Start de wizard Printer toevoegen van Windows.</div>
+			<div class="text_level2">Als u start vanaf [Instellingen] (alleen Windows 10/Server 2016)</div>
+			<div class="text_level3">(1) Klik op [Apparaten] → klik op [Een printer of scanner toevoegen] in [Printers en scanners].</div>
+			<div class="text_level3">(2) Klik op [De printer die ik wil staat niet in de lijst].</div>
+			<div class="text_level2">Als u start vanaf [Configuratiescherm]</div>
+			<div class="text_level3">(1) Open [Apparaten en printers] → klik op [Een printer toevoegen].</div>
+			<div class="text_level3">(2) Als het scherm voor de selectie van een apparaat wordt weergegeven, klik dan op [De printer die ik wil gebruiken, staat niet in de lijst].</div>
+			<div class="text">2.Controleer of de wizard is gestart en klik vervolgens op [Volgende]. </div>
+			<div class="text">3. Volg de instructies op het scherm om door te gaan met de installatie. </div>
+			<div class="text">4. Klik op [Bladeren].</div>
+			<div class="text">5.Klik op [Bladeren] om het inf-bestand te selecteren en klik vervolgens op [OK].</div>
+			<div class="text_level1">Het bestand inf wordt bewaard in de map [Driver] op de meegeleverde CD-ROM of in de gedownloade map van het stuurprogramma.</div>
+			<div class="annotation">* Als u het inf-bestand in de bovenstaande map selecteert en het stuurprogramma installeert, zullen alle geïnstalleerde stuurprogramma's op de computer naar de nieuwste inhoud worden geüpdatet. Als u de nieuwste versie afzonderlijk wilt installeren zonder het stuurprogramma op de computer te updaten, selecteert u het inf-bestand in de map [etc] in de map van het stuurprogramma dat u hebt aangekocht.</div>
+			<div class="text">6.Selecteer uw printermodel in [Printere] en klik vervolgens op [Volgende]. </div>
+			<div class="text">7.Volg de instructies op het scherm om door te gaan en klik vervolgens op [Voltooien] om het kopiëren van de bestanden te starten. </div>
+			<div class="text_level1">U kunt nu afdrukken vanuit elke willekeurige Windows-toepassing.</div>
+			<div class="h5"><a id="ae399ab3f7e27290818a8e90a8fa038c"></a>Ga als volgt te werk om te installeren met een USB-verbinding:</div>
+			<div class="text">1. Schakel het apparaat uit. </div>
+			<div class="text">2. Start het installatieprogramma → volg de instructies in de dialoogvensters.</div>
+			<div class="text">Voor meer informatie, zie stappen 1 tot 3 van &quot;<a href="#4465990d9b97bd6ecb35d37d0e37bf88">Installeren door de functie Apparaten op een netwerk ontdekken</a>,&quot; of &quot;<a href="#6651e2a85f87a56b7c2604df4c48b1fa">Installeren door een poort aan te geven</a>.&quot; </div>
+			<div class="text">3.Selecteer [USB-verbinding] en klik vervolgens op [Volgende]. Als er een dialoogvenster wordt weergegeven om het printerstuurprogramma te selecteren, selecteert u het stuurprogramma dat u wilt installeren, en klikt u op [Volgende].</div>
+			<div class="text">4.Klik op [Ja] in het berichtvenster als u wordt gevraagd of u de installatie wilt starten. </div>
+			<div class="text">5. Sluit de USB-stekker aan en schakel de printer in wanneer u daarom wordt gevraagd.</div>
+			<div class="text_level1">* Probeer de volgende procedure uit te voeren als de installatie mislukt in dit scherm.</div>
+			<div class="dash">Als het apparaat niet wordt herkend wanneer het is aangesloten via USB </div>
+			<div class="text">6.Om een configuratieprofiel te selecteren, klikt u op [Wijzigen] en selecteert u in het dialoogvenster [Configuratieprofiel wijzigen] het juiste configuratieprofiel.</div>
+			<div class="annotation">* U kunt configuratieprofielen registreren via [Importeren] in het dialoogvenster [Configuratieprofiel wijzigen]. U kunt een geregistreerd configuratieprofiel verwijderen door te klikken op [Verwijderen].</div>
+			<div class="text">7.Wanneer de installatie is voltooid, klikt u in het scherm voor voltooiing van de installatie op [Afsluiten].</div>
+			<div class="text_level1">De installatie van het printerstuurprogramma is voltooid.</div>
+			<div class="h6"><a id="946b215ddf7d26eb1844ef13168bce61"></a>Als het apparaat niet wordt herkend wanneer het is aangesloten via USB</div>
+			<div class="text">Probeer de volgende procedure uit te voeren als het apparaat niet wordt herkend wanneer het is aangesloten via USB.</div>
+			<div class="text">1. Sluit de printer aan op de computer met de USB-kabel en schakel de printer vervolgens in. </div>
+			<div class="text">2. Open [Apparaatbeheer].</div>
+			<div class="text_level1">In Windows 10/Server 2016</div>
+			<div class="text_level2">Klik met de rechtermuisknop op het Windows-pictogram → klik op [Apparaatbeheer].</div>
+			<div class="text_level1">In Windows 7/Server 2008 R2/8/8.1/Server 2012/Server 2012 R2</div>
+			<div class="text_level2">Open [Configuratiescherm] &gt; [Hardware en geluiden] &gt; [Apparaatbeheer].</div>
+			<div class="text_level1">In Windows Vista/Server 2008</div>
+			<div class="text_level2">Open [Configuratiescherm] &gt; [Systeem en onderhoud] &gt; [Apparaatbeheer].</div>
+			<div class="text">3. Klik in [Overige apparaten] met de rechtermuisknop op de naam van de printer die u gebruikt → voer [Verwijderen] uit.</div>
+			<div class="text_level1">De printernaam wordt</div>
+			<div class="text_level2">&quot;Canon + &lt;modelnaam&gt;&quot; </div>
+			<div class="text_level1">Installeer het stuurprogramma opnieuw nadat de bovenstaande procedure is voltooid.</div>
+			<div class="h6">Printerstuurprogramma verwijderen</div>
+			<div class="text">1. Start de uninstaller van het stuurprogramma.</div>
+			<div class="list">Bij gebruik van de Windows-functies</div>
+			<div class="text_level1">In Windows 10/Server 2016</div>
+			<div class="text_level2">(1) Open [Instellingen] &gt; [Systeem] &gt; [Apps en onderdelen].</div>
+			<div class="text_level2">(2) Selecteer het stuurprogramma dat u wilt verwijderen → klik op [Verwijderen].</div>
+			<div class="text_level1">In andere besturingssystemen dan de bovenstaande</div>
+			<div class="text_level2">(1) Open [Configuratiescherm] &gt; [Programma's] &gt; [Een programma verwijderen].</div>
+			<div class="text_level2">(2) Selecteer het stuurprogramma dat u wilt verwijderen → klik op [Verwijderen/wijzigen].</div>
+			<div class="list">Bij gebruik van het bestand om de installatie ongedaan te maken, dat met het stuurprogramma is meegeleverd</div>
+			<div class="text_level3">Dubbelklik op een van onderstaande bestanden.</div>
+			<div class="text_level2">Bij gebruik van een bestand uit een map van een geïnstalleerd stuurprogramma</div>
+			<div class="text_level3">Gebruik [UNINSTAL.exe] van het overeenkomstige stuurprogramma in onderstaande map.</div>
+			<div class="dash">&lt;installatiemap&gt;\Canon\PrnUninstall</div>
+			<div class="text_level2">Bij gebruik van het bestand op de meegeleverde CD-ROM of in de gedownloade map van het stuurprogramma</div>
+			<div class="text_level3">Gebruik onderstaande bestand in de map van het stuurprogramma dat u hebt aangekocht.</div>
+			<div class="dash">misc\UNINSTAL.exe</div>
+			<div class="text">2.Selecteer de naam van het apparaat dat u wilt verwijderen, en klik op [Verwijderen].</div>
+			<div class="annotation">* Als u klikt op [Opschonen], worden alle bestanden en registerinformatie verwijderd met betrekking tot alle stuurprogramma's die worden weergegeven in de lijst, dus niet alleen met betrekking tot het geselecteerde stuurprogramma. In normale omstandigheden klikt u op [Verwijderen] om het printerstuurprogramma te verwijderen.</div>
+			<div class="text">3.Het bevestigingsbericht voor het verwijderen wordt weergegeven. Klik op [Ja] om het verwijderen te starten.</div>
+			<div class="text">4. Klik op [Afsluiten].</div>
+			<div class="text"></div>
+			<div class="h4"><a id="b6b8cb34c536624321aae23eb2118d27"></a>Dialoogvenster Eigenschappen openen</div>
+			<div class="text">Het dialoogvenster Eigenschappen bevat verschillende tabbladen waarmee u uw printer kunt instellen en bedienen. Om het dialoogvenster Eigenschappen te openen, gebruikt u een van de volgende procedures:</div>
+			<div class="h6"><a id="8d941cd856e7fe97b977d837c0ab6ec3"></a>Ga als volgt te werk om het dialoogvenster vanaf het bureaublad te openen:</div>
+			<div class="text">1.Open [Apparaten en printers] vanaf het [Configuratiescherm] van Windows.</div>
+			<div class="text">2.Klik met de rechtermuisknop op het printerpictogram voor uw printer in de map Printers en klik vervolgens op [Eigenschappen] of [Eigenschappen van printer] om het dialoogvenster [Eigenschappen van printer] te openen, of klik op [Voorkeursinstellingen voor afdrukken] om het dialoogvenster [Eigenschappen van document] (of het dialoogvenster [Voorkeursinstellingen voor afdrukken] te openen).</div>
+			<div class="h6"><a id="6367ad8a20cbc51529545a70e48a29c4"></a>Ga als volgt te werk om het dialoogvenster vanuit een toepassing te openen:</div>
+			<div class="text">1.Klik op de opdracht [Afdrukken] om het dialoogvenster [Afdrukken] weer te geven. </div>
+			<div class="text">2.Selecteer de naam van uw printer uit de drop-downlijst en klik vervolgens op [Voorkeursinstellingen], [Eigenschappen van printer], of [Eigenschappen]. </div>
+			<div class="h4"><a id="a9472a69374d08acb201ac44575378ed"></a>Informatie van de Help openen</div>
+			<div class="text">In het dialoogvenster Eigenschappen kunt u op [Help] klikken om informatie over het printerstuurprogramma weer te geven.</div>
+			<div class="h4"><a id="74722ef065ccaf1fa5e99bf717f10223"></a>Waarschuwingen en beperkingen</div>
+			<div class="list">Als u een document met een oneven aantal pagina's afdrukt als een dubbelzijdig document vanuit een toepassing, voegt de toepassing wellicht een lege pagina in om het aantal pagina's even te maken. Als dit gebeurt, wordt de ingevoegde lege pagina op dezelfde manier geteld als een normale pagina. </div>
+			<div class="list">Als u een USB-verbinding gebruikt met de printer om af te drukken en een afdruktaak annuleert die momenteel wordt uitgevoerd vanaf de computer met de afdrukspooler, keert de printer wellicht niet terug naar de status gereed.<br />In deze status kunt u afdrukken via USB, maar niet via een netwerk. Als u wilt afdrukken vanaf een netwerk, annuleert u de afdruktaak vanaf het bedieningspaneel van de printer voordat u afdrukt. </div>
+			<div class="list">Als u Server Core in uw Windows Server besturingssysteem gebruikt, kunt u het installatieprogramma voor het printerstuurprogramma niet gebruiken. Gebruik de installatiefunctie van het besturingssysteem om het printerstuurprogramma te installeren.</div>
+			<div class="dash">Sommige afdrukopties zijn niet beschikbaar in een lokale omgeving of een Windows-omgeving met extern bureaublad. </div>
+			<div class="list">Als er noch een printerstuurprogramma (of faxstuurprogramma), noch een scannerstuurprogramma voor gebruik via USB zijn geïnstalleerd, wordt een apparaat dat via USB wordt aangesloten, herkend als nieuwe hardware. Hoewel in dat geval het volgende kan gebeuren, worden stuurprogrammabewerkingen hier niet door beïnvloed.</div>
+			<div class="dash">Windows Vista: Er verschijnt een dialoogvenster elke keer u het apparaat via USB aansluit.</div>
+			<div class="dash">Windows 7/8/8.1/10: De desbetreffende printer(s) in de map [Apparaten en printers] zijn in een waarschuwingstoestand.</div>
+			<div class="text_level2">Het stuurprogramma kan dan toch worden uitgevoerd. Installeer het scannerstuurprogramma voor gebruik met USB (Color Network ScanGear 2 USB) om dit soort situaties te voorkomen. Raadpleeg het leesmij-bestand bij het stuurprogramma voor instructies voor het installeren van het scannerstuurprogramma. </div>
+			<div class="list">Als u dit printerstuurprogramma gebruikt in een server-based computing omgeving, kunt u het printerstuurprogramma niet gebruiken op clientcomputers die met niet ondersteunde besturingssystemen werken.</div>
+			<div class="list">Wanneer u een overlayformulier creëert op een computer, kunt u binnen het netwerk geen andere computer opgeven als locatie om het nieuwe formulierbestand op te slaan.</div>
+			<div class="list">Sommige TrueType-lettertypen worden mogelijk niet correct afgedrukt. Schakel in dit geval de instelling [Printerlettertypen gebruiken] in het dialoogvenster [Geavanceerde instellingen] uit om ervoor te zorgen dat alle lettertypen samen met het document worden gedownload, in plaats van alleen die lettertypen te gebruiken die in de printer zitten. Het dialoogvenster [Geavanceerde instellingen] wordt weergegeven door te klikken op de knop [Geavanceerde instellingen] in het tabblad [Kwaliteit].<br /></div>
+			<div class="list">Geroteerde tekst wordt niet correct afgedrukt bij sommige toepassingen wanneer [TrueType-modus] is ingesteld op [Downloaden als TrueType-Lettertype] of [Downloaden als bitmap-afbeelding] in het dialoogvenster [Geavanceerde instellingen]. Het dialoogvenster [Geavanceerde instellingen] wordt weergegeven als u op de knop [Geavanceerde instellingen] klikt in het tabblad [Kwaliteit].</div>
+			<div class="list">Als u dit product in Japan gebruikt, zijn de volgende beperkingen van toepassing.</div>
+			<div class="text_level2">De volgende opties worden mogelijk niet correct toegepast als ze worden geselecteerd op het tabblad [Apparaatinstellingen].</div>
+			<div class="dash">[Envelop-invoer]</div>
+			<div class="text_level3">Wanneer u deze optie selecteert en [Envelop Monarch]/[Envelop nummer 10 (COM10)]/[Envelop DL]/[Envelop C5]/[Envelop B5] instelt als paginaformaat op het tabblad [Algemene instellingen]/[Pagina-instelling], ook al kunt u [Lade 2] selecteren als papierbron op het tabblad [Papierbron], zullen de enveloppen niet correct uitgevoerd worden door de printer aangezien de printer deze combinatie van instellingen niet ondersteunt.</div>
+			<div class="dash">[2/3 perforaties]/[2/4 perforaties [Frans]]/[4 perforaties [Zweeds]]</div>
+			<div class="text_level3">Hoewel u de optie [Perforeren] in het tabblad [Afwerking] kunt instellen wanneer deze optie is geselecteerd, zal het perforeertype niet correct wordt uitgevoerd als u [3 perforaties] of [4 perforaties [Zweeds]] selecteert, aangezien de printer deze instellingen niet ondersteunt.</div>
+			<div class="text_level2">Als u [Tabblad] selecteert als de papiersoort die moet worden ingevoegd, in het dialoogvenster [Invoegbladinstellingen] van het tabblad [Papierbron], en [Lade 2] selecteert als de papierbron, wordt het tabbladpapier niet correct uitgevoerd omdat de printer deze instelling niet ondersteunt.</div>
+			<div class="text_level2">Als u de imageRUNNER ADVANCE C7065/C7055 gebruikt, kunt u [Bewaren] wel selecteren als [Uitvoermodus], maar de printer ondersteunt deze functie niet.</div>
+			<div class="list">Als u het stuurprogramma gebruikt in een USB/WSD-verbindingsomgeving, kunt u de functies Apparaatstatus opvragen, Beheer afdelings-id en Gebruikersverificatie niet gebruiken.</div>
+			<div class="list">Als u de printernaam in de map [Apparaten en printers] (map [Printere] in Windows Vista/Server 2008) wijzigt, zullen sommige geregistreerde profielinstellingen in het printerstuurprogramma (profielen die vanaf de documenteigenschappen zijn toegevoegd) worden verwijderd. Alvorens u de printernaam wijzigt, slaat u de profielinstellingen op als een bestand en importeert u het opgeslagen bestand nadat de printernaam is gewijzigd.</div>
+			<div class="list">De aangepaste papierformaten die kunnen worden ingesteld voor de functies op het tabblad [Apparaatinstellingen] &gt; [Afwerkinstellingen] (dubbelzijdig afdrukken, nieten, enz.), verschillen van printer tot printer. Raadpleeg de bij de printer meegeleverde handleiding voor meer informatie.</div>
+			<div class="list">Afhankelijk van de printer die u gebruikt, kunnen papiersoorten en papierformaten waarin de printer niet voorziet, worden opgehaald via het tabblad [Apparaatinstellingen] &gt; [Apparaatstatusgegevens ophalen].</div>
+			<div class="list">Afhankelijk van de gebruikte omgeving kunnen de namen in [Profiel] en van aangepaste papierformaten onbegrijpelijk zijn. Installeer in dit geval het gepaste talenpakket.</div>
+			<div class="list">Afhankelijk van de printer die u gebruikt, kunnen onbruikbare functies worden opgehaald via het tabblad [Apparaatinstellingen] &gt; [Apparaatstatusgegevens ophalen].</div>
+			<div class="list">In sommige talen worden de taaknaam, gebruikersnaam, naam van opgeslagen gegevens, enz. niet juist weergegeven op de printer. In dergelijke gevallen kan deze tekst juist worden weergegeven door de weergavetaal van de printer te wijzigen zodat deze is ingesteld op de gewenste taal.</div>
+			<div class="list">Als u de gebruikersrechten wijzigt van de computer die u gebruikt, en het installatieprogramma uitvoert, wordt de installatie mogelijk niet juist uitgevoerd. In dit geval meldt u zich aan als beheerder en probeert u vervolgens de installatie opnieuw uit te voeren.</div>
+			<div class="list">Om aangepaste papierformaten te registreren, meldt u zich aan met beheerdersrechten, geeft u het scherm met afdrukinstellingen van het printerstuurprogramma weer via de map [Apparaten en printers] (map [Printere] in Windows Vista/Server 2008) en configureert u de instellingen in het dialoogvenster [Instellingen van aangepast papierformaat] van het tabblad [Pagina-instelling].</div>
+			<div class="list">Maak geen gebruik van de stand-bymodus als u een printer via een USB-verbinding gebruikt wanneer NetSpot Suite en Canon Driver Information Assist Service zijn geïnstalleerd. U kunt de stand-bymodus instellen via [Start] (in Windows 8/8.1/Server 2012/2012 R2 geeft u op het bureaublad aan de rechterzijde van het scherm de balk met charms weer) &gt; [Instellingen] &gt; [Configuratiescherm] &gt; [Energiebeheer].</div>
+			<div class="list">Bij sommige toepassingen worden formuliergegevens mogelijk niet afgedrukt bij het afdrukken met overlay doordat het verzonden document het vorige document overschrijft.</div>
+			<div class="list">Als u op het tabblad [Afwerking] &gt; [Geavanceerde instellingen] &gt; [Afdrukgebied uitbreiden en afdrukken] instelt, worden sommige afdrukgegevens mogelijk bijgesneden langs de rand van het papier. Als dit gebeurt, schakelt u het selectievakje van deze instelling uit.</div>
+			<div class="list">Als de printernaam double-bytetekens bevat in een Engelstalige besturingssysteemomgeving, kunt u de apparaatstatus niet ophalen via het tabblad [Apparaatinstellingen] &gt; [Apparaatstatusgegevens ophalen]. Als dit gebeurt, wijzigt u de printernaam zodat deze geen double-bytetekens bevat.</div>
+			<div class="list">Als in een gedeelde printeromgeving de taal verschilt van de besturingssystemen die worden gebruikt door de afdrukserver en clientcomputers, wordt mogelijk &quot;&lt;Wijzigen&gt;&quot; weergegeven voor de profielnaam, zelfs wanneer de instellingen voor [Profiel] voor het printerstuurprogramma dat is geïnstalleerd op een clientcomputer, niet zijn gewijzigd.</div>
+			<div class="list">Als de standaardpapiersoort niet is ingesteld in de papierbron van het apparaat dat u gebruikt, en u afdrukt vanuit een stuurprogramma waarin [Basisconfiguratie (Canon)] of [Basisconfiguratie (compatibel)] is geselecteerd via [Config.profiel], wordt er op het bedieningspaneel van het apparaat mogelijk een foutbericht weergegeven dat aangeeft dat er geen papier is. Als dit gebeurt, haalt u de apparaatstatusgegevens op of selecteert u een configuratieprofiel dat overeenstemt met het apparaat.</div>
+			<div class="list">Wanneer u de vouwfunctie gebruikt, kunnen er gevallen zijn waarin het papier niet wordt gevouwen of wordt gevouwen in een andere richting dan de richting waarin u wilt vouwen.</div>
+			<div class="list">Als het installatieprogramma tijdens de installatie een voorheen geïnstalleerde versie van het printerstuurprogramma detecteert, wordt er mogelijk een dialoogvenster weergegeven waarin wordt gevraagd of u de oudere bestanden wilt gebruiken. Selecteer zeker [Ja].</div>
+			<div class="list">Zwart-witpagina's kunnen als kleurenpagina's worden geteld, afhankelijk van de gegevens, de toepassing of de instellingen van het stuurprogramma wanneer u [Auto [Kleur/Z-W]] voor [Kleurenmodus] in het tabblad [Algemene instellingen]/[Kwaliteit] selecteert. Als u een document als een zwart-witdocument wilt afdrukken, selecteert u [Zwart-wit] voor [Kleurenmodus].</div>
+			<div class="list">Als u met een Canon LBP-printer afdrukt en het [Config.profiel] is [Basisconfiguratie (compatibel)], dan worden de naam van de afdruktaak en de gebruikersnaam mogelijk weergegeven als &quot;--&quot; op het bedieningspaneel van de printer.</div>
+			<div class="list">Als u met een Canon LBP-printer afdrukt en het [Config.profiel] is [Basisconfiguratie (compatibel)], worden de documenten mogelijk, zelfs als u [Veilig afdrukken] instelt, zonder [Pincode]-authenticatie afgedrukt.</div>
+			<div class="text"></div>
+			<div class="list">Ook indien u de functie Prioriteit voor snelheid inschakelt in [Compressieverwerking voor gegevensoverdracht], kan het afdrukken, afhankelijk van de omgeving waarin u werkt en de gegevens die u afdrukt, nog meer tijd nemen dan wanneer de functie Prioriteit beeld werd ingeschakeld.</div>
+			<div class="h4"><a id="dc115480a653f4ae712776c26c0eefbd"></a>Beperkingen met betrekking tot Apparaatinstellingen</div>
+			<div class="list">Afhankelijk van de gebruikte printer, kan afdrukken in de volgende gevallen langer duren dan gewoonlijk.</div>
+			<div class="dash">Als u de staande afdrukstand aanduidt bij het afdrukken vanaf een A4-papierbron (liggend).</div>
+			<div class="dash">Als u de liggende afdrukstand aanduidt bij het afdrukken vanaf een A4R-papierbron (staand).</div>
+			<div class="dash">Als u de liggende afdrukstand aanduidt voor A3-papier.</div>
+			<div class="list">Als u afdrukken in kleur aanduidt voor een zwart-witprinter, zal het document in zwart-wit worden uitgevoerd, maar de afdrukkwaliteit kan slechter zijn en het afdrukken kan langer duren.</div>
+			<div class="list">Als er functies die niet worden ondersteund door dit printerstuurprogramma worden ingesteld op het bedieningspaneel van de gebruikte printer, worden de printerinstellingen ingeschakeld bij het afdrukken. Als bijvoorbeeld de functie voor het invoegen van een vel papier tussen transparanten is ingeschakeld op de printer, wordt er een vel papier gevoegd tussen elke twee transparanten bij het afdrukken en als de kopiesetnummeringfunctie werd ingeschakeld op de printer, zal het document worden afgedrukt met kopiesetnummering.</div>
+			<div class="list">Als u op [Apparaatstatusgegevens ophalen] klikt op het tabblad [Apparaatinstellingen], wordt de configuratie-informatie van het apparaat opgehaald en worden veel van de instellingen op het tabblad [Apparaatinstellingen] automatisch geconfigureerd. [Papierbroninstellingen] op het tabblad [Apparaatinstellingen] en enkele instellingen in het dialoogvenster [Gedetailleerde instellingen] moeten echter handmatig worden ingesteld. U wordt aangeraden om de instellingen te configureren aan de hand van [Apparaatstatusgegevens ophalen] en vervolgens de items in te stellen die handmatig moeten worden ingesteld.</div>
+			<div class="list">Afhankelijk van de combinatie van opties van de printer die u gebruikt, herkent het printerstuurprogramma mogelijk niet de geïnstalleerde opties op het tabblad [Apparaatinstellingen] &gt; [Apparaatgegevens ophalen]. Om de niet-herkende opties te gebruiken, stelt u ze handmatig in op het tabblad [Apparaatinstellingen].</div>
+			<div class="list">Om deze printer te gebruiken, moet u eerst het gebruikte printertype en de geïnstalleerde opties in de printer in het tabblad [Apparaatinstellingen] van het dialoogvenster Printereigenschappen instellen. Als u functies in het printerstuurprogramma selecteert die niet beschikbaar zijn voor de gebruikte printer, kan dit tot onbedoelde afdrukresutlaten leiden.</div>
+			<div class="dash">Als u een papierbron instelt die niet is geïnstalleerd in de printer, dan wordt papier voorzien vanaf de papierbron die de prioriteit geniet van de printer.</div>
+			<div class="dash">Als de opgegeven papierbron en het papierformaat niet overeenstemmen, zal er een fout optreden.</div>
+			<div class="dash">Als u dubbelzijdig afdrukken opgeeft voor een printer die het dubbelzijdig afdrukken niet ondersteun, zal het document op één kant van het papier worden afgedrukt.</div>
+			<div class="dash">Als u nieten aanduidt voor een printer die nieten niet ondersteunt, zal het document ongeniet worden afgedrukt.</div>
+			<div class="dash">Als u inbinden met nietjes aanduidt voor een printer die inbinden met nietjes niet ondersteunt, zal het document ongebonden worden afgedrukt.</div>
+			<div class="dash">Als u [Uitvoermodus] &gt; [Opslaan] selecteert wanneer u vanaf een printer afdrukt die postbusopslag niet ondersteunt, zal het document normaal worden afgedrukt. Als er een fout wordt weergegeven op het aanraakscherm van de printer en de printer offline gaat, wordt het document afgedrukt zodra de printer weer online gaat.</div>
+			<div class="dash">Als u Beheer afdelings-id opgeeft voor een printer die geen beheer afdelings-id heeft, zal er een fout optreden.</div>
+			<div class="h4"><a id="5250a9e2e1de3c109a21e8bbdec4797a"></a>Beperkingen bij het gebruik van de Canon Driver Configuration Tool</div>
+			<div class="list">Welke items kunnen worden ingesteld op de tabbladen in [Voorkeursinstellingen voor afdrukken] hangt af van de instellingen op het tabblad [Apparaatinstellingen]. Als u het stuurprogramma aanpast aan de hand van de configuratietool van het Canon-stuurprogramma, stelt u elk tabblad in het dialoogvenster [Voorkeursinstellingen voor afdrukken] in nadat u het tabblad [Apparaatinstellingen] hebt ingesteld.</div>
+			<div class="h4"><a id="4a6bdb2eb8fe4b63a3a88976d8016900"></a>Beperkingen van specifieke printermodellen</div>
+			<div class="list">Als iets van het volgende is ingesteld, kunt u geen bannerpagina afdrukken.</div>
+			<div class="dash">veilig afdrukken, opslaan, bewaren, afdrukken met overlay, garenloos innaaien, inbinden met nietjes of afdrukken met C-vormige vouw</div>
+			<div class="dash">[Sorteren [per apparaat]] &gt; [Uit] en [Stuurprogrammasortering] &gt; [Patroon 1] op het tabblad [Apparaatinstellingen] &gt; [Details] &gt; [Afwerking]</div>
+			<div class="list">Als u imageRUNNER ADVANCE 8085/8095/8105 gebruikt met de optionele Afwerkeenheid voor nieten-F1 of Afwerkeenheid voor boekjes-F1 aangesloten, kunt u geen ansichtkaarten of aangepaste papierformaten (met een hoogte van 148,0 tot 181,9 mm) uitvoeren.</div>
+			<div class="list">Er zijn gevallen waarin het bereik waarbinnen aangepaste papierformaten kunnen worden opgegeven via het stuurprogramma, kan verschillen van de papierformaten die de printer kan afdrukken. Raadpleeg de bij de printer meegeleverde handleiding voor informatie over aangepaste papierformaten.</div>
+			<div class="list">Als u de iR-ADV C2020/2030, C2020i/2030i, C2020L/2030L of C2025 gebruikt, zijn de volgende beperkingen van toepassing als u de [Resolutie] instelt op [1200 dpi] in het dialoogvenster [Geavanceerde instellingen] van het tabblad [Kwaliteit]:</div>
+			<div class="dash">U kunt alleen [Nietpositie] instellen voor de lange kant van een A4-vel op het tabblad [Afwerking].</div>
+			<div class="dash">U kunt de instellingen [Roteren] en [Afdrukken met verschillende papierformaten/afdrukstanden] op het tabblad [Afwerking] niet gebruiken.</div>
+			<div class="dash">Afhankelijk van de functieversie van de printer die u gebruikt, kunt u mogelijk de instelling [Kopiesetnummering] niet gebruiken in het dialoogvenster [Geavanceerde instellingen] van het tabblad [Afwerking]. </div>
+			<div class="list">Als u de iR-ADV C2020/2030 zonder de optionele vaste schijf of de iR-ADV C2020L/2030L gebruikt, kunt u de volgende functies niet gebruiken:</div>
+			<div class="dash">[Beveiligd afdrukken]</div>
+			<div class="dash">[Voorrang afdrukken] </div>
+			<div class="list">Afhankelijk van het printermodel dat u gebruikt, worden andere afdruktaken mogelijk niet afgedrukt wanneer u een beveiligde afdruktaak opslaat in de printer. Als dit gebeurt, moet u eerst de beveiligde afdruktaak afdrukken. Als u de andere afdruktaken nog steeds niet kunt afdrukken, moet u ze opnieuw afdrukken vanaf de computer.</div>
+			<div class="text"></div>
+			<div class="list">Wanneer u bij sommige printers uit de iR-reeks afdrukgegevens opslaat in een inbox, worden de afdrukstijlinstelling (enkelzijdig/dubbelzijdig afdrukken), de papierbroninstelling en enkele paginalay-out- en schaalinstellingen, enz. niet juist weergegeven op het bedieningspaneel van de printer. Er zal echter zoals ingesteld worden afgedrukt.</div>
+			<div class="list">Als nieten bij sommige printers uit de iR-reeks niet kan worden uitgevoerd op de opgegeven nietpositie, wordt het document ongeniet uitgevoerd.</div>
+			<div class="list">Als u de imageRUNNER ADVANCE C351 gebruikt, stelt u [Optionele lade/cassette] in het dialoogvenster [Papierbron] van het tabblad [Apparaatinstellingen] in op [Lade x 3].</div>
+			<div class="list">Als u de imageRUNNER ADVANCE C2020/C2020F/C2030/C2030F gebruikt, kan [Roteren] alleen worden gebruikt wanneer u het tabblad [Apparaatinstellingen] &gt; [Details] &gt; het tabblad [Afwerking] &gt; [Sorteren [per apparaat]] &gt; [Aan] selecteert.</div>
+			<div class="list">Als u de imageRUNNER ADVANCE C2020/C2020F/C2030/C2030F gebruikt, wordt de functie voor veilig afdrukken van het apparaat ondersteund door functieversie 2.0 of hoger.</div>
+			<div class="list">Als u de imageRUNNER ADVANCE C350F gebruikt, kunt u geen gebruik maken van [Functie [Roteren]].</div>
+			<div class="list">Stel [Functie [Vouw + Bijsnijden] van [Instelling Inbinden met nietjes]] handmatig in als u een finisher hebt die de functie ondersteunt.</div>
+			<div class="list">Stel [Verschuiving wanneer nieten is opgegeven] handmatig in als u een finisher hebt die de functie ondersteunt.</div>
+			<div class="list">Stel [Functie [Aantal exemplaren voor stapelen]] handmatig in als u een stacker gebruikt.</div>
+			<div class="list">Stel [Beschikbare bijsnijdinstellingen voor papierformaat 13x19] handmatig in als u de imagePRESS C6010/C6011 of de imagePRESS C7010VP/C7011VP gebruikt.</div>
+			<div class="list">Bij sommige printers van de iR-reeks wordt er mogelijk op een andere positie dan de werkelijke verticale oriëntatie van het afdrukresultaat geniet als u de nietpositie voor liggende afdrukgegevens in een inbox aangeeft in het bedieningspaneel van de printer.</div>
+			<hr />
+			<div class="text_right">Copyright Canon Inc. 2016</div>
+			<div class="text"></div>
+		</div>
+		<!--CONTENT_END-->
+	</body>
+</html>
